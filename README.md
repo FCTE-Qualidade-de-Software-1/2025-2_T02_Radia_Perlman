@@ -24,64 +24,62 @@ Nosso objetivo é aplicar conceitos e práticas de avaliação de qualidade de s
       <td align="center" style="padding: 10px;">
         <a href="https://github.com/mandicrz">
           <img src="https://github.com/mandicrz.png?size=120" width="120px;" alt="Amanda Cruz Lima"/>
-          <br />
-          <b>Amanda Cruz Lima</b>
-          <br />
-          231027023
         </a>
+        <br />
+        <b>Amanda Cruz Lima</b>
+        <br />
+        231027023
       </td>
       <td align="center" style="padding: 10px;">
         <a href="https://github.com/BiancaPatrocinio7">
           <img src="https://github.com/BiancaPatrocinio7.png?size=120" width="120px;" alt="Bianca Patrocínio Castro"/>
-          <br />
-          <b>Bianca Patrocínio Castro</b>
-          <br />
-          221008801
         </a>
+        <br />
+        <b>Bianca Patrocínio Castro</b>
+        <br />
+        221008801
       </td>
       <td align="center" style="padding: 10px;">
         <a href="https://github.com/brunnoff">
           <img src="https://github.com/brunnoff.png?size=120" width="120px;" alt="Brunno Fernandes Franco"/>
-          <br />
-          <b>Brunno Fernandes Franco</b>
-          <br />
-          232032000
         </a>
+        <br />
+        <b>Brunno Fernandes Franco</b>
+        <br />
+        232032000
       </td>
     </tr>
     <tr>
       <td align="center" style="padding: 10px;">
         <a href="https://github.com/M4RINH0">
           <img src="https://github.com/M4RINH0.png?size=120" width="120px;" alt="Douglas Marinho Martins"/>
-          <br />
-          <b>Douglas Marinho Martins</b>
-          <br />
-          221037465
         </a>
+        <br />
+        <b>Douglas Marinho Martins</b>
+        <br />
+        221037465
       </td>
       <td align="center" style="padding: 10px;">
         <a href="https://github.com/bolzanMGB">
           <img src="https://github.com/bolzanMGB.png?size=120" width="120px;" alt="Othavio Araujo Bolzan"/>
-          <br />
-          <b>Othavio Araujo Bolzan</b>
-          <br />
-          231039150
         </a>
+        <br />
+        <b>Othavio Araujo Bolzan</b>
+        <br />
+        231039150
       </td>
       <td align="center" style="padding: 10px;">
         <a href="https://github.com/pedrolucasdourado">
           <img src="https://github.com/pedrolucasdourado.png?size=120" width="120px;" alt="Pedro Lucas Dourado Santos"/>
-          <br />
-          <b>Pedro Lucas Dourado Santos</b>
-          <br />
-          211039680
         </a>
+        <br />
+        <b>Pedro Lucas Dourado Santos</b>
+        <br />
+        211039680
       </td>
     </tr>
   </tbody>
 </table>
-
----
 
 ## Links Importantes
 - [Oppia – Site oficial](https://www.oppia.org/)
