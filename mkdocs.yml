@@ -11,9 +11,9 @@ nav:
       - 5. Escopo e Profundidade da Avaliação: fase1/05_escopo.md
       - 6. Vínculo com ODS: fase1/06_ods.md
   - Fase 2 - Plano de Avaliação:
-      - (A ser definido):
+      - (A ser definido): fase2/placeholder.md
   - Fase 3 - Execução e Resultados:
-      - (A ser definido):
+      - (A ser definido): fase3/placeholder.md
 
 theme:
   name: material
