@@ -18,53 +18,67 @@ Nosso objetivo é aplicar conceitos e práticas de avaliação de qualidade de s
 
 ### Equipe Radia Perlman
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/mandicrz">
-        <img src="https://github.com/mandicrz.png?size=120" width="120px;" alt="Amanda Cruz Lima"/>
-        <br />
-        <sub><b>Amanda Cruz Lima</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/BiancaPatrocinio7">
-        <img src="https://github.com/BiancaPatrocinio7.png?size=120" width="120px;" alt="Bianca Patrocínio Castro"/>
-        <br />
-        <sub><b>Bianca Patrocínio Castro</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/brunnoff">
-        <img src="https://github.com/brunnoff.png?size=120" width="120px;" alt="Brunno Fernandes Franco"/>
-        <br />
-        <sub><b>Brunno Fernandes Franco</b></sub>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/M4RINH0">
-        <img src="https://github.com/M4RINH0.png?size=120" width="120px;" alt="Douglas Marinho Martins"/>
-        <br />
-        <sub><b>Douglas Marinho Martins</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/bolzanMGB">
-        <img src="https://github.com/bolzanMGB.png?size=120" width="120px;" alt="Othavio Araujo Bolzan"/>
-        <br />
-        <sub><b>Othavio Araujo Bolzan</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/pedrolucasdourado">
-        <img src="https://github.com/pedrolucasdourado.png?size=120" width="120px;" alt="Pedro Lucas Dourado Santos"/>
-        <br />
-        <sub><b>Pedro Lucas Dourado Santos</b></sub>
-      </a>
-    </td>
-  </tr>
+<table border="1" style="border-collapse: collapse; width: 100%;">
+  <tbody>
+    <tr>
+      <td align="center" style="padding: 10px;">
+        <a href="https://github.com/mandicrz">
+          <img src="https://github.com/mandicrz.png?size=120" width="120px;" alt="Amanda Cruz Lima"/>
+          <br />
+          <b>Amanda Cruz Lima</b>
+          <br />
+          231027023
+        </a>
+      </td>
+      <td align="center" style="padding: 10px;">
+        <a href="https://github.com/BiancaPatrocinio7">
+          <img src="https://github.com/BiancaPatrocinio7.png?size=120" width="120px;" alt="Bianca Patrocínio Castro"/>
+          <br />
+          <b>Bianca Patrocínio Castro</b>
+          <br />
+          221008801
+        </a>
+      </td>
+      <td align="center" style="padding: 10px;">
+        <a href="https://github.com/brunnoff">
+          <img src="https://github.com/brunnoff.png?size=120" width="120px;" alt="Brunno Fernandes Franco"/>
+          <br />
+          <b>Brunno Fernandes Franco</b>
+          <br />
+          232032000
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding: 10px;">
+        <a href="https://github.com/M4RINH0">
+          <img src="https://github.com/M4RINH0.png?size=120" width="120px;" alt="Douglas Marinho Martins"/>
+          <br />
+          <b>Douglas Marinho Martins</b>
+          <br />
+          221037465
+        </a>
+      </td>
+      <td align="center" style="padding: 10px;">
+        <a href="https://github.com/bolzanMGB">
+          <img src="https://github.com/bolzanMGB.png?size=120" width="120px;" alt="Othavio Araujo Bolzan"/>
+          <br />
+          <b>Othavio Araujo Bolzan</b>
+          <br />
+          231039150
+        </a>
+      </td>
+      <td align="center" style="padding: 10px;">
+        <a href="https://github.com/pedrolucasdourado">
+          <img src="https://github.com/pedrolucasdourado.png?size=120" width="120px;" alt="Pedro Lucas Dourado Santos"/>
+          <br />
+          <b>Pedro Lucas Dourado Santos</b>
+          <br />
+          211039680
+        </a>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 ---
