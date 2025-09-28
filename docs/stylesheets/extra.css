@@ -40,6 +40,5 @@
   margin-top: 0.75em;
   font-weight: 500;
   font-size: 0.9em;
-  text-transform: uppercase; /* Transforma o texto para maiúsculas */
   line-height: 1.2; /* Ajusta o espaçamento entre as linhas do nome */
 }
