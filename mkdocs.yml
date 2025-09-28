@@ -20,18 +20,19 @@ nav:
 theme:
   name: material
   language: pt
+  
+  logo: assets/images/logo-unb.svg
+  favicon: assets/images/logo-unb.svg
+
   font:
     text: Roboto
     code: Roboto Mono
-  icon:
-    logo: "assets/images/logo-unb.svg"
   features:
     - navigation.footer
     - navigation.tabs
     - navigation.expand
     - navigation.sections
     - content.code.copy
-
   palette:
     - scheme: slate
       toggle:
@@ -39,7 +40,6 @@ theme:
         name: Mudar para modo claro
       primary: teal
       accent: lime
-
     - scheme: default
       toggle:
         icon: material/weather-night
