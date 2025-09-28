@@ -24,7 +24,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   icon:
-    logo: fontawesome/solid/graduation-cap
+    logo: assets/images/Logo_Unb.svg
   features:
     - navigation.footer
     - navigation.tabs
