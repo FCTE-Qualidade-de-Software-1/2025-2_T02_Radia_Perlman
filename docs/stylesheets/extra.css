@@ -1,0 +1,41 @@
+/* Container para o grid da equipe */
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem; /* Espaçamento entre os membros */
+  margin-top: 2em;
+  padding: 0;
+}
+
+/* Bloco de cada membro da equipe */
+.team-member {
+  text-align: center;
+  width: 150px;
+}
+
+/* Estilo da imagem de perfil */
+.team-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* Deixa a imagem redonda */
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Efeito ao passar o mouse sobre a imagem */
+.team-member img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Estilo do link (remove o sublinhado padrão) */
+.team-member a {
+  text-decoration: none;
+  color: inherit; /* Usa a cor do texto do tema */
+}
+
+/* Nome do membro da equipe */
+.team-member p {
+  margin-top: 0.5em;
+  font-weight: bold;
+}
