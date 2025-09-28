@@ -1,4 +1,4 @@
-# Bem-vindo(a) à Documentação do Projeto Final da Equipe Radia Perlman
+# Documentação do Projeto Final da Equipe Radia Perlman
 
 ---
 
