@@ -5,11 +5,12 @@ nav:
   - Início: index.md
   - Fase 1 - Requisitos da Avaliação:
       - 1. Propósito e Uso dos Resultados: fase1/01_proposito.md
-      - 2. Requisitante e Partes Interessadas: fase1/02_stakeholders.md
+      - 2. Requisitante e Partes Interessadas: fase1/02_requisitante.md
       - 3. Descrição do Produto de Software: fase1/03_descricao_produto.md
       - 4. Modelo de Qualidade (SQuaRE): fase1/04_modelo_qualidade.md
-      - 5. Escopo e Profundidade da Avaliação: fase1/05_escopo.md
-      - 6. Vínculo com ODS: fase1/06_ods.md
+      - 5. Seleção e Priorização de Características: fase1/05_selecao.md
+      - 5. Escopo e Profundidade da Avaliação: fase1/06_escopo.md
+      - 6. Vínculo com ODS: fase1/07_ods.md
   - Fase 2 - Especificação da Avaliação:
       - (A ser definido): fase2/placeholder.md
   - Fase 3 - Projeto da Avaliação:
