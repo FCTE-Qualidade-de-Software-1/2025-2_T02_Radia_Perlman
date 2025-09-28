@@ -24,7 +24,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   icon:
-    logo: assets/images/Logo_Unb.svg
+    logo: "assets/images/Logo_Unb.svg"
   features:
     - navigation.footer
     - navigation.tabs
