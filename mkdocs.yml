@@ -1,0 +1,72 @@
+site_name: Avaliação de Qualidade de Software - Oppia
+site_description: "Projeto da disciplina FGA315 - Qualidade de Software 1: Avaliação da Qualidade da plataforma Oppia."
+
+nav:
+  - Início: index.md
+  - Fase 1 - Requisitos da Avaliação:
+      - 1. Propósito e Uso dos Resultados: fase1/01_proposito.md
+      - 2. Requisitante e Partes Interessadas: fase1/02_stakeholders.md
+      - 3. Descrição do Produto de Software: fase1/03_descricao_produto.md
+      - 4. Modelo de Qualidade (SQuaRE): fase1/04_modelo_qualidade.md
+      - 5. Escopo e Profundidade da Avaliação: fase1/05_escopo.md
+      - 6. Vínculo com ODS: fase1/06_ods.md
+  - Fase 2 - Plano de Avaliação:
+      - (A ser definido):
+  - Fase 3 - Execução e Resultados:
+      - (A ser definido):
+
+theme:
+  name: material
+  language: pt
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: fontawesome/solid/graduation-cap
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.expand
+    - navigation.sections
+    - content.code.copy
+
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para modo claro
+      primary: teal
+      accent: lime
+
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Mudar para modo escuro
+      primary: indigo
+      accent: orange
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_Radia_Perlman
