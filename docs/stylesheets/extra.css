@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem; /* Espaçamento entre os membros */
+  gap: 1.5rem; /* Espaçamento entre os membros */
   margin-top: 2em;
   padding: 0;
 }
@@ -11,31 +11,35 @@
 /* Bloco de cada membro da equipe */
 .team-member {
   text-align: center;
-  width: 150px;
+  width: 140px;
 }
 
 /* Estilo da imagem de perfil */
 .team-member img {
   width: 120px;
   height: 120px;
-  border-radius: 50%; /* Deixa a imagem redonda */
+  border-radius: 20px; /* Cantos arredondados */
+  border: 2px solid #e0e0e0; /* Borda cinza clara */
   transition: transform 0.2s ease-in-out;
 }
 
 /* Efeito ao passar o mouse sobre a imagem */
 .team-member img:hover {
-  transform: scale(1.08);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
 
 /* Estilo do link (remove o sublinhado padrão) */
 .team-member a {
   text-decoration: none;
-  color: inherit; /* Usa a cor do texto do tema */
+  color: inherit;
 }
 
 /* Nome do membro da equipe */
 .team-member p {
-  margin-top: 0.5em;
-  font-weight: bold;
+  margin-top: 0.75em;
+  font-weight: 500;
+  font-size: 0.9em;
+  text-transform: uppercase; /* Transforma o texto para maiúsculas */
+  line-height: 1.2; /* Ajusta o espaçamento entre as linhas do nome */
 }
