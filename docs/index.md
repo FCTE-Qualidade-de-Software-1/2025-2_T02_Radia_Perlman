@@ -10,8 +10,6 @@ A análise e os relatórios gerados ao longo das fases do projeto seguirão as d
 
 ### Equipe Radia Perlman
 
-### Equipe Radia Perlman
-
 <div class="team-grid">
 
   <div class="team-member">
