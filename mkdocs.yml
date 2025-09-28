@@ -10,10 +10,12 @@ nav:
       - 4. Modelo de Qualidade (SQuaRE): fase1/04_modelo_qualidade.md
       - 5. Escopo e Profundidade da Avaliação: fase1/05_escopo.md
       - 6. Vínculo com ODS: fase1/06_ods.md
-  - Fase 2 - Plano de Avaliação:
+  - Fase 2 - Especificação da Avaliação:
       - (A ser definido): fase2/placeholder.md
-  - Fase 3 - Execução e Resultados:
+  - Fase 3 - Projeto da Avaliação:
       - (A ser definido): fase3/placeholder.md
+  - Fase 4 - Execução da Avaliação:
+      - (A ser definido): fase4/placeholder.md
 
 theme:
   name: material
