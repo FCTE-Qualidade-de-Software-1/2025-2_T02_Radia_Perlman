@@ -26,7 +26,7 @@ Esses ODS foram escolhidos por refletirem o impacto educacional e social que o O
 
 ---
 
-## 👥 Equipe
+## Equipe Radia Perlman
 | Integrante | Matrícula |
 |------------|-------------------|
 | Amanda Cruz Lima | 231027023 |
