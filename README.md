@@ -16,15 +16,56 @@ Nosso objetivo é aplicar conceitos e práticas de avaliação de qualidade de s
 
 ---
 
-## Equipe Radia Perlman
-| Integrante | Matrícula |
-|------------|-------------------|
-| Amanda Cruz Lima | 231027023 |
-| Bianca Patrocínio Castro | 221008801 |
-| Brunno Fernandes Franco | 232032000 |
-| Douglas Marinho Martins | 221037465 |
-| Othavio Araujo Bolzan | 231039150 |
-| Pedro Lucas Dourado Santos | 211039680 |
+### Equipe Radia Perlman
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/mandicrz">
+        <img src="https://github.com/mandicrz.png?size=120" width="120px;" alt="Amanda Cruz Lima"/>
+        <br />
+        <sub><b>Amanda Cruz Lima</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/BiancaPatrocinio7">
+        <img src="https://github.com/BiancaPatrocinio7.png?size=120" width="120px;" alt="Bianca Patrocínio Castro"/>
+        <br />
+        <sub><b>Bianca Patrocínio Castro</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/brunnoff">
+        <img src="https://github.com/brunnoff.png?size=120" width="120px;" alt="Brunno Fernandes Franco"/>
+        <br />
+        <sub><b>Brunno Fernandes Franco</b></sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/M4RINH0">
+        <img src="https://github.com/M4RINH0.png?size=120" width="120px;" alt="Douglas Marinho Martins"/>
+        <br />
+        <sub><b>Douglas Marinho Martins</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/bolzanMGB">
+        <img src="https://github.com/bolzanMGB.png?size=120" width="120px;" alt="Othavio Araujo Bolzan"/>
+        <br />
+        <sub><b>Othavio Araujo Bolzan</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/pedrolucasdourado">
+        <img src="https://github.com/pedrolucasdourado.png?size=120" width="120px;" alt="Pedro Lucas Dourado Santos"/>
+        <br />
+        <sub><b>Pedro Lucas Dourado Santos</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
