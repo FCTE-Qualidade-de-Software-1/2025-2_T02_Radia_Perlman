@@ -10,17 +10,53 @@ A análise e os relatórios gerados ao longo das fases do projeto seguirão as d
 
 ### Equipe Radia Perlman
 
-O projeto está sendo conduzido pela seguinte equipe:
+### Equipe Radia Perlman
 
-| Integrante                  | Matrícula |
-| --------------------------- | --------- |
-| Amanda Cruz Lima            | 231027023 |
-| Bianca Patrocínio Castro    | 221008801 |
-| Brunno Fernandes Franco     | 232032000 |
-| Douglas Marinho Martins     | 221037465 |
-| Othavio Araujo Bolzan       | 231039150 |
-| Pedro Lucas Dourado Santos  | 211039680 |
+<div class="team-grid">
 
+  <div class="team-member">
+    <a href="https://github.com/mandicrz" target="_blank" rel="noopener">
+      <img src="https://github.com/mandicrz.png" alt="Foto de Amanda Cruz Lima">
+      <p>Amanda<br>Cruz Lima</p>
+    </a>
+  </div>
+
+  <div class="team-member">
+    <a href="https://github.com/BiancaPatrocinio7" target="_blank" rel="noopener">
+      <img src="https://github.com/BiancaPatrocinio7.png" alt="Foto de Bianca Patrocínio Castro">
+      <p>Bianca<br>Patrocínio Castro</p>
+    </a>
+  </div>
+
+  <div class="team-member">
+    <a href="https://github.com/brunnoff" target="_blank" rel="noopener">
+      <img src="https://github.com/brunnoff.png" alt="Foto de Brunno Fernandes Franco">
+      <p>Brunno<br>Fernandes Franco</p>
+    </a>
+  </div>
+
+  <div class="team-member">
+    <a href="https://github.com/M4RINH0" target="_blank" rel="noopener">
+      <img src="https://github.com/M4RINH0.png" alt="Foto de Douglas Marinho Martins">
+      <p>Douglas<br>Marinho Martins</p>
+    </a>
+  </div>
+
+  <div class="team-member">
+    <a href="https://github.com/bolzanMGB" target="_blank" rel="noopener">
+      <img src="https://github.com/bolzanMGB.png" alt="Foto de Othavio Araujo Bolzan">
+      <p>Othavio<br>Araujo Bolzan</p>
+    </a>
+  </div>
+
+  <div class="team-member">
+    <a href="https://github.com/pedrolucasdourado" target="_blank" rel="noopener">
+      <img src="https://github.com/pedrolucasdourado.png" alt="Foto de Pedro Lucas Dourado Santos">
+      <p>Pedro<br>Lucas Dourado</p>
+    </a>
+  </div>
+
+</div>
 ---
 
 **Utilize o menu de navegação para explorar as entregas de cada fase do projeto.**
