@@ -48,8 +48,6 @@ Nosso objetivo é aplicar conceitos e práticas de avaliação de qualidade de s
         <br />
         232032000
       </td>
-    </tr>
-    <tr>
       <td align="center" style="padding: 10px;">
         <a href="https://github.com/M4RINH0">
           <img src="https://github.com/M4RINH0.png?size=120" width="120px;" alt="Douglas Marinho Martins"/>
