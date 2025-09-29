@@ -43,12 +43,30 @@
   line-height: 1.2; /* Ajusta o espaçamento entre as linhas do nome */
 }
 
-/* Estilo para a imagem na seção de biografia */
-.bio-image {
+/* Bloco para figura flutuante com legenda completa */
+.figure-float-left {
   float: left;
-  width: 180px;
-  margin: 5px 20px 10px 0; /* Espaçamento: topo, direita, baixo, esquerda */
-  border-radius: 8px; /* Cantos levemente arredondados */
+  width: 200px; /* Largura do bloco todo */
+  margin: 5px 20px 10px 0; /* Espaçamento ao redor do bloco */
+}
+
+.figure-float-left img {
+  width: 100%; /* A imagem ocupa toda a largura do bloco */
+  border-radius: 8px;
+}
+
+.figure-float-left .figure-title {
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.figure-float-left .figure-source {
+  text-align: center;
+  font-size: 0.8em;
+  color: #666;
+  margin-top: 0.5em;
 }
 
 /* Bloco de container para figuras */
