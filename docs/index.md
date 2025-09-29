@@ -96,7 +96,8 @@ Formada com Ph.D. pelo MIT, suas inovações não pararam no STP. Ela também fo
 
 | Versão | Data       | Descrição                                           | Autor                                           | Revisor |
 | :----: | ---------- | --------------------------------------------------- | ----------------------------------------------- | ------- |
-|  `1.0` | 28/09/2025 | Criação da estrutura inicial da página              | [Brunno Fernandes](https://github.com/brunnoff) |         |
+|  `1.0` | 28/09/2025 | Criação da estrutura inicial da página e inclusão de informações gerais            | [Brunno Fernandes](https://github.com/brunnoff) |         |
+|  `1.1` | 29/09/2025 | Inclusão das informações sobre a plataforma e as referências            | [Brunno Fernandes](https://github.com/brunnoff) |         |
 
 ---
 
