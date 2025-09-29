@@ -2,18 +2,18 @@
 
 ## Propósito da Avaliação e Uso Pretendido
 
-O propósito desta avaliação é analisar a viabilidade técnica e pedagógica da plataforma de código aberto **Oppia** para implementação como ferramenta de reforço escolar na rede de ensino do Município X, focando nos alunos do 6º ao 9º ano. A avaliação busca mitigar os riscos associados à adoção de uma nova tecnologia em larga escala, fornecendo dados concretos para uma tomada de decisão informada.
+O propósito desta avaliação é analisar a qualidade do software de código aberto **Oppia**, considerando aspectos técnicos e pedagógicos relevantes para seu uso como ferramenta de apoio educacional. A avaliação busca fornecer evidências que orientem decisões fundamentadas sobre sua adoção, mitigando riscos associados à utilização de uma nova tecnologia em ambientes de ensino.
 
-A avaliação foi requisitada pela **Secretaria de Educação do Município**, que é a principal interessada nos resultados consolidados. Secundariamente, os resultados também serão direcionados à **Coordenação Pedagógica** e ao **Departamento de TI** da secretaria, pois seus planejamentos dependem diretamente do desempenho da ferramenta.
+Os resultados da avaliação interessam principalmente a **gestores educacionais**, **equipes pedagógicas** e **áreas de tecnologia da informação**, que poderão utilizá-los no planejamento de estratégias de ensino digital e na definição de requisitos técnicos. A **comunidade open-source do Oppia** tambérm poderá se beneficiar dos resultados documentados de forma técnica, contribuindo para a evolução da plataforma.
 
-### Uso dos Resultados e Tomada de Decisão
+## Uso dos Resultados e Tomada de Decisão
 
-Os resultados desta avaliação serão utilizados para apoiar as seguintes decisões específicas:
+Os resultados desta avaliação apoiarão decisões específicas, tais como:
 
-1.  **Decisão de Implementação (Go/No-Go):** A **Secretária de Educação** utilizará o relatório final para decidir se aprova ou não a implementação de um projeto piloto com a plataforma **Oppia** no próximo semestre letivo. O resultado da avaliação de **Adequação Funcional** e **Portabilidade** será o principal fator nesta decisão estratégica.
+1. **Decisão de Adoção:** verificar, a partir das características avaliadas (**Adequação Funcional** e **Portabilidade**), se o Oppia atende às necessidades mínimas para implementação em contextos educacionais.  
 
-2.  **Planejamento de Capacitação Docente:** A **Coordenação Pedagógica** usará a análise de **Adequação Funcional** para identificar as funcionalidades que exigirão maior foco durante a capacitação dos professores. Se, por exemplo, a ferramenta de criação de lições for considerada complexa, serão desenvolvidos workshops específicos para este fim.
+2. **Planejamento de Capacitação Docente:** identificar, com base na análise de **Adequação Funcional**, quais funcionalidades demandam maior atenção em treinamentos e oficinas para professores.  
 
-3.  **Alocação de Recursos de TI:** Com base no relatório de **Portabilidade**, o **Departamento de TI** irá elaborar uma lista de requisitos mínimos de hardware e determinar quais laboratórios de informática das escolas são compatíveis com a plataforma. Esta análise orientará a alocação de equipamentos e futuras aquisições.
+3. **Alocação de Recursos de TI:** orientar, a partir dos resultados de **Portabilidade**, a definição de requisitos técnicos mínimos (hardware, navegadores e sistemas operacionais compatíveis) e apoiar decisões sobre infraestrutura.  
 
-4.  **Contribuição à Comunidade Open-Source:** Como um uso secundário, eventuais falhas de funcionamento (bugs) identificadas durante a avaliação de **Adequação Funcional** serão documentadas e reportadas à comunidade de desenvolvedores da **Oppia**, contribuindo para a melhoria do software.
+4. **Contribuição à Comunidade Open-Source:** documentar e reportar falhas ou limitações identificadas, colaborando com a melhoria contínua do Oppia.  
