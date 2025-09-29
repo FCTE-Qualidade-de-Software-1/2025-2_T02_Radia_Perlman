@@ -81,4 +81,6 @@ Nosso objetivo é aplicar conceitos e práticas de avaliação de qualidade de s
 
 ## Links Importantes
 - [Oppia – Site oficial](https://www.oppia.org/)
+- [Oppia – Repositório no GitHub](https://github.com/oppia)
+- [Oppia – Documentação](https://oppia.github.io/#/)
 ---
