@@ -48,7 +48,7 @@ Entre as classificações mais conhecidas estão:
 A seguir, apresentamos a classificação do Oppia segundo essas abordagens:
 
 
-<p align="center"> Tabela 2 - Classificaçãodo Produto Oppia </a> </p>
+<p align="center"> Tabela 2 - Classificação do Produto Oppia </a> </p>
 
 | Critério | Classificação | Justificativa |
 |----------|---------------|---------------|
@@ -75,6 +75,6 @@ Produto de Software. 2025. Disponível em: https://aprender3.unb.br/pluginfile.p
 
 | Versão | Data       | Descrição                                    | Autor                                          | Revisor |
 | :----: | ---------- | -------------------------------------------- | ---------------------------------------------- | ------- |
-|  `1.0` | 20/09/2025 | Criação da estrutura do Documento            | [Bruno Fernandes](https://github.com/brunnoff) |         |
-|  `2.0` | 20/09/2025 | Elaboração da Descrição  e Classificação do Tipo de Produto          | [Othavio Bolzan](https://github.com/bolzanMGB) |         |
+|  `1.0` | 28/09/2025 | Criação da estrutura do Documento            | [Brunno Fernandes](https://github.com/brunnoff) |         |
+|  `1.1` | 29/09/2025 | Elaboração da Descrição  e Classificação do Tipo de Produto          | [Othavio Bolzan](https://github.com/bolzanMGB) | [Brunno Fernandes](https://github.com/brunnoff)        |
 
