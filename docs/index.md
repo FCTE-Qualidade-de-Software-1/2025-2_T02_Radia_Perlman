@@ -10,9 +10,11 @@ Esta página documenta o desenvolvimento do projeto final da disciplina FGA0315 
 
 ## Sobre a Plataforma Oppia
 
-<p style="text-align: center;">
+<div class="figure">
+  <p class="figure-title">Figura 1 – Logo da plataforma Oppia</p>
   <img src="assets/images/oppia.png" alt="Logo da Oppia" width="400">
-</p>
+  <p class="figure-source">Fonte: <a href="https://www.oppia.org" target="_blank">oppia.org</a></p>
+</div>
 
 **Oppia** é uma plataforma de aprendizado online, gratuita e de código aberto, desenvolvida pela *Oppia Foundation*, uma organização sem fins lucrativos. Sua missão é ampliar o acesso a recursos educacionais de qualidade, especialmente para estudantes em comunidades com menos oportunidades.
 
@@ -28,7 +30,11 @@ A plataforma é mantida por uma comunidade global de voluntários — educadores
 
 ## Quem é Radia Perlman?
 
-<img src="assets/images/Radia_Perlman.jpg" alt="Foto de Radia Perlman" class="bio-image">
+<div class="figure">
+  <p class="figure-title">Figura 2 – Radia Perlman</p>
+  <img src="assets/images/Radia_Perlman.jpg" alt="Foto de Radia Perlman" class="bio-image">
+  <p class="figure-source">Fonte: <a href="https://pt.wikipedia.org/wiki/Radia_Perlman" target="_blank">Wikipedia</a></p>
+</div>
 
 Radia Perlman é uma cientista da computação e engenheira de redes amplamente conhecida como a "Mãe da Internet". Sua contribuição mais famosa é a invenção do Spanning Tree Protocol (STP), um protocolo de rede fundamental que previne a criação de loops em redes Ethernet com pontes. O STP é essencial para a estabilidade e a confiabilidade das redes locais (LANs) que usamos hoje.
 
@@ -83,6 +89,14 @@ Formada com Ph.D. pelo MIT, suas inovações não pararam no STP. Ela também fo
   </div>
 
 </div>
+
+---
+
+## Referências
+
+[^1]: OPPIA FOUNDATION. **About Oppia**. Disponível em: <https://www.oppia.org/about>. Acesso em: 28 set. 2025.
+[^2]: RADIA PERLMAN. In: WIKIPEDIA, a enciclopédia livre. Flórida: Wikimedia Foundation, 2023. Disponível em: <https://pt.wikipedia.org/wiki/Radia_Perlman>. Acesso em: 28 set. 2025.
+[^3]: INTERNET HALL OF FAME. **Radia Perlman**. Disponível em: <https://www.internethalloffame.org/inductees/radia-perlman>. Acesso em: 28 set. 2025.
 
 ---
 
