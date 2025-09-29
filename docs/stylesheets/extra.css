@@ -51,11 +51,22 @@
   border-radius: 8px; /* Cantos levemente arredondados */
 }
 
-/* Estilo para legendas de figuras */
-.caption {
-  text-align: center;
+/* Bloco de container para figuras */
+.figure {
+  text-align: center; /* Centraliza tudo dentro do bloco */
+  margin-bottom: 2em; /* Espaço abaixo da figura */
+}
+
+/* Estilo para o título da figura (acima da imagem) */
+.figure-title {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+/* Estilo para a fonte da figura (abaixo da imagem) */
+.figure-source {
   font-size: 0.8em;
   color: #666;
-  margin-top: -10px;
-  margin-bottom: 20px;
+  margin-top: 0.5em;
 }
