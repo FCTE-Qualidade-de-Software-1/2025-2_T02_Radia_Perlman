@@ -22,6 +22,8 @@ jobs:
 
       - name: Instalar dependências
         run: pip install mkdocs-material
+      - run: pip install pillow cairosvg
+      - run: pip install mkdocs-glightbox
 
       - name: Construir e Publicar
         run: mkdocs gh-deploy --force

@@ -52,9 +52,15 @@ theme:
 
 markdown_extensions:
   - admonition
-  - md_in_html
   - attr_list
-  - footnotes  
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -72,17 +78,17 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 3
-  - def_list
-  - pymdownx.caret
-  - pymdownx.details
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
+
 
 extra_css:
   - stylesheets/extra.css
   
+plugins:
+   - glightbox
+
 extra:
+  version:
+    provider: mike
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_Radia_Perlman

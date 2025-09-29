@@ -4,7 +4,6 @@ Nesta etapa definimos as características de qualidade com base nos objetivos da
 
 <font size="3"><p style="text-align:center"><b>Tabela 1:</b> Matriz Impacto x Risco</p></font>
 
-<center>
 
 | Característica            | Impacto (1–5) | Risco (1–5) | Prioridade = I×R | 
 |:--------------------------|:-------------:|:-----------:|:----------------:|
@@ -16,7 +15,7 @@ Nesta etapa definimos as características de qualidade com base nos objetivos da
 | Manutenibilidade          | 2             | 2           | 4                | 
 | Compatibilidade           | 2             | 2           | 4                |
 
-</center>
+
 
 <font size="3"><p style="text-align:center"><b>Fonte: </b>Autoria de <a href="https://github.com/mandicrz">Amanda Cruz</a></p></font>
 
@@ -33,10 +32,10 @@ Considerando os ***trade-offs***, colocar a Adequação Funcional no topo amplia
 Mantemos, ainda assim, as duas prioridades iniciais, porque entregam valor direto: o produto faz o que promete e chega a quem precisa e caso surja pressão de prazo ou performance, a regra é reduzir escopo funcional ou adiar suportes secundários (por exemplo, versões antigas do Android ou navegadores pouco utilizados) antes de ceder em qualidade. Depois, foco em Confiabilidade para estabilizar e em Eficiência de Desempenho para otimizar, sem comprometer o que já foi assegurado.
 
 ## Histórico de Versões
-| Versão | Data | Descrição | Autor | Revisor |
-| :---: | :---: | :--- | :--- | :---: |
-| `1.0` | 28/09/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | [Amanda Cruz](https://github.com/mandicrz) |
-| `1.1` | 29/09/2025 | Elaboração da priorização e documentação | [Amanda Cruz](https://github.com/mandicrz) |  |
+| Versão |    Data    | Descrição                                | Autor                                           |                           Revisor                           |
+| :----: | :--------: | :--------------------------------------- | :---------------------------------------------- | :---------------------------------------------------------: |
+| `1.0`  | 28/09/2025 | Criação da estrutura inicial da página   | [Brunno Fernandes](https://github.com/brunnoff) |         [Amanda Cruz](https://github.com/mandicrz)          |
+| `1.1`  | 29/09/2025 | Elaboração da priorização e documentação | [Amanda Cruz](https://github.com/mandicrz)      | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
 
 ## Referências
 
