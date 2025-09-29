@@ -8,7 +8,17 @@ Esta página documenta o desenvolvimento do projeto final da disciplina **FGA315
 
 A análise e os relatórios gerados ao longo das fases do projeto seguirão as diretrizes da norma ISO/IEC 25000, também conhecida como SQuaRE (System and Software Quality Requirements and Evaluation).
 
-### Equipe Radia Perlman
+---
+
+## Radia Perlman
+
+Radia Perlman é uma cientista da computação e engenheira de redes amplamente conhecida como a "Mãe da Internet". Sua contribuição mais famosa é a invenção do **Spanning Tree Protocol (STP)**, um protocolo de rede fundamental que previne a criação de loops em redes Ethernet com pontes. O STP é essencial para a estabilidade e a confiabilidade das redes locais (LANs) que usamos hoje.
+
+Formada com Ph.D. pelo MIT, suas inovações não pararam no STP. Ela também foi uma figura chave no desenvolvimento de protocolos de roteamento link-state, como o IS-IS, e mais recentemente no TRILL (Transparent Interconnection of Lots of Links), projetado para otimizar o roteamento em grandes data centers. Seu trabalho pioneiro foi crucial para permitir que as redes crescessem em escala e complexidade de forma robusta e segura.
+
+---
+
+### Equipe
 
 <div class="team-grid">
 
@@ -55,6 +65,15 @@ A análise e os relatórios gerados ao longo das fases do projeto seguirão as d
   </div>
 
 </div>
+
+---
+
+## Histórico de Versões
+
+| Versão | Data       | Descrição                                         | Autor(es)       |
+| :----: | :--------- | :-------------------------------------------------- | :-------------- |
+|  1.0   | 28/09/2025 | Criação da estrutura inicial do site e da Fase 1. | [Brunno Fernandes](https://github.com/brunnoff) |
+
 ---
 
 **Utilize o menu de navegação para explorar as entregas de cada fase do projeto.**
