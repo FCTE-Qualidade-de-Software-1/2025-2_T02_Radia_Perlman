@@ -24,8 +24,8 @@ theme:
   name: material
   language: pt
   
-  logo: assets/images/logo-unb.svg
-  favicon: assets/images/logo-unb.svg
+  logo: assets/images/logo-unb.png
+  favicon: assets/images/logo-unb.png
 
   font:
     text: Roboto
