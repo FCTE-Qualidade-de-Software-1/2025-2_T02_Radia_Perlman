@@ -65,16 +65,17 @@ O Oppia apresenta:
 - **Dependências técnicas:** backend em **Python**, frontend em **AngularJS**, hospedagem no **Google App Engine**.  
 - **Diagrama sugerido:** *(inserir aqui figura representando a arquitetura em alto nível: usuário → frontend → backend → banco de dados)*.
 
-### 3.3 Referências
-> RAMOS, Cristiane Soares. Processo de Avaliação de
-Produto de Software. 2025. Disponível em: https://aprender3.unb.br/pluginfile.php/3230274/mod_resource/content/1/2025-2%20PROC%20AVAL%20PRODUTO.pdf.Acesso em: 29 set. 2025.
 
-> Guerra, Ana Cervigni; Colombo, Regina Maria Thienne. Qualidade de produto de software. Disponível em: https://www.academia.edu/8349754/Qualidade_de_Produto_de_Software.Acesso em: 29 set. 2025.
-
-### 3.4 Histórico de Versão
+### Histórico de Versão
 
 | Versão | Data       | Descrição                                    | Autor                                          | Revisor |
 | :----: | ---------- | -------------------------------------------- | ---------------------------------------------- | ------- |
 |  `1.0` | 28/09/2025 | Criação da estrutura do Documento            | [Brunno Fernandes](https://github.com/brunnoff) |         |
 |  `1.1` | 29/09/2025 | Elaboração da Descrição  e Classificação do Tipo de Produto          | [Othavio Bolzan](https://github.com/bolzanMGB) | [Brunno Fernandes](https://github.com/brunnoff)        |
+|  `1.2` | 29/09/2025 | Padronização de tópicos e Referências          | [Douglas Marinho](https://github.com/M4RINH0) | |
 
+### Referências
+[^1]: RAMOS, Cristiane Soares. Processo de Avaliação de
+Produto de Software. 2025. Disponível em: https://aprender3.unb.br/pluginfile.php/3230274/mod_resource/content/1/2025-2%20PROC%20AVAL%20PRODUTO.pdf.Acesso em: 29 set. 2025.
+
+[^2]: Guerra, Ana Cervigni; Colombo, Regina Maria Thienne. Qualidade de produto de software. Disponível em: https://www.academia.edu/8349754/Qualidade_de_Produto_de_Software.Acesso em: 29 set. 2025.

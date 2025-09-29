@@ -1,6 +1,6 @@
 # 2. Requisitante e Partes Interessadas
 
-## Identificação do Projeto  
+## 2.1 Identificação do Projeto  
 - **Título do Projeto:** Verificação da Qualidade de Software com foco em Funcionalidade e Portabilidade  
 - **Natureza:** Projeto acadêmico, desenvolvido de forma independente para fins de estudo.  
 - **Plataforma de Estudo:** Oppia (software de código aberto para educação digital).  
@@ -9,7 +9,7 @@
 
 ---
 
-## Requisitante  
+## 2.2 Requisitante  
 - **Nome:** Equipe Radia Perlman (Turma 02 — Qualidade de Software, FCTE)  
 - **Papel:** Atuar como solicitante do estudo, definindo os objetivos da análise e os critérios de avaliação.  
 - **Responsabilidades:**  
@@ -19,7 +19,7 @@
 
 ---     
 
-## Partes Interessadas  
+## 2.3 Partes Interessadas  
 
 O Oppia é um software de código aberto, mantido por uma comunidade global. Os principais stakeholders incluem:  
 
@@ -47,17 +47,12 @@ Cada grupo influencia a avaliação com necessidades específicas: **confiabilid
 
 ---
 
-## Justificativa  
+## 2.4 Justificativa  
 Este projeto é desenvolvido **por iniciativa própria da Equipe Radia Perlman**, no contexto da disciplina de **Qualidade de Software (Turma 02 — FCTE)**, com caráter **puramente acadêmico**, sem vínculo financeiro ou profissional.  
 
 O objetivo é aplicar metodologias de verificação da qualidade de software e gerar aprendizado prático sobre análise de requisitos relacionados à funcionalidade e portabilidade.  
 
 ---
-
-## Referências  
-- ISO/IEC 25010:2011 — Systems and Software Engineering — Systems and Software Quality Requirements and Evaluation (SQuaRE).  
-- Oppia Foundation. (2025). Disponível em: [https://www.oppia.org](https://www.oppia.org)  
-- Material de apoio da disciplina de Qualidade de Software — FCTE.  
 
 
 ## Histórico de Versões
@@ -65,3 +60,9 @@ O objetivo é aplicar metodologias de verificação da qualidade de software e g
 | Versão | Data       | Descrição                                           | Autor                                           | Revisor |
 | :----: | ---------- | --------------------------------------------------- | ----------------------------------------------- | ------- |
 |  `1.0` | 29/09/2025 | Criação da estrutura e preenchendo tópicos necessários         | [Douglas Marinho](https://github.com/M4RINH0) |     [Brunno Fernandes](https://github.com/brunnoff)      |
+|  `1.1` | 29/09/2025 | Padronização de tópicos e Referências          | [Douglas Marinho](https://github.com/M4RINH0) |     |
+
+## Referências  
+[^1]: ISO/IEC 25010:2011 — Systems and Software Engineering — Systems and Software Quality Requirements and Evaluation (SQuaRE).  
+[^2]: Oppia Foundation. (2025). Disponível em: [https://www.oppia.org](https://www.oppia.org)  
+[^3]: Material de apoio da disciplina de Qualidade de Software — FCTE.  

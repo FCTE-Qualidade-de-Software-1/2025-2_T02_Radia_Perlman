@@ -1,12 +1,12 @@
 # 1. Propósito e Uso dos Resultados
 
-## Propósito da Avaliação e Uso Pretendido
+## 1.1 Propósito da Avaliação e Uso Pretendido
 
 O propósito desta avaliação é analisar a qualidade do software de código aberto Oppia, considerando seus aspectos técnicos e pedagógicos para uma potencial implementação como ferramenta de apoio educacional. A avaliação busca fornecer evidências que orientem decisões fundamentadas sobre sua adoção, mitigando os riscos associados à utilização de uma nova tecnologia em ambientes de ensino [^1].
 
 Os resultados interessam principalmente a gestores educacionais, equipes pedagógicas e áreas de tecnologia da informação, pois poderão utilizá-los no planejamento de estratégias de ensino digital e na definição de requisitos técnicos. A comunidade open-source do Oppia também poderá se beneficiar dos resultados, uma vez que receberá documentação estruturada sobre eventuais falhas e sugestões de melhoria [^2].
 
-## Uso dos Resultados e Tomada de Decisão
+## 1.2 Uso dos Resultados e Tomada de Decisão
 
 Os resultados desta avaliação apoiarão as seguintes decisões específicas:
 
@@ -26,6 +26,7 @@ Os resultados desta avaliação apoiarão as seguintes decisões específicas:
 | :----: | ---------- | --------------------------------------------------- | ----------------------------------------------- | ------- |
 |  `1.0` | 28/09/2025 | Criação da estrutura inicial da página            | [Brunno Fernandes](https://github.com/brunnoff) |    [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)      |
 |  `1.1` | 29/09/2025 | Inclusão das informações e as referências            | [Brunno Fernandes](https://github.com/brunnoff) |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)        |
+|  `1.2` | 29/09/2025 | Padronização de tópicos e Referências          | [Douglas Marinho](https://github.com/M4RINH0) |  |
 
 ---
 

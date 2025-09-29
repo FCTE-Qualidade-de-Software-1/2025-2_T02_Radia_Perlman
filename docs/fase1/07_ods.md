@@ -4,13 +4,13 @@ A plataforma Oppia, por sua natureza gratuita, de código aberto e focada em edu
 
 Os ODS selecionados foram escolhidos por refletirem a missão central do software.
 
-### ODS 4 – Educação de Qualidade
+### 7.1 ODS 4 – Educação de Qualidade
 * **Descrição:** Garantir o acesso à educação inclusiva, de qualidade e equitativa, e promover oportunidades de aprendizagem ao longo da vida para todos.
 * **Meta Específica Vinculada:**
     * **Meta 4.1:** "Até 2030, garantir que todas as meninas e meninos completem o ensino primário e secundário livre, equitativo e de qualidade, que conduza a resultados de aprendizagem relevantes e eficazes."
 * **Justificativa:** O Oppia serve como uma ferramenta de apoio direto para estudantes e educadores em todo o mundo. Ao oferecer lições interativas e personalizadas sem custo, a plataforma ajuda a democratizar o acesso a recursos pedagógicos de alta qualidade, permitindo que alunos em contextos vulneráveis possam reforçar seu aprendizado e superar dificuldades, contribuindo assim para melhores resultados educacionais.
 
-### ODS 10 – Redução das Desigualdades
+### 7.2 ODS 10 – Redução das Desigualdades
 * **Descrição:** Reduzir a desigualdade dentro dos países e entre eles.
 * **Meta Específica Vinculada:**
     * **Meta 10.2:** "Até 2030, potencializar e promover a inclusão social, econômica e política de todos, independentemente da idade, gênero, deficiência, raça, etnia, origem, religião, condição econômica ou outra."
