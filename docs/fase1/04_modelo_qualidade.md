@@ -17,9 +17,9 @@ O objetivo deste artefato é formalizar um framework de qualidade claro e objeti
 
 ## 4.3 Modelo de Qualidade (SQuaRE)
 
-O modelo SQuaRE, especificado na norma ISO/IEC 25010 ¹, define oito características que descrevem a qualidade de um produto de software. Essas características são detalhadas na tabela abaixo:
+O modelo SQuaRE, especificado na norma ISO/IEC 25010 [^1], define oito características que descrevem a qualidade de um produto de software. Essas características são detalhadas na tabela abaixo:
 
-| Característica               | Descrição (resumida da ISO/IEC 25010)                                                                                                                                         |
+| Característica               | Descrição (resumida da ISO/IEC 25010 [^1])                                                                                                                                         |
 | :--------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Adequação Funcional**      | Grau em que o produto fornece funções que atendem às necessidades declaradas e implícitas quando usado sob condições especificadas.                                           |
 | **Eficiência de Desempenho** | Desempenho relativo à quantidade de recursos usados sob condições estabelecidas.                                                                                              |
@@ -37,11 +37,12 @@ Para a fase atual do projeto, foram selecionadas as seguintes características d
 1.  **Adequação Funcional**
 2.  **Portabilidade**
 
-O motivo da seleção destas duas características está melhor detalhada na seção [5. Seleção e Priorização de Características](./05_selecao.md)d
+O motivo da seleção destas duas características está melhor detalhada na seção [5. Seleção e Priorização de Características](./05_selecao.md)
 
 ### Subcaracterísticas do SQuaRE
 
 Para permitir uma análise mais granular, cada característica de qualidade do modelo é decomposta em um conjunto de sub-características, conforme definido pela norma ISO/IEC 25010.  O diagrama abaixo ilustra essa estrutura hierárquica, destacando os itens priorizados para este projeto.
+
 
 
 **Figura 1 - Subcaracterísticas do SQuaRE**
@@ -51,10 +52,13 @@ Para permitir uma análise mais granular, cada característica de qualidade do m
 *Fonte: [Pedro Lucas Dourado](https://github.com/pedrolucasdourado)*
 
 
-
 ## 4.6 Histórico de Versão
 
 
 | Versão | Data       | Descrição                              | Autor                                                       | Revisor |
 | :----: | ---------- | -------------------------------------- | ----------------------------------------------------------- | ------- |
 | `1.0`  | 28/09/2025 | Criação da estrutura inicial da página | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |         |
+
+## 4.7 Referências
+
+[^1]: INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. ISO/IEC 25010:2011. *Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models*. Genebra: ISO, 2011.
