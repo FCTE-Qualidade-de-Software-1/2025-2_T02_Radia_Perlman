@@ -24,8 +24,8 @@ Os resultados desta avaliação apoiarão as seguintes decisões específicas:
 
 | Versão | Data       | Descrição                                           | Autor                                           | Revisor |
 | :----: | ---------- | --------------------------------------------------- | ----------------------------------------------- | ------- |
-|  `1.0` | 28/09/2025 | Criação da estrutura inicial da página            | [Brunno Fernandes](https://github.com/brunnoff) |         |
-|  `1.1` | 29/09/2025 | Inclusão das informações e as referências            | [Brunno Fernandes](https://github.com/brunnoff) |         |
+|  `1.0` | 28/09/2025 | Criação da estrutura inicial da página            | [Brunno Fernandes](https://github.com/brunnoff) |    [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)      |
+|  `1.1` | 29/09/2025 | Inclusão das informações e as referências            | [Brunno Fernandes](https://github.com/brunnoff) |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)        |
 
 ---
 
