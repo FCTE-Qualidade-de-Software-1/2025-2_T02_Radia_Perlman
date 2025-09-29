@@ -18,7 +18,7 @@ Formada com Ph.D. pelo MIT, suas inovações não pararam no STP. Ela também fo
 
 ---
 
-### Equipe
+## Equipe
 
 <div class="team-grid">
 
