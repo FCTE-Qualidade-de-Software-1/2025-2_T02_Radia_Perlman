@@ -14,7 +14,7 @@ A análise e os relatórios gerados ao longo das fases do projeto seguirão as d
 
 <img src="assets/images/Radia_Perlman.jpg" alt="Foto de Radia Perlman" class="bio-image">
 
-Radia Perlman é uma cientista da computação e engenheira de redes amplamente conhecida como a "Mãe da Internet". Sua contribuição mais famosa é a invenção do **Spanning Tree Protocol (STP)**, um protocolo de rede fundamental que previne a criação de loops em redes Ethernet com pontes. O STP é essencial para a estabilidade e a confiabilidade das redes locais (LANs) que usamos hoje.
+Radia Perlman é uma cientista da computação e engenheira de redes amplamente conhecida como a "Mãe da Internet". Sua contribuição mais famosa é a invenção do Spanning Tree Protocol (STP), um protocolo de rede fundamental que previne a criação de loops em redes Ethernet com pontes. O STP é essencial para a estabilidade e a confiabilidade das redes locais (LANs) que usamos hoje.
 
 Formada com Ph.D. pelo MIT, suas inovações não pararam no STP. Ela também foi uma figura chave no desenvolvimento de protocolos de roteamento link-state, como o IS-IS, e mais recentemente no TRILL (Transparent Interconnection of Lots of Links), projetado para otimizar o roteamento em grandes data centers. Seu trabalho pioneiro foi crucial para permitir que as redes crescessem em escala e complexidade de forma robusta e segura.
 
