@@ -16,7 +16,7 @@ Esta página documenta o desenvolvimento do projeto final da disciplina FGA0315 
   <p class="figure-source">Fonte: <a href="https://www.oppia.org" target="_blank">oppia.org</a></p>
 </div>
 
-**Oppia** é uma plataforma de aprendizado online, gratuita e de código aberto, desenvolvida pela *Oppia Foundation*, uma organização sem fins lucrativos. Sua missão é ampliar o acesso a recursos educacionais de qualidade, especialmente para estudantes em comunidades com menos oportunidades.
+**Oppia** é uma plataforma de aprendizado online, gratuita e de código aberto, desenvolvida pela *Oppia Foundation*, uma organização sem fins lucrativos. Sua missão é ampliar o acesso a recursos educacionais de qualidade, especialmente para estudantes em comunidades com menos oportunidades [^1].
 
 ### Aprendizagem Interativa
 
@@ -24,21 +24,21 @@ As lições na Oppia, chamadas de explorações, são interativas e estruturadas
 
 ### Tecnologia e Comunidade
 
-A plataforma é mantida por uma comunidade global de voluntários — educadores, desenvolvedores, designers e tradutores. Por ser baseada na web, ela pode ser acessada em qualquer dispositivo com um navegador, o que garante sua ampla disponibilidade. Sua capacidade de ensinar conceitos de maneira precisa e completa é fundamental para que cumpra seu propósito educacional.
+A plataforma é mantida por uma comunidade global de voluntários — educadores, desenvolvedores, designers e tradutores. Por ser baseada na web, ela pode ser acessada em qualquer dispositivo com um navegador, o que garante sua ampla disponibilidade. Sua capacidade de ensinar conceitos de maneira precisa e completa é fundamental para que cumpra seu propósito educacional [^1].
 
 ---
 
 ## Quem é Radia Perlman?
 
-<div class="figure-float-left">
+<div class="figure">
   <p class="figure-title">Figura 2 – Radia Perlman</p>
-  <img src="assets/images/Radia_Perlman.jpg" alt="Foto de Radia Perlman">
+  <img src="assets/images/Radia_Perlman.jpg" alt="Foto de Radia Perlman" width="350">
   <p class="figure-source">Fonte: <a href="https://pt.wikipedia.org/wiki/Radia_Perlman" target="_blank">Wikipedia</a></p>
 </div>
 
-Radia Perlman é uma cientista da computação e engenheira de redes amplamente conhecida como a "Mãe da Internet". Sua contribuição mais famosa é a invenção do Spanning Tree Protocol (STP), um protocolo de rede fundamental que previne a criação de loops em redes Ethernet com pontes. O STP é essencial para a estabilidade e a confiabilidade das redes locais (LANs) que usamos hoje.
+Radia Perlman é uma cientista da computação e engenheira de redes amplamente conhecida como a "Mãe da Internet". Sua contribuição mais famosa é a invenção do Spanning Tree Protocol (STP), um protocolo de rede fundamental que previne a criação de loops em redes Ethernet com pontes. O STP é essencial para a estabilidade e a confiabilidade das redes locais (LANs) que usamos hoje [^2].
 
-Formada com Ph.D. pelo MIT, suas inovações não pararam no STP. Ela também foi uma figura chave no desenvolvimento de protocolos de roteamento link-state, como o IS-IS, e mais recentemente no TRILL (Transparent Interconnection of Lots of Links), projetado para otimizar o roteamento em grandes data centers. Seu trabalho pioneiro foi crucial para permitir que as redes crescessem em escala e complexidade de forma robusta e segura.
+Formada com Ph.D. pelo MIT, suas inovações não pararam no STP. Ela também foi uma figura chave no desenvolvimento de protocolos de roteamento link-state, como o IS-IS, e mais recentemente no TRILL (Transparent Interconnection of Lots of Links), projetado para otimizar o roteamento em grandes data centers. Seu trabalho pioneiro foi crucial para permitir que as redes crescessem em escala e complexidade de forma robusta e segura [^3].
 
 ---
 
@@ -92,14 +92,6 @@ Formada com Ph.D. pelo MIT, suas inovações não pararam no STP. Ela também fo
 
 ---
 
-## Referências
-
-[^1]: OPPIA FOUNDATION. **About Oppia**. Disponível em: <https://www.oppia.org/about>. Acesso em: 28 set. 2025.
-[^2]: RADIA PERLMAN. In: WIKIPEDIA, a enciclopédia livre. Flórida: Wikimedia Foundation, 2023. Disponível em: <https://pt.wikipedia.org/wiki/Radia_Perlman>. Acesso em: 28 set. 2025.
-[^3]: INTERNET HALL OF FAME. **Radia Perlman**. Disponível em: <https://www.internethalloffame.org/inductees/radia-perlman>. Acesso em: 28 set. 2025.
-
----
-
 ## Histórico de Versões
 
 | Versão | Data       | Descrição                                           | Autor                                           | Revisor |
@@ -108,4 +100,10 @@ Formada com Ph.D. pelo MIT, suas inovações não pararam no STP. Ela também fo
 
 ---
 
-**Utilize o menu de navegação para explorar as entregas de cada fase do projeto.**
+## Referências
+
+[^1]: OPPIA FOUNDATION. **About Oppia**. Disponível em: <https://www.oppia.org/about>. Acesso em: 28 set. 2025.
+[^2]: RADIA PERLMAN. In: WIKIPEDIA, a enciclopédia livre. Flórida: Wikimedia Foundation, 2023. Disponível em: <https://pt.wikipedia.org/wiki/Radia_Perlman>. Acesso em: 28 set. 2025.
+[^3]: INTERNET HALL OF FAME. **Radia Perlman**. Disponível em: <https://www.internethalloffame.org/inductees/radia-perlman>. Acesso em: 28 set. 2025.
+
+---
