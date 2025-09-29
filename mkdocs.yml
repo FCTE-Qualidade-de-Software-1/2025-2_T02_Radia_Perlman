@@ -52,6 +52,7 @@ theme:
 
 markdown_extensions:
   - admonition
+  - md_in_html
   - attr_list
   - footnotes  
   - pymdownx.emoji:
@@ -71,6 +72,12 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 3
+  - def_list
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 extra_css:
   - stylesheets/extra.css

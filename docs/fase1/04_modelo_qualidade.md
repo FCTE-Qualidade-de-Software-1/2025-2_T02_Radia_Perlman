@@ -1,7 +1,60 @@
-# 4. Modelo de Qualidade (SQuaRE)
-Adotaremos como referência a norma **ISO/IEC 25010**, que define características de qualidade de produto.  
+# 4. Modelo de Qualidade
 
-- Características mantidas: **Adequação Funcional** e **Portabilidade**, pois são as mais relevantes ao propósito definido.  
-- Outras características não foram priorizadas nesta fase (como usabilidade, confiabilidade e segurança), mas podem ser analisadas em fases futuras.  
+## 4.1 Introdução
 
-**Representação gráfica:** *(inserir aqui um diagrama destacando apenas as duas características priorizadas dentro do modelo SQuaRE)*.
+Este documento estabelece o Modelo de Qualidade de Produto de Software que será utilizado como referência para o desenvolvimento e avaliação da Plataforma Oppia. Baseado na norma **ISO/IEC 25010 (SQuaRE — *Software product Quality Requirements and Evaluation*)**, este artefato define as características e subcaracterísticas de qualidade que são prioritárias para o projeto.
+
+Considerando os artefatos anteriores, que definem o propósito do software, as partes interessadas e a descrição da arquitetura do produto, a seleção das características de qualidade aqui apresentadas visa garantir que o resultado final atenda aos objetivos estratégicos e às necessidades dos usuários.
+
+## 4.2 Objetivo
+
+O objetivo deste artefato é formalizar um framework de qualidade claro e objetivo, que servirá para:
+
+* **Definir** critérios de aceitação mensuráveis para o produto de software.
+* **Orientar** as equipes de desenvolvimento, testes e validação na melhora continua de um produto alinhado às expectativas de qualidade.
+* **Servir** como base para a verificação e validação do software ao longo de seu ciclo de vida.
+* **Comunicar** de forma transparente às partes interessadas quais aspectos de qualidade estão sendo priorizados e por que estão sendo priorizados.
+
+## 4.3 Modelo de Qualidade (SQuaRE)
+
+O modelo SQuaRE, especificado na norma ISO/IEC 25010 ¹, define oito características que descrevem a qualidade de um produto de software. Essas características são detalhadas na tabela abaixo:
+
+| Característica               | Descrição (resumida da ISO/IEC 25010)                                                                                                                                         |
+| :--------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Adequação Funcional**      | Grau em que o produto fornece funções que atendem às necessidades declaradas e implícitas quando usado sob condições especificadas.                                           |
+| **Eficiência de Desempenho** | Desempenho relativo à quantidade de recursos usados sob condições estabelecidas.                                                                                              |
+| **Compatibilidade**          | Grau em que um produto, sistema ou componente pode trocar informações com outros e/ou desempenhar suas funções enquanto compartilha o mesmo ambiente de hardware ou software. |
+| **Usabilidade**              | Grau em que um produto pode ser usado por usuários especificados para atingir metas especificadas com eficácia, eficiência e satisfação.                                      |
+| **Confiabilidade**           | Grau em que um sistema, produto ou componente desempenha funções especificadas sob condições especificadas por um período de tempo especificado.                              |
+| **Segurança**                | Grau em que o produto protege informações e dados para que pessoas, sistemas ou outros produtos tenham o grau de acesso apropriado a seus tipos e níveis de autorização.      |
+| **Manutenibilidade**         | Grau de eficácia e eficiência com que um produto pode ser modificado pelos mantenedores.                                                                                      |
+| **Portabilidade**            | Grau de eficácia e eficiência com que um sistema pode ser transferido de um ambiente de hardware, software ou outro ambiente operacional para outro.                          |
+
+### Características Selecionadas
+
+Para a fase atual do projeto, foram selecionadas as seguintes características de qualidade como prioritárias:
+
+1.  **Adequação Funcional**
+2.  **Portabilidade**
+
+O motivo da seleção destas duas características está melhor detalhada na seção [5. Seleção e Priorização de Características](./05_selecao.md)d
+
+### Subcaracterísticas do SQuaRE
+
+Para permitir uma análise mais granular, cada característica de qualidade do modelo é decomposta em um conjunto de sub-características, conforme definido pela norma ISO/IEC 25010.  O diagrama abaixo ilustra essa estrutura hierárquica, destacando os itens priorizados para este projeto.
+
+
+**Figura 1 - Subcaracterísticas do SQuaRE**
+
+![Diagrama Subcaracterísticas SQuaRE](../assets/images/square.png)
+
+*Fonte: [Pedro Lucas Dourado](https://github.com/pedrolucasdourado)*
+
+
+
+## 4.6 Histórico de Versão
+
+
+| Versão | Data       | Descrição                              | Autor                                                       | Revisor |
+| :----: | ---------- | -------------------------------------- | ----------------------------------------------------------- | ------- |
+| `1.0`  | 28/09/2025 | Criação da estrutura inicial da página | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |         |
