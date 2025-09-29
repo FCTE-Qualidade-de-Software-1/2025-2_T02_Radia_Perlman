@@ -10,6 +10,10 @@ Esta página documenta o desenvolvimento do projeto final da disciplina FGA315 �
 
 ## Sobre a Plataforma Oppia
 
+<p style="text-align: center;">
+  <img src="assets/images/oppia.png" alt="Logo da Oppia" width="400">
+</p>
+
 **Oppia** é uma plataforma de aprendizado online, gratuita e de código aberto, desenvolvida pela *Oppia Foundation*, uma organização sem fins lucrativos. Sua missão é ampliar o acesso a recursos educacionais de qualidade, especialmente para estudantes em comunidades com menos oportunidades.
 
 ### Aprendizagem Interativa
