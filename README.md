@@ -1,5 +1,5 @@
 # Projeto Final – Avaliação da Qualidade de Software  
-### Disciplina: FGA315 – Qualidade de Software 1  
+### Disciplina: FGA0315 – Qualidade de Software 1  
 
 ---
 
