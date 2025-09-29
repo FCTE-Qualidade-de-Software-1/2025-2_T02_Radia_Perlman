@@ -42,3 +42,34 @@
   font-size: 0.9em;
   line-height: 1.2; /* Ajusta o espaçamento entre as linhas do nome */
 }
+
+Ótima ideia para deixar a homenagem ainda mais completa!
+
+Para adicionar uma foto da Radia Perlman com o texto ao lado, vamos seguir um processo parecido com o que fizemos para a seção da equipe: adicionar a imagem à sua pasta de assets, incluir um pouco de estilo no CSS e, por fim, ajustar o arquivo index.md.
+
+Passo 1: Encontre e Salve a Foto
+Procure no Google Imagens por "Radia Perlman" e escolha uma foto profissional que você goste (fotos de palestras ou perfis acadêmicos são ótimas).
+
+Salve a imagem no seu computador com um nome simples, como radia-perlman.jpg.
+
+Passo 2: Adicione a Foto ao seu Projeto
+No seu repositório do GitHub, navegue até a pasta docs/assets/images/.
+
+Use a opção "Add file" > "Upload files" para enviar o arquivo radia-perlman.jpg para esta pasta.
+
+Passo 3: Adicione o Estilo (CSS) para a Imagem
+Para que a imagem flutue à esquerda do texto, vamos adicionar um estilo para ela.
+
+Abra o seu arquivo docs/stylesheets/extra.css.
+
+Copie e cole o código CSS abaixo no final do arquivo:
+
+CSS
+
+/* Estilo para a imagem na seção de biografia */
+.bio-image {
+  float: left;
+  width: 180px;
+  margin: 5px 20px 10px 0; /* Espaçamento: topo, direita, baixo, esquerda */
+  border-radius: 8px; /* Cantos levemente arredondados */
+}
