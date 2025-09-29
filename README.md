@@ -79,8 +79,19 @@ Nosso objetivo é aplicar conceitos e práticas de avaliação de qualidade de s
   </tbody>
 </table>
 
+---
+
 ## Links Importantes
 - [Oppia – Site oficial](https://www.oppia.org/)
 - [Oppia – Repositório no GitHub](https://github.com/oppia)
 - [Oppia – Documentação](https://oppia.github.io/#/)
+
+---
+
+## Histórico de Versões
+
+| Versão | Data       | Descrição                                           | Autor                                           | Revisor |
+| :----: | ---------- | --------------------------------------------------- | ----------------------------------------------- | ------- |
+|  `1.0` | 28/09/2025 | Criação do README                                   | [Brunno Fernandes](https://github.com/brunnoff) |         |
+
 ---
