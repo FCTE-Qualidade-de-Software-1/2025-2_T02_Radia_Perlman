@@ -6,11 +6,24 @@
 
 Esta página documenta o desenvolvimento do projeto final da disciplina FGA315 – Qualidade de Software 1 da Faculdade de Ciências e Tecnologias em Engenharia da Universidade de Brasília (FCTE-UnB). Nosso objetivo é conduzir uma avaliação de qualidade de produto de software, aplicando os conceitos e as práticas da área sobre a plataforma de aprendizado interativo Oppia.
 
-A análise e os relatórios gerados ao longo das fases do projeto seguirão as diretrizes da norma ISO/IEC 25000, também conhecida como SQuaRE (System and Software Quality Requirements and Evaluation).
+---
+
+## Sobre a Plataforma Oppia
+
+**Oppia** é uma plataforma de aprendizado online, gratuita e de código aberto, desenvolvida pela *Oppia Foundation*, uma organização sem fins lucrativos. Sua missão é ampliar o acesso a recursos educacionais de qualidade, especialmente para estudantes em comunidades com menos oportunidades.
+
+### Aprendizagem Interativa
+
+As lições na Oppia, chamadas de **explorações**, são interativas e estruturadas como diálogos tutor-aluno. O estudante recebe conceitos, responde a perguntas e recebe feedback imediato com base em suas respostas, o que favorece a correção de equívocos no próprio momento da aprendizagem.
+
+### Tecnologia e Comunidade
+
+A plataforma é mantida por uma comunidade global de voluntários — educadores, desenvolvedores, designers e tradutores. Por ser baseada na web, está disponível em qualquer dispositivo com navegador, o que se conecta diretamente à característica de **Portabilidade** considerada neste projeto.  
+Sua capacidade de ensinar conceitos de maneira precisa e completa está relacionada à característica de **Adequação Funcional**, também incluída na avaliação.  
 
 ---
 
-## Radia Perlman
+## Quem é Radia Perlman?
 
 <img src="assets/images/Radia_Perlman.jpg" alt="Foto de Radia Perlman" class="bio-image">
 
