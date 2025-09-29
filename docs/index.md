@@ -32,7 +32,7 @@ A plataforma é mantida por uma comunidade global de voluntários — educadores
 
 <div class="figure">
   <p class="figure-title">Figura 2 – Radia Perlman</p>
-  <img src="assets/images/Radia_Perlman.jpg" alt="Foto de Radia Perlman" width="350">
+  <img src="assets/images/Radia_Perlman.jpg" alt="Foto de Radia Perlman" width="250">
   <p class="figure-source">Fonte: <a href="https://pt.wikipedia.org/wiki/Radia_Perlman" target="_blank">Wikipedia</a></p>
 </div>
 
@@ -100,7 +100,7 @@ Formada com Ph.D. pelo MIT, suas inovações não pararam no STP. Ela também fo
 
 ---
 
-## Referências
+## Referências {.no-line}
 
 [^1]: OPPIA FOUNDATION. **About Oppia**. Disponível em: <https://www.oppia.org/about>. Acesso em: 28 set. 2025.
 [^2]: RADIA PERLMAN. In: WIKIPEDIA, a enciclopédia livre. Flórida: Wikimedia Foundation, 2023. Disponível em: <https://pt.wikipedia.org/wiki/Radia_Perlman>. Acesso em: 28 set. 2025.
