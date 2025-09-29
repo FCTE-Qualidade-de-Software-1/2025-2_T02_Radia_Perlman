@@ -14,12 +14,11 @@ Esta página documenta o desenvolvimento do projeto final da disciplina FGA315 �
 
 ### Aprendizagem Interativa
 
-As lições na Oppia, chamadas de **explorações**, são interativas e estruturadas como diálogos tutor-aluno. O estudante recebe conceitos, responde a perguntas e recebe feedback imediato com base em suas respostas, o que favorece a correção de equívocos no próprio momento da aprendizagem.
+As lições na Oppia, chamadas de explorações, são interativas e estruturadas como diálogos tutor-aluno. O estudante recebe conceitos, responde a perguntas e recebe feedback imediato com base em suas respostas, o que favorece a correção de equívocos no próprio momento da aprendizagem.
 
 ### Tecnologia e Comunidade
 
-A plataforma é mantida por uma comunidade global de voluntários — educadores, desenvolvedores, designers e tradutores. Por ser baseada na web, está disponível em qualquer dispositivo com navegador, o que se conecta diretamente à característica de **Portabilidade** considerada neste projeto.  
-Sua capacidade de ensinar conceitos de maneira precisa e completa está relacionada à característica de **Adequação Funcional**, também incluída na avaliação.  
+A plataforma é mantida por uma comunidade global de voluntários — educadores, desenvolvedores, designers e tradutores. Por ser baseada na web, ela pode ser acessada em qualquer dispositivo com um navegador, o que garante sua ampla disponibilidade. Sua capacidade de ensinar conceitos de maneira precisa e completa é fundamental para que cumpra seu propósito educacional.
 
 ---
 
