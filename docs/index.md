@@ -4,7 +4,7 @@
 
 ## Avaliação de Qualidade da Plataforma Oppia
 
-Esta página documenta o desenvolvimento do projeto final da disciplina FGA315 – Qualidade de Software 1 da Faculdade de Ciências e Tecnologias em Engenharia da Universidade de Brasília (FCTE-UnB). Nosso objetivo é conduzir uma avaliação de qualidade de produto de software, aplicando os conceitos e as práticas da área sobre a plataforma de aprendizado interativo Oppia.
+Esta página documenta o desenvolvimento do projeto final da disciplina FGA0315 – Qualidade de Software 1 da Faculdade de Ciências e Tecnologias em Engenharia da Universidade de Brasília (FCTE-UnB). Nosso objetivo é conduzir uma avaliação de qualidade de produto de software, aplicando os conceitos e as práticas da área sobre a plataforma de aprendizado interativo Oppia.
 
 ---
 
