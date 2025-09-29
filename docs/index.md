@@ -88,9 +88,9 @@ Formada com Ph.D. pelo MIT, suas inovações não pararam no STP. Ela também fo
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição                                         | Autor(es)       |
-| :----: | :--------- | :-------------------------------------------------- | :-------------- |
-|  1.0   | 28/09/2025 | Criação da estrutura inicial do site e da Fase 1. | [Brunno Fernandes](https://github.com/brunnoff) |
+| Versão | Data       | Descrição                                           | Autor                                           | Revisor |
+| :----: | ---------- | --------------------------------------------------- | ----------------------------------------------- | ------- |
+|  `1.0` | 28/09/2025 | Criação da estrutura inicial da página              | [Brunno Fernandes](https://github.com/brunnoff) |         |
 
 ---
 
