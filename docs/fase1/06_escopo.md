@@ -20,7 +20,7 @@ A seleção das características de qualidade a serem avaliadas foi uma decisão
 
 <div class="figure">
   <p class="figure-title">Figura 1 – Painel de opções do Oppia</p>
-  <img src="assets/images/painel.png" alt="Foto das opções do Oppia" width="250">
+  <img src="assets/images/painel-oppia.png" alt="Foto das opções do Oppia" width="250">
   <p class="figure-source">Fonte: <a href="https://www.oppia.org/" target="_blank">Print de tela (Bianca Patrocínio)</a></p>
 </div>
 
