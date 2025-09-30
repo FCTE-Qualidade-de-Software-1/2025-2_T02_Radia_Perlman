@@ -19,9 +19,9 @@ A seleção das características de qualidade a serem avaliadas foi uma decisão
 * **Documentação de Instalação:** Também serão verificados os guias e o processo para colocar a plataforma em funcionamento.
 
 <div class="figure">
-  <p class="figure-title">Figura 2 – Radia Perlman</p>
+  <p class="figure-title">Figura 1 – Painel de opções do Oppia</p>
   <img src="assets/images/painel.png" alt="Foto das opções do Oppia" width="250">
-  <p class="figure-source">Fonte: <a href="https://www.oppia.org/" target="_blank">Bianca Patrocínio, (Print do www.oppia.org)</a></p>
+  <p class="figure-source">Fonte: <a href="https://www.oppia.org/" target="_blank">Print de tela (Bianca Patrocínio)</a></p>
 </div>
 
 ### 6.3. Profundidade da Avaliação (Nível de Detalhe)
