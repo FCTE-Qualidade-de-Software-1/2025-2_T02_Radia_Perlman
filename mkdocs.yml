@@ -89,8 +89,8 @@ plugins:
    - glightbox
 
 extra:
-  version:
-    provider: mike
+#  version:
+#    provider: mike
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_Radia_Perlman
