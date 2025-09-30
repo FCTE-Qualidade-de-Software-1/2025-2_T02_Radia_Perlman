@@ -20,10 +20,9 @@ A seleção das características de qualidade a serem avaliadas foi uma decisão
 
 <div class="figure">
   <p class="figure-title">Figura 2 – Radia Perlman</p>
-  <img src="/assets/images/painel.png" alt="Foto das opções do Oppia" width="250">
+  <img src="assets/images/painel.png" alt="Foto das opções do Oppia" width="250">
   <p class="figure-source">Fonte: <a href="https://www.oppia.org/" target="_blank">Bianca Patrocínio, (Print do www.oppia.org)</a></p>
 </div>
-
 
 ### 6.3. Profundidade da Avaliação (Nível de Detalhe)
 A avaliação terá uma **profundidade qualitativa**, com foco em verificar a existência e o funcionamento das principais funcionalidades em cenários de uso prático. A análise se concentrará em responder se as tarefas essenciais podem ser concluídas pelos públicos-alvo (estudantes e educadores) nos ambientes propostos.
@@ -44,12 +43,12 @@ Este projeto é a primeira etapa de uma análise mais ampla. Os resultados servi
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor | Revisor |
-| :---: | :---: | :--- | :--- | :---: |
-| `1.0` | 28/09/2025 | Criação da estrutura inicial da página | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | |
-| `1.1` | 29/09/2025 | Refinamento do escopo com público-alvo | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | |
-| `2.0` | 29/09/2025 | Detalhamento do método com base na ISO 25010, incluindo métricas e cálculos |[Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | |
-| `2.1` | 29/09/2025 | Inclusão do aplicativo móvel (Android) no escopo da avaliação |[Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | |
-| `2.2` | 30/09/2025 | Removendo métricas e ajustando justificativa|[Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | |
+| :---: | :---: | :--- | :--- | :--- |
+| `1.0` | 28/09/2025 | Criação da estrutura inicial da página | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff) |
+| `1.1` | 29/09/2025 | Refinamento do escopo com público-alvo | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff) |
+| `2.0` | 29/09/2025 | Detalhamento do método com base na ISO 25010, incluindo métricas e cálculos |[Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff) |
+| `2.1` | 29/09/2025 | Inclusão do aplicativo móvel (Android) no escopo da avaliação |[Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff) |
+| `2.2` | 30/09/2025 | Removendo métricas e ajustando justificativa|[Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff) |
 
 ---
 
