@@ -41,15 +41,18 @@ O motivo da seleção destas duas características está melhor detalhada na se�
 
 ### Subcaracterísticas do SQuaRE
 
-Para permitir uma análise mais granular, cada característica de qualidade do modelo é decomposta em um conjunto de sub-características, conforme definido pela norma ISO/IEC 25010.  O diagrama abaixo ilustra essa estrutura hierárquica, destacando os itens priorizados para este projeto.
+Para permitir uma análise mais granular, cada característica de qualidade do modelo é decomposta em um conjunto de sub-características, conforme definido pela norma ISO/IEC 25010.  O diagrama abaixo, observado na figura 01, ilustra essa estrutura hierárquica, destacando os itens priorizados para este projeto.
+<br>(Para uma melhor visualização clique na imagem para utilizar o zoom)
 
 
 
-**Figura 1 - Subcaracterísticas do SQuaRE**
+<p align="center"> Figura 01 -  Subcaracterísticas do SQuaRE </a> </p>
+
 
 ![Diagrama Subcaracterísticas SQuaRE](../assets/images/square.png)
 
-*Fonte: [Pedro Lucas Dourado](https://github.com/pedrolucasdourado)*
+<p align="center"><b>Fonte: </b> <a href="https://github.com/pedrolucasdourado">Pedro Lucas Dourado</a></p>
+
 
 
 ## 4.6 Histórico de Versão
