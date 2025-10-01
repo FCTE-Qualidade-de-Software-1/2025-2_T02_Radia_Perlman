@@ -72,7 +72,7 @@ O Oppia apresenta:
 | :----: | ---------- | -------------------------------------------- | ---------------------------------------------- | ------- |
 |  `1.0` | 28/09/2025 | Criação da estrutura do Documento            | [Brunno Fernandes](https://github.com/brunnoff) |         |
 |  `1.1` | 29/09/2025 | Elaboração da Descrição  e Classificação do Tipo de Produto          | [Othavio Bolzan](https://github.com/bolzanMGB) | [Brunno Fernandes](https://github.com/brunnoff)        |
-|  `1.2` | 29/09/2025 | Padronização de tópicos e Referências          | [Douglas Marinho](https://github.com/M4RINH0) | |
+|  `1.2` | 29/09/2025 | Padronização de tópicos e Referências          | [Douglas Marinho](https://github.com/M4RINH0) | [Brunno Fernandes](https://github.com/brunnoff) |
 
 ### Referências
 [^1]: RAMOS, Cristiane Soares. Processo de Avaliação de
