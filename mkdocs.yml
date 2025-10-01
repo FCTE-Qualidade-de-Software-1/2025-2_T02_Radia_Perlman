@@ -87,6 +87,8 @@ extra_css:
   
 plugins:
    - glightbox
+   - mermaid2
+   - search
 
 extra:
 #  version:
