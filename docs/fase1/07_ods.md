@@ -1,6 +1,6 @@
 # 7. Vínculo com os Objetivos de Desenvolvimento Sustentável (ODS)
 
-A plataforma Oppia, por sua natureza gratuita, de código aberto e focada em educação, contribui diretamente para a Agenda 2030 da ONU. A avaliação de sua qualidade está, portanto, alinhada à necessidade de garantir que ferramentas tecnológicas com potencial de impacto social sejam eficazes e acessíveis.
+A plataforma Oppia, por sua natureza gratuita, de código aberto e focada em educação, contribui diretamente para a Agenda 2030 da ONU [^1]. A avaliação de sua qualidade está, portanto, alinhada à necessidade de garantir que ferramentas tecnológicas com potencial de impacto social sejam eficazes e acessíveis.
 
 Os ODS selecionados foram escolhidos por refletirem a missão central do software.
 
