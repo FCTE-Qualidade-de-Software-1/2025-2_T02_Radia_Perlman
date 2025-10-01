@@ -21,7 +21,7 @@ Os ODS selecionados foram escolhidos por refletirem a missão central do softwar
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor | Revisor |
-| :---: | :---: | :--- | :--- | :---: |
+| :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 28/09/2025 | Criação da estrutura inicial da página | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff) |
 | `1.1` | 29/09/2025 | Inclusão das informações e as referências | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff) |
 
