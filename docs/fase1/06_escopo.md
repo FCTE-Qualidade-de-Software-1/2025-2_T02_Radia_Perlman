@@ -11,7 +11,7 @@ A seleção das características de qualidade a serem avaliadas foi uma decisão
 
 * **Por que Portabilidade?**
 
-    A missão do Oppia é democratizar o acesso à educação de qualidade, especialmente para comunidades com menos oportunidades. A Portabilidade é a característica de qualidade que materializa essa missão. Ela mede a capacidade do software de operar em diversos ambientes, diferentes sistemas operacionais, navegadores e, crucialmente, em dispositivos móveis com potencial de uso offline. Em um cenário global com grande diversidade tecnológica e acesso desigual à internet, a portabilidade não é apenas detalhe um técnico, mas um pilar para a **inclusão digital**. Avaliar a portabilidade é verificar se o Oppia pode, de fato, chegar aonde mais se precisa dele.
+    A missão do Oppia é democratizar o acesso à educação de qualidade, especialmente para comunidades com menos oportunidades [^2]. A Portabilidade é a característica de qualidade que materializa essa missão. Ela mede a capacidade do software de operar em diversos ambientes, diferentes sistemas operacionais, navegadores e, crucialmente, em dispositivos móveis com potencial de uso offline. Em um cenário global com grande diversidade tecnológica e acesso desigual à internet, a portabilidade não é apenas detalhe um técnico, mas um pilar para a **inclusão digital**. Avaliar a portabilidade é verificar se o Oppia pode, de fato, chegar aonde mais se precisa dele.
 
 ### 6.2. Objetos de Avaliação (O Quê Será Avaliado)
 * **Interface de Criação de Conteúdo (Web):** Serão avaliadas as telas e ferramentas do "Painel do Criador", que é o ambiente onde os educadores criam e gerenciam as lições.
@@ -56,3 +56,4 @@ Este projeto é a primeira etapa de uma análise mais ampla. Os resultados servi
 ## Referências
 
 [^1]: INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. **ISO/IEC 25010:2011**. *Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models*. Genebra: ISO, 2011.
+[^2]: OPPIA FOUNDATION. **About Oppia**. Disponível em: <https://www.oppia.org/about>. Acesso em: 28 set. 2025.
