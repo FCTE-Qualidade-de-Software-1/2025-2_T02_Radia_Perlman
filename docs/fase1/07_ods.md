@@ -24,7 +24,7 @@ Os ODS selecionados foram escolhidos por refletirem a missão central do softwar
 <div class="figure">
   <p class="figure-title">Figura 2 – ODS 10, Redução das Desiqualdades</p>
   <img src="https://ufpa.br/wp-content/uploads/2023/11/ODS10_Portal.png" alt="ODS 10" width="550">
-  <p class="figure-source">Fonte: <a href="https://www.oppia.org/" target="_blank">Site do IFPA</a></p>
+  <p class="figure-source">Fonte: <a href="https://ufpa.br/ods-10-reducao-das-desigualdades/" target="_blank">Site do IFPA</a></p>
 </div>
 ---
 
@@ -34,7 +34,7 @@ Os ODS selecionados foram escolhidos por refletirem a missão central do softwar
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 28/09/2025 | Criação da estrutura inicial da página | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff) |
 | `1.1` | 29/09/2025 | Inclusão das informações e as referências | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff) |
-| `1.2` | 01/10/2025 | Inclusão de imagens das ODS selecionadas | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |  |
+| `1.2` | 01/10/2025 | Inclusão de imagens das ODS selecionadas | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff) |
 
 
 ---
