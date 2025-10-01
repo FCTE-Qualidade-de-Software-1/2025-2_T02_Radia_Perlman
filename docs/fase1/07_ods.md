@@ -22,15 +22,11 @@ Os ODS selecionados foram escolhidos por refletirem a missão central do softwar
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :--- | :--- | :---: |
-| `1.0` | 28/09/2025 | Criação da estrutura inicial da página | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | |
-| `1.1` | 29/09/2025 | Inclusão das informações e as referências | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | |
+| `1.0` | 28/09/2025 | Criação da estrutura inicial da página | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff) |
+| `1.1` | 29/09/2025 | Inclusão das informações e as referências | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff) |
 
 ---
 
 ## Referências
 
-[^1]: PRESSMAN, Roger S.; MAXIM, Bruce R. *Engenharia de software: uma abordagem profissional*. 9. ed. Porto Alegre: AMGH Editora, 2021.
-
-[^2]: OPPIA FOUNDATION. *Oppia GitHub repository*. Disponível em: <https://github.com/oppia/oppia>. Acesso em: 29 set. 2025.
-
-[^3]: INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. ISO/IEC 25010:2011. *Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models*. Genebra: ISO, 2011.
+[^1]: ORGANIZAÇÃO DAS NAÇÕES UNIDAS NO BRASIL. Os Objetivos de Desenvolvimento Sustentável no Brasil. Disponível em: https://brasil.un.org/pt-br/sdgs. Acesso em: 29 set. 2025.
