@@ -57,7 +57,7 @@ Para permitir uma análise mais granular, cada característica de qualidade do m
 
 | Versão | Data       | Descrição                              | Autor                                                       | Revisor |
 | :----: | ---------- | -------------------------------------- | ----------------------------------------------------------- | ------- |
-| `1.0`  | 28/09/2025 | Criação da estrutura inicial da página | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |         |
+| `1.0`  | 28/09/2025 | Criação da estrutura inicial da página | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) | [Brunno Fernandes](https://github.com/brunnoff) |
 
 ## 4.7 Referências
 
