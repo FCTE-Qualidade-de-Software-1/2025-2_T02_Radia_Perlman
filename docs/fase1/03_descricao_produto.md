@@ -39,11 +39,11 @@ Existem diversas formas de classificar software, considerando domínio de aplica
 
 Entre as classificações mais conhecidas estão:
 
-- **Pressman (2002):** define categorias como software básico, comercial, científico/engenharia, embarcado, de computador pessoal e inteligência artificial.
+* **Pressman (2002):** define categorias como software básico, comercial, científico/engenharia, embarcado, de computador pessoal e inteligência artificial.
 
-- **IEEE 1062 (1998):** classifica produtos em COTS (Commercial Off-The-Shelf), MOTS (Modified Off-The-Shelf) e CUSTOMIZADO/FD (Fully Developed), considerando o nível de customização, manutenção, prazo de entrega e adequação ao uso do software.
+* **IEEE 1062 (1998):** classifica produtos em COTS (Commercial Off-The-Shelf), MOTS (Modified Off-The-Shelf) e CUSTOMIZADO/FD (Fully Developed), considerando o nível de customização, manutenção, prazo de entrega e adequação ao uso do software.
 
-- **Categorias práticas:** utilizadas em premiações ou avaliações, como educação, saúde, varejo, indústria, entre outras, destacando o domínio de aplicação do software.
+* **Categorias práticas:** utilizadas em premiações ou avaliações, como educação, saúde, varejo, indústria, entre outras, destacando o domínio de aplicação do software.
 
 A seguir, apresentamos a classificação do Oppia segundo essas abordagens:
 
@@ -60,10 +60,10 @@ A seguir, apresentamos a classificação do Oppia segundo essas abordagens:
 
 ## 3.2 Estrutura do Software
 O Oppia apresenta:  
-- **Módulos principais:** criação de lições interativas, ferramentas de edição, sistema de progressão de aprendizagem.  
-- **Interfaces:** interface web responsiva (desktop e mobile).  
-- **Dependências técnicas:** backend em **Python**, frontend em **AngularJS**, hospedagem no **Google App Engine**.  
-- **Diagrama sugerido:** *(inserir aqui figura representando a arquitetura em alto nível: usuário → frontend → backend → banco de dados)*.
+* **Módulos principais:** criação de lições interativas, ferramentas de edição, sistema de progressão de aprendizagem.  
+* **Interfaces:** interface web responsiva (desktop e mobile).  
+* **Dependências técnicas:** backend em **Python**, frontend em **AngularJS**, hospedagem no **Google App Engine**.  
+* **Diagrama sugerido:** *(inserir aqui figura representando a arquitetura em alto nível: usuário → frontend → backend → banco de dados)*.
 
 
 ### Histórico de Versão
@@ -72,7 +72,7 @@ O Oppia apresenta:
 | :----: | ---------- | -------------------------------------------- | ---------------------------------------------- | ------- |
 |  `1.0` | 28/09/2025 | Criação da estrutura do Documento            | [Brunno Fernandes](https://github.com/brunnoff) |         |
 |  `1.1` | 29/09/2025 | Elaboração da Descrição  e Classificação do Tipo de Produto          | [Othavio Bolzan](https://github.com/bolzanMGB) | [Brunno Fernandes](https://github.com/brunnoff)        |
-|  `1.2` | 29/09/2025 | Padronização de tópicos e Referências          | [Douglas Marinho](https://github.com/M4RINH0) | [Brunno Fernandes](https://github.com/brunnoff) |
+|  `1.2` | 29/09/2025 | Padronização de tópicos e Referências          | [Douglas Marinho](https://github.com/M4RINH0) | [Brunno Fernandes](https://github.com/brunnoff) &&   [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)|
 
 ### Referências
 [^1]: RAMOS, Cristiane Soares. Processo de Avaliação de
