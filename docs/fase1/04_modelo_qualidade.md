@@ -27,7 +27,7 @@ O modelo SQuaRE, especificado na norma ISO/IEC 25010 [^1], define oito caracter�
     <thead>
       <tr>
         <th style="text-align: left;">Característica</th>
-        <th style="text-align: left;">Descrição (resumida da ISO/IEC 25010 [^1])</th>
+        <th style="text-align: left;">Descrição (resumida da ISO/IEC 25010)</th>
       </tr>
     </thead>
     <tbody>
