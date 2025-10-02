@@ -4,19 +4,66 @@ Nesta etapa definimos as características de qualidade com base nos objetivos da
 
 <div class="center">
 
-<p class="figure-title"><strong>Tabela 1:</strong> Matriz Impacto x Risco</p>
+  <p class="figure-title"><strong>Tabela 1:</strong> Matriz Impacto x Risco</p>
 
-| Característica           | Impacto (1–5) | Risco (1–5) | Prioridade = I×R |
-|:-------------------------|:-------------:|:-----------:|:----------------:|
-| **Adequação Funcional** | **5** | **4** | **20** |
-| **Portabilidade** | **5** | **3** | **15** |
-| Confiabilidade           | 4             | 3           | 12               |
-| Eficiência de Desempenho | 3             | 3           | 9                |
-| Segurança                | 3             | 2           | 6                |
-| Manutenibilidade         | 2             | 2           | 4                |
-| Compatibilidade          | 2             | 2           | 4                |
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: left;">Característica</th>
+        <th>Impacto (1–5)</th>
+        <th>Risco (1–5)</th>
+        <th>Prioridade = I×R</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: left;"><strong>Adequação Funcional</strong></td>
+        <td><strong>5</strong></td>
+        <td><strong>4</strong></td>
+        <td><strong>20</strong></td>
+      </tr>
+      <tr>
+        <td style="text-align: left;"><strong>Portabilidade</strong></td>
+        <td><strong>5</strong></td>
+        <td><strong>3</strong></td>
+        <td><strong>15</strong></td>
+      </tr>
+      <tr>
+        <td style="text-align: left;">Confiabilidade</td>
+        <td>4</td>
+        <td>3</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td style="text-align: left;">Eficiência de Desempenho</td>
+        <td>3</td>
+        <td>3</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td style="text-align: left;">Segurança</td>
+        <td>3</td>
+        <td>2</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td style="text-align: left;">Manutenibilidade</td>
+        <td>2</td>
+        <td>2</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td style="text-align: left;">Compatibilidade</td>
+        <td>2</td>
+        <td>2</td>
+        <td>4</td>
+      </tr>
+    </tbody>
+  </table>
 
-<p class="figure-source">Fonte: Autoria de <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a></p>
+  <p class="figure-source">Fonte: Autoria de <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a></p>
+
+</div>
 
 </div>
 
