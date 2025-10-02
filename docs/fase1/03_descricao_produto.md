@@ -206,7 +206,7 @@ Esta é uma visão geral da estrutura. Para uma lista completa e detalhada de to
 | `1.0`  | 28/09/2025 | Criação da estrutura do Documento                           | [Brunno Fernandes](https://github.com/brunnoff)     | [Othavio Bolzan](https://github.com/bolzanMGB)                                                                 |
 | `1.1`  | 29/09/2025 | Elaboração da Descrição  e Classificação do Tipo de Produto | [Othavio Bolzan](https://github.com/bolzanMGB)      | [Brunno Fernandes](https://github.com/brunnoff)                                                                |
 | `1.2`  | 29/09/2025 | Padronização de tópicos e Referências                       | [Douglas Marinho](https://github.com/M4RINH0)       | [Brunno Fernandes](https://github.com/brunnoff) &&   [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
-| `1.3`  | 01/10/2025 | Criação do tópico 3.2 e adição das referências 3,4,5        | [Pedro Lucas Dourado](https://github.com/lucasdray) |                                                                                                                |
+| `1.3`  | 01/10/2025 | Criação do tópico 3.2 e adição das referências 3,4,5        | [Pedro Lucas Dourado](https://github.com/lucasdray) | [Brunno Fernandes](https://github.com/brunnoff)                                                                                                             |
 
 ### Referências
 [^1]: RAMOS, Cristiane Soares. Processo de Avaliação de
