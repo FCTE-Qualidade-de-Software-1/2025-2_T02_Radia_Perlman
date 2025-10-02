@@ -88,3 +88,14 @@
   color: #666;
   margin-top: 0.5em;
 }
+
+/* Container para centralizar conteúdo, incluindo tabelas */
+.center {
+  text-align: center;
+}
+
+/* Regra específica para centralizar a tabela dentro do container */
+.center table {
+  margin: 0 auto;
+  display: table;
+}
