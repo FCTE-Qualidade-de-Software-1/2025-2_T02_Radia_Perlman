@@ -2,22 +2,23 @@
 
 Nesta etapa definimos as características de qualidade com base nos objetivos da avaliação e no público-alvo do Oppia[^1]. Seguindo os critérios da norma SQuaRE (ISO/IEC 25010)[^2], a priorização utilizou uma **matriz Impacto x Risco** (escala 1–5): impacto mede o quanto cada característica sustenta o valor educacional do produto, por sua vez, risco combina a probabilidade de falha e gravidante para estudantes, educadores e a equipe envolvida. A matriz pode ser observada logo abaixo, na Tabela 1.
 
-<font size="3"><p style="text-align:center"><b>Tabela 1:</b> Matriz Impacto x Risco</p></font>
+<div class="center">
 
+<p class="figure-title"><strong>Tabela 1:</strong> Matriz Impacto x Risco</p>
 
-| Característica            | Impacto (1–5) | Risco (1–5) | Prioridade = I×R | 
-|:--------------------------|:-------------:|:-----------:|:----------------:|
-| **Adequação Funcional**   | **5**         | **4**       | **20**           | 
-| **Portabilidade**         | **5**         | **3**       | **15**           |
-| Confiabilidade            | 4             | 3           | 12               |
-| Eficiência de Desempenho  | 3             | 3           | 9                | 
-| Segurança                 | 3             | 2           | 6                | 
-| Manutenibilidade          | 2             | 2           | 4                | 
-| Compatibilidade           | 2             | 2           | 4                |
+| Característica           | Impacto (1–5) | Risco (1–5) | Prioridade = I×R |
+|:-------------------------|:-------------:|:-----------:|:----------------:|
+| **Adequação Funcional** | **5** | **4** | **20** |
+| **Portabilidade** | **5** | **3** | **15** |
+| Confiabilidade           | 4             | 3           | 12               |
+| Eficiência de Desempenho | 3             | 3           | 9                |
+| Segurança                | 3             | 2           | 6                |
+| Manutenibilidade         | 2             | 2           | 4                |
+| Compatibilidade          | 2             | 2           | 4                |
 
+<p class="figure-source">Fonte: Autoria de <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a></p>
 
-
-<font size="3"><p style="text-align:center"><b>Fonte: </b>Autoria de <a href="https://github.com/mandicrz">Amanda Cruz</a></p></font>
+</div>
 
 Logo, foram priorizadas **duas características** principais:  
 
@@ -35,7 +36,7 @@ Mantemos, ainda assim, as duas prioridades iniciais, porque entregam valor diret
 | Versão |    Data    | Descrição                                | Autor                                           |                           Revisor                           |
 | :----: | :--------: | :--------------------------------------- | :---------------------------------------------- | :---------------------------------------------------------: |
 | `1.0`  | 28/09/2025 | Criação da estrutura inicial da página   | [Brunno Fernandes](https://github.com/brunnoff) |         [Amanda Cruz](https://github.com/mandicrz)          |
-| `1.1`  | 29/09/2025 | Elaboração da priorização e documentação | [Amanda Cruz](https://github.com/mandicrz)      | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
+| `1.1`  | 29/09/2025 | Elaboração da priorização e documentação | [Amanda Cruz](https://github.com/mandicrz)      | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) && [Brunno Fernandes](https://github.com/brunnoff) |
 
 ## Referências
 
