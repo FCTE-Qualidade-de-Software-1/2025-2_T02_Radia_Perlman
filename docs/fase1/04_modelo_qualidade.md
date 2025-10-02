@@ -19,16 +19,56 @@ O objetivo deste artefato é formalizar um framework de qualidade claro e objeti
 
 O modelo SQuaRE, especificado na norma ISO/IEC 25010 [^1], define oito características que descrevem a qualidade de um produto de software. Essas características são detalhadas na tabela abaixo:
 
-| Característica               | Descrição (resumida da ISO/IEC 25010 [^1])                                                                                                                                         |
-| :--------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Adequação Funcional**      | Grau em que o produto fornece funções que atendem às necessidades declaradas e implícitas quando usado sob condições especificadas.                                           |
-| **Eficiência de Desempenho** | Desempenho relativo à quantidade de recursos usados sob condições estabelecidas.                                                                                              |
-| **Compatibilidade**          | Grau em que um produto, sistema ou componente pode trocar informações com outros e/ou desempenhar suas funções enquanto compartilha o mesmo ambiente de hardware ou software. |
-| **Usabilidade**              | Grau em que um produto pode ser usado por usuários especificados para atingir metas especificadas com eficácia, eficiência e satisfação.                                      |
-| **Confiabilidade**           | Grau em que um sistema, produto ou componente desempenha funções especificadas sob condições especificadas por um período de tempo especificado.                              |
-| **Segurança**                | Grau em que o produto protege informações e dados para que pessoas, sistemas ou outros produtos tenham o grau de acesso apropriado a seus tipos e níveis de autorização.      |
-| **Manutenibilidade**         | Grau de eficácia e eficiência com que um produto pode ser modificado pelos mantenedores.                                                                                      |
-| **Portabilidade**            | Grau de eficácia e eficiência com que um sistema pode ser transferido de um ambiente de hardware, software ou outro ambiente operacional para outro.                          |
+<div class="center">
+
+  <p class="figure-title"><strong>Tabela 1:</strong> Descrição das Características de Qualidade</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: left;">Característica</th>
+        <th style="text-align: left;">Descrição (resumida da ISO/IEC 25010 [^1])</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: left;"><strong>Adequação Funcional</strong></td>
+        <td style="text-align: left;">Grau em que o produto fornece funções que atendem às necessidades declaradas e implícitas quando usado sob condições especificadas.</td>
+      </tr>
+      <tr>
+        <td style="text-align: left;"><strong>Eficiência de Desempenho</strong></td>
+        <td style="text-align: left;">Desempenho relativo à quantidade de recursos usados sob condições estabelecidas.</td>
+      </tr>
+      <tr>
+        <td style="text-align: left;"><strong>Compatibilidade</strong></td>
+        <td style="text-align: left;">Grau em que um produto, sistema ou componente pode trocar informações com outros e/ou desempenhar suas funções enquanto compartilha o mesmo ambiente de hardware ou software.</td>
+      </tr>
+      <tr>
+        <td style="text-align: left;"><strong>Usabilidade</strong></td>
+        <td style="text-align: left;">Grau em que um produto pode ser usado por usuários especificados para atingir metas especificadas com eficácia, eficiência e satisfação.</td>
+      </tr>
+      <tr>
+        <td style="text-align: left;"><strong>Confiabilidade</strong></td>
+        <td style="text-align: left;">Grau em que um sistema, produto ou componente desempenha funções especificadas sob condições especificadas por um período de tempo especificado.</td>
+      </tr>
+      <tr>
+        <td style="text-align: left;"><strong>Segurança</strong></td>
+        <td style="text-align: left;">Grau em que o produto protege informações e dados para que pessoas, sistemas ou outros produtos tenham o grau de acesso apropriado a seus tipos e níveis de autorização.</td>
+      </tr>
+      <tr>
+        <td style="text-align: left;"><strong>Manutenibilidade</strong></td>
+        <td style="text-align: left;">Grau de eficácia e eficiência com que um produto pode ser modificado pelos mantenedores.</td>
+      </tr>
+      <tr>
+        <td style="text-align: left;"><strong>Portabilidade</strong></td>
+        <td style="text-align: left;">Grau de eficácia e eficiência com que um sistema pode ser transferido de um ambiente de hardware, software ou outro ambiente operacional para outro.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="figure-source">Fonte: Autoria de <a href="https://github.com/pedrolucasdourado" target="_blank">Pedro Lucas Dourado</a></p>
+
+</div>
 
 ### Características Selecionadas
 
