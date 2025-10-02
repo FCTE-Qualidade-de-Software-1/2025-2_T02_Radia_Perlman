@@ -10,60 +10,58 @@ Nesta etapa definimos as características de qualidade com base nos objetivos da
     <thead>
       <tr>
         <th style="text-align: left;">Característica</th>
-        <th>Impacto (1–5)</th>
-        <th>Risco (1–5)</th>
-        <th>Prioridade = I×R</th>
+        <th style="text-align: center;">Impacto (1–5)</th>
+        <th style="text-align: center;">Risco (1–5)</th>
+        <th style="text-align: center;">Prioridade = I×R</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td style="text-align: left;"><strong>Adequação Funcional</strong></td>
-        <td><strong>5</strong></td>
-        <td><strong>4</strong></td>
-        <td><strong>20</strong></td>
+        <td style="text-align: center;"><strong>5</strong></td>
+        <td style="text-align: center;"><strong>4</strong></td>
+        <td style="text-align: center;"><strong>20</strong></td>
       </tr>
       <tr>
         <td style="text-align: left;"><strong>Portabilidade</strong></td>
-        <td><strong>5</strong></td>
-        <td><strong>3</strong></td>
-        <td><strong>15</strong></td>
+        <td style="text-align: center;"><strong>5</strong></td>
+        <td style="text-align: center;"><strong>3</strong></td>
+        <td style="text-align: center;"><strong>15</strong></td>
       </tr>
       <tr>
         <td style="text-align: left;">Confiabilidade</td>
-        <td>4</td>
-        <td>3</td>
-        <td>12</td>
+        <td style="text-align: center;">4</td>
+        <td style="text-align: center;">3</td>
+        <td style="text-align: center;">12</td>
       </tr>
       <tr>
         <td style="text-align: left;">Eficiência de Desempenho</td>
-        <td>3</td>
-        <td>3</td>
-        <td>9</td>
+        <td style="text-align: center;">3</td>
+        <td style="text-align: center;">3</td>
+        <td style="text-align: center;">9</td>
       </tr>
       <tr>
         <td style="text-align: left;">Segurança</td>
-        <td>3</td>
-        <td>2</td>
-        <td>6</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">6</td>
       </tr>
       <tr>
         <td style="text-align: left;">Manutenibilidade</td>
-        <td>2</td>
-        <td>2</td>
-        <td>4</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">4</td>
       </tr>
       <tr>
         <td style="text-align: left;">Compatibilidade</td>
-        <td>2</td>
-        <td>2</td>
-        <td>4</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">4</td>
       </tr>
     </tbody>
   </table>
 
   <p class="figure-source">Fonte: Autoria de <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a></p>
-
-</div>
 
 </div>
 
