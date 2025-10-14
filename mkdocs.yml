@@ -16,7 +16,9 @@ nav:
       - 6. Escopo e Profundidade da Avaliação: fase1/06_escopo.md
       - 7. Vínculo com ODS: fase1/07_ods.md
   - Fase 2 - Especificação da Avaliação:
-      - (A ser definido): fase2/placeholder.md
+      - 1. Plano de Medição (GQM): fase2/01_plano_de_medicao_gqm.md
+      - 2. Característica - Adequação Funcional: fase2/02_adequacao_funcional.md
+      - 3. Característica - Portabilidade: fase2/03_portabilidade.md
   - Fase 3 - Projeto da Avaliação:
       - (A ser definido): fase3/placeholder.md
   - Fase 4 - Execução da Avaliação:
