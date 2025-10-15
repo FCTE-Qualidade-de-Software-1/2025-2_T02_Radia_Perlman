@@ -39,6 +39,18 @@ A Adequação Funcional é avaliada para garantir que o Oppia cumpra suas promes
 
   * **Métrica:** Taxa de sucesso na instalação via documentação = (Nº de instalações bem-sucedidas seguindo o guia / Nº total de tentativas de instalação) \* 100.
 
+### Q6. Quanto à **Correção Funcional**, o sistema mantém a integridade dos dados quando múltiplos criadores editam explorações simultaneamente ou quando ocorrem falhas de conexão?
+
+  * **Métrica:** Taxa de integridade de dados = (Nº de operações de edição concorrentes ou sob falha que preservaram os dados corretamente / Nº total de operações testadas) \* 100.
+
+### Q7. Quanto à **Correção Funcional**, o sistema de notificações e alertas (ex: submissões de estudantes, atualizações de lições) entrega as mensagens de forma precisa e no momento adequado?
+
+  * **Métrica:** Taxa de precisão de notificações = (Nº de notificações entregues corretamente e no tempo esperado / Nº total de eventos que deveriam gerar notificações) \* 100.
+
+### Q8. Quanto à **Apropriação Funcional**, o sistema de busca e filtros permite que estudantes e educadores encontrem explorações relevantes de forma eficiente usando critérios como tópico, nível de dificuldade e idioma?
+
+  * **Métrica (Quantitativa):** Taxa de sucesso na busca = (Nº de buscas que retornaram resultados relevantes nos primeiros 5 resultados / Nº total de buscas executadas) \* 100.
+  * **Métrica (Qualitativa):** Avaliação da adequação dos filtros disponíveis em relação aos cenários de uso definidos (análise heurística dos critérios de busca disponíveis vs. necessidades documentadas).
 -----
 
 ## Referências Bibliográficas
@@ -49,8 +61,9 @@ A Adequação Funcional é avaliada para garantir que o Oppia cumpra suas promes
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição                                           | Autor                                           | Revisor |
-| :----: | ---------- | --------------------------------------------------- | ----------------------------------------------- | ------- |
-|  `1.0` | 14/10/2025 | Criação da estrutura inicial da página              | [Brunno Fernandes](https://github.com/brunnoff) |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)   |
-|  `1.1` | 14/10/2025 | Adicionando tabela, questões e métricas          |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)  |    |
+| Versão | Data       | Descrição                               | Autor                                                     | Revisor                                                   |
+| :----: | ---------- | --------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------- |
+| `1.0`  | 14/10/2025 | Criação da estrutura inicial da página  | [Brunno Fernandes](https://github.com/brunnoff)           | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
+| `1.1`  | 14/10/2025 | Adicionando tabela, questões e métricas | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Pedro Lucas Dourado](https://github.com/lucasdray)       |
+| `2.0`  | 14/10/2025 | Adição de 3 novas questões (Q6-Q8)      | [Pedro Lucas Dourado](https://github.com/lucasdray)       |                                                           |
 
