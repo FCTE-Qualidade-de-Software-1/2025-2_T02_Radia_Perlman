@@ -88,8 +88,8 @@ extra_css:
   - stylesheets/extra.css
   
 plugins:
-   - glightbox
-   - mermaid2
+  #  - glightbox
+  #  - mermaid2
    - search
 
 extra:
