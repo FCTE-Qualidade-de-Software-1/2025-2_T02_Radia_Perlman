@@ -90,5 +90,5 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Adequa
 | `1.0` | 14/10/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
 | `1.1` | 14/10/2025 | Adicionando tabela, questões e métricas | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Pedro Lucas Dourado](https://github.com/lucasdray) |
 | `2.0` | 14/10/2025 | Adição de 3 novas questões (Q6-Q8) | [Pedro Lucas Dourado](https://github.com/lucasdray) | [Othavio Bolzan](https://github.com/bolzanMGB) |
-| `2.1` | 14/10/2025 | Padronizando a documentação das métricas | [Othavio Bolzan](https://github.com/bolzanMGB) | |
-| `3.0` | 20/10/2025 | Refatoração GQM: generalização de questões, adição de hipóteses e diretrizes. | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | |
+| `2.1` | 14/10/2025 | Padronizando a documentação das métricas | [Othavio Bolzan](https://github.com/bolzanMGB) | [Brunno Fernandes](https://github.com/brunnoff) |
+| `3.0` | 20/10/2025 | Refatoração GQM: generalização de questões, adição de hipóteses e diretrizes. | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff) |
