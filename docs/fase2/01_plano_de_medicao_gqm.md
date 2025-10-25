@@ -6,6 +6,8 @@ Esta seção documenta o plano de medição que guiará a Fase 2 (Especificaçã
 
 O plano está estruturado em torno das duas características de qualidade priorizadas na Fase 1: **Adequação Funcional** e **Portabilidade**, conforme o modelo da norma ISO/IEC 25010 [^2]. Cada característica será detalhada em sua própria página, contendo seu respectivo GQM e os cenários de teste derivados das métricas.
 
+Seguindo as orientações da disciplina, as Questões (*Questions*) deste plano foram elaboradas de forma abrangente e genérica, permitindo que cada uma seja respondida por múltiplas métricas. Os detalhes específicos da medição, como os passos de execução e os ambientes de teste, estão documentados na seção de **Cenários de Teste** de cada característica. As **Fontes/Diretrizes** citadas nas métricas servem para justificar a escolha da medição ou dos critérios de aceitação.
+
 ## 1.2. Conexão com as Partes Interessadas
 
 O sucesso desta avaliação depende da capacidade de responder às necessidades das partes interessadas identificadas. O modelo GQM foi estruturado para garantir essa conexão:
@@ -22,6 +24,7 @@ O sucesso desta avaliação depende da capacidade de responder às necessidades 
 | :----: | ---------- | --------------------------------------------------- | ----------------------------------------------- | ------- |
 |  `1.0` | 14/10/2025 | Criação da estrutura inicial da página              | [Brunno Fernandes](https://github.com/brunnoff) |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)   |
 |  `1.1` | 14/10/2025 | Inclusão das informações e as referências           | [Brunno Fernandes](https://github.com/brunnoff) |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)   |
+|  `2.0` | 21/10/2025 | Adicão de um parágrafo na introdução com as orientações | [Brunno Fernandes](https://github.com/brunnoff) ||
 
 ---
 

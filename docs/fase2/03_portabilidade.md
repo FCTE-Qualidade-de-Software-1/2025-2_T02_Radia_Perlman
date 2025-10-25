@@ -9,7 +9,7 @@ A Portabilidade é avaliada para verificar se o Oppia pode, de fato, chegar aond
 |        Dimensão           |                   Descrição                     |
 | ------------------------- | ----------------------------------------------- |
 | Analisar a      | Plataforma Oppia (Interface Web e App Mobile).                       |
-| Com o propósito de                 |     Avaliar a capacidade do Oppia de ser portado, instalado, adaptado e executado em diferentes ambientes |
+| Com o propósito de                 |     Avaliar. |
 | Com respeito a | Portabilidade                              | 
 | Perspectiva de Avaliação  | Educadores (criadores de conteúdo) e Estudantes (usuários finais).                             |
 | Contexto                  | Projeto acadêmico da disciplina de Qualidade de Software.       |

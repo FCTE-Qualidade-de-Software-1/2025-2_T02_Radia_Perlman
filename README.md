@@ -22,15 +22,6 @@ Nosso objetivo é aplicar conceitos e práticas de avaliação de qualidade de s
   <tbody>
     <tr>
       <td align="center" style="padding: 10px;">
-        <a href="https://github.com/mandicrz">
-          <img src="https://github.com/mandicrz.png?size=120" width="120px;" alt="Amanda Cruz Lima"/>
-        </a>
-        <br />
-        <b>Amanda Cruz Lima</b>
-        <br />
-        231027023
-      </td>
-      <td align="center" style="padding: 10px;">
         <a href="https://github.com/BiancaPatrocinio7">
           <img src="https://github.com/BiancaPatrocinio7.png?size=120" width="120px;" alt="Bianca Patrocínio Castro"/>
         </a>
@@ -92,6 +83,6 @@ Nosso objetivo é aplicar conceitos e práticas de avaliação de qualidade de s
 
 | Versão | Data       | Descrição                                           | Autor                                           | Revisor |
 | :----: | ---------- | --------------------------------------------------- | ----------------------------------------------- | ------- |
-|  `1.0` | 28/09/2025 | Criação do README                                   | [Brunno Fernandes](https://github.com/brunnoff) |         |
+|  `1.0` | 28/09/2025 | Criação do README                                   | [Brunno Fernandes](https://github.com/brunnoff) |   [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)      |
 
 ---
