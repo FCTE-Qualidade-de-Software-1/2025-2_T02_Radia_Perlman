@@ -24,80 +24,145 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Portab
 
 ### Q1 — Adaptabilidade
 
-**Pergunta:** Em que grau o Oppia adapta-se automaticamente ou com baixo esforço a diferentes navegadores web, tamanhos de tela e condições de rede?
+**Pergunta:** O sistema adapta-se adequadamente a diferentes ambientes de hardware e software, mantendo suas funcionalidades essenciais?
 
-**Métrica 1.1 — Taxa de Sucesso de Renderização Responsiva**
+**Hipótese:** Espera-se que o Oppia consiga operar corretamente em múltiplos ambientes de hardware e software, com pelo menos 70% de seus componentes funcionando de maneira adaptável.
 
-- **Fórmula:** % renderização correta = (Nº de cenários com UI renderizada sem distorções / Nº total de cenários testados) × 100
+**Métrica 1.1 — Adaptabilidade ao ambiente de hardware**
 
-- **Cenários:** combinações de navegadores (Chrome, Firefox, Edge, Safari), larguras de tela (desktop, tablet, mobile) e resolução.
+- **Fórmula:** X = A / B, onde
+    - A = número de componentes que oferecem capacidade de executar em diferentes ambientes de hardware.
+    - B = número de componentes que deveriam oferecer essa capacidade.
 
-- **Aceitação:** ≥ 95% para navegadores suportados.
+- **Nível de Aceitação:** 
+    - ≥ 0,7 → Satisfatório
+    - < 0,7 → Insatisfatório
 
-**Métrica 1.2 — Taxa de Funcionamento em Condições de Rede Degradada**
+- **Fonte:** GOMES FILHO, Marcílio José Albuquerque. **Um processo de avaliação da portabilidade de unidades de software.** Recife: Universidade Federal de Pernambuco, Centro de Informática, 2005. Disponível em: https://www.cin.ufpe.br/~tg/2004-2/mjagf.pdf
+. Acesso em: 24 out. 2025.
 
-- **Fórmula:** % funcionalidades críticas funcionando = (Nº de funcionalidades críticas disponíveis offline / Nº total de funcionalidades críticas definidas) × 100.
+**Métrica 1.2 — Adaptabilidade ao ambiente de software**
 
-- **Cenários:** continuação de exploração salvo localmente, acesso a lições baixadas, sincronização posterior.
+- **Fórmula:** X = A / B, onde
+    - A = número de componentes que oferecem capacidade de execução em diferentes ambientes de software
+    - B = número de componentes que deveriam oferecer essa capacidade
 
-- **Aceitação:** ≥ 80% de limitações conhecidas do app.
+- **Nível de Aceitação:** 
+    - ≥ 0,7 → Satisfatório
+    - < 0,7 → Insatisfatório
+
+- **Fonte:**  GOMES FILHO, Marcílio José Albuquerque. **Um processo de avaliação da portabilidade de unidades de software.** Recife: Universidade Federal de Pernambuco, Centro de Informática, 2005. Disponível em: https://www.cin.ufpe.br/~tg/2004-2/mjagf.pdf
+. Acesso em: 24 out. 2025.
 
 ---
 
 ### Q2 — Instalabilidade
 
-**Pergunta:** Quão fácil é instalar e configurar o Oppia nas plataformas alvo?
+**Pergunta:** O sistema pode ser instalado e configurado com facilidade em diferentes plataformas, com mínimo esforço do usuário?
 
-**Métrica 2.1 — Taxa de Sucesso de Instalação via Documentação**
+**Hipótese:** Espera-se que a instalação do Oppia seja concluída com sucesso na maioria dos ambientes suportados, e que o processo seja suficientemente flexível para permitir customizações necessárias.
 
-* **Fórmula:** % instalações bem-sucedidas = (Nº de instalações concluídas seguindo o guia / Nº total de tentativas) × 100.
+**Métrica 2.1 — Esforço para instalar**
 
-* **Ambientes de teste:** Linux (Ubuntu), Windows, Android (versões suportadas).
+* **Fórmula:** X = A / B, onde
+    - A = número de passos de instalação automáticos
+    - B = total de passos de instalação necessários
 
-* **Aceitação:** ≥ 90% em ambientes suportados documentados.
+* **Aceitação:** 
+    - ≤ 0,4 → Satisfatório
+    - 0,4 → Insatisfatório
 
-**Métrica 2.2 — Tempo Médio de Instalação**
+- **Fonte:**  GOMES FILHO, Marcílio José Albuquerque. **Um processo de avaliação da portabilidade de unidades de software.** Recife: Universidade Federal de Pernambuco, Centro de Informática, 2005. Disponível em: https://www.cin.ufpe.br/~tg/2004-2/mjagf.pdf
+. Acesso em: 24 out. 2025.
 
-* **Fórmula:** tempo médio (minutos) desde o início até o término da instalação/configuração funcional.
-* **Aceitação:**  ≤ 4 minutos em servidor padrão.
+**Métrica 2.2 — Flexibilidade de instalação**
 
+* **Fórmula:** X = A / B, onde
+    - A = número de operações de instalação que admitem customização
+    - B = número total de operações de instalação
 
+* **Aceitação:** 
+    - 0,2 ≤ X ≤ 0,4 → Satisfatório
+    - X < 0,2 ou X > 0,4 → Insatisfatório
+
+- **Fonte:**  GOMES FILHO, Marcílio José Albuquerque. **Um processo de avaliação da portabilidade de unidades de software.** Recife: Universidade Federal de Pernambuco, Centro de Informática, 2005. Disponível em: https://www.cin.ufpe.br/~tg/2004-2/mjagf.pdf
+. Acesso em: 24 out. 2025.
 ---
 
 ### Q3 — Coexistência
 
-**Pergunta:** O Oppia opera corretamente quando compartilhando recursos com outras aplicações no mesmo ambiente (mesmo servidor, mesmas bibliotecas, múltiplos apps no dispositivo)?
+**Pergunta:** O sistema mantém seu funcionamento correto quando compartilhando recursos com outros softwares ou aplicações no mesmo ambiente?
 
-**Métrica 3.1 — Taxa de Operação em Ambiente Compartilhado**
+**Hipótese:** Espera-se que o Oppia consiga coexistir com outros softwares sem gerar conflitos ou erros frequentes, garantindo pelo menos 70% de disponibilidade em cenários compartilhados.
 
-* **Fórmula:** % de cenários de coexistência bem-sucedidos = (Nº de cenários onde Oppia funcionou sem impacto / Nº total de cenários testados) × 100.
-* **Aceitação:** ≥ 90% nos cenários documentados.
+**Métrica 3.1 — Disponibilidade de coexistência**
 
-**Métrica 3.2 — Incidência de Conflitos de Dependência**
+* **Fórmula:** X = A / B, onde
+    - A = número de produtos com os quais o software pode coexistir sem problemas
+    - B = número total de produtos no ambiente de produção
 
-* **Fórmula:** Nº total de conflitos (bibliotecas, versões de runtime) detectados por ciclo de teste.
-- **Aceitação:** ≤ 1 conflito crítico por ciclo de teste.
+* **Aceitação:** 
+    - ≥ 0,7 → Satisfatório
+    - < 0,7 → Insatisfatório
+
+- **Fonte:**  GOMES FILHO, Marcílio José Albuquerque. **Um processo de avaliação da portabilidade de unidades de software.** Recife: Universidade Federal de Pernambuco, Centro de Informática, 2005. Disponível em: https://www.cin.ufpe.br/~tg/2004-2/mjagf.pdf
+. Acesso em: 24 out. 2025.
+
+**Métrica 3.2 — Coexistência apresentada**
+
+* **Fórmula:** X = A / T, onde
+    - A = número de restrições ou erros encontrados pelo usuário
+    - T = tempo de uso compartilhado do software
+    
+- **Aceitação:**
+    - ≤ 0,3 → Satisfatório
+    - 0,3 → Insatisfatório
+
+- **Fonte:**  GOMES FILHO, Marcílio José Albuquerque. **Um processo de avaliação da portabilidade de unidades de software.** Recife: Universidade Federal de Pernambuco, Centro de Informática, 2005. Disponível em: https://www.cin.ufpe.br/~tg/2004-2/mjagf.pdf
+. Acesso em: 24 out. 2025.
+
 ---
 
 ### Q4 — Substituibilidade
 
-**Pergunta:** Como é o esforço e o impacto ao substituir componentes do Oppia (ex.: provedor de banco de dados ou serviço de armazenamento)?
+**Pergunta:** É possível substituir ou migrar componentes do sistema sem impactar negativamente suas funcionalidades críticas?
 
-**Métrica 4.1 — Tempo Médio para Substituição de Componente**
+**Hipótese:** Espera-se que a substituição de componentes do Oppia ou a migração de versões cause impacto mínimo nas funcionalidades, mantendo pelo menos 90% de consistência funcional com versões anteriores.
 
-* **Fórmula:** tempo médio (horas) desde a decisão de substituição até restabelecimento funcional.
-* **Aceitação:** 4-5 horas.
+**Métrica 4.1 — Consistência de funcionalidades**
 
-**Métrica 4.2 — Percentual de Funcionalidades Afetadas Após Substituição**
+* **Fórmula:** X = A / B, onde
+    - A = número de funcionalidades que produzem resultados semelhantes ao software antigo
+    - B = número total de funcionalidades testadas
 
-* **Fórmula:** % funcionalidades impactadas = (Nº funcionalidades que sofreram regressão / Nº funcionalidades testadas após substituição) × 100.
-* **Aceitação:** regressões ≤ 5% para substituições suportadas.
+- **Aceitação:**
+    - ≤ 0,9 → Satisfatório
+    - 0,9 → Insatisfatório
+
+- **Fonte:**  GOMES FILHO, Marcílio José Albuquerque. **Um processo de avaliação da portabilidade de unidades de software.** Recife: Universidade Federal de Pernambuco, Centro de Informática, 2005. Disponível em: https://www.cin.ufpe.br/~tg/2004-2/mjagf.pdf
+. Acesso em: 24 out. 2025.
+
+**Métrica 4.2 — Facilidade de migração**
+
+* **Fórmula:** : X = A / B, onde
+    - A = funcionalidades que produziram resultados satisfatórios
+    - B = total de funcionalidades testadas.
+
+- **Aceitação:**
+    - ≤ 0,9 → Satisfatório
+    - 0,9 → Insatisfatório
+
+- **Fonte:**  GOMES FILHO, Marcílio José Albuquerque. **Um processo de avaliação da portabilidade de unidades de software.** Recife: Universidade Federal de Pernambuco, Centro de Informática, 2005. Disponível em: https://www.cin.ufpe.br/~tg/2004-2/mjagf.pdf
+. Acesso em: 24 out. 2025.
 
 ---
 
 ## Referências Bibliográficas
+>GOMES FILHO, Marcílio José Albuquerque.**Um processo de avaliação da portabilidade de unidades de software.** Recife: Universidade Federal de Pernambuco, Centro de Informática, 2005. Disponível em: https://www.cin.ufpe.br/~tg/2004-2/mjagf.pdf
+. Acesso em: 24 out. 2025.
 
 > SOUZA, Fernando Mauro de et al. **Uso do GQM para Avaliar Documentos de Utilização de Framework**. Anais do III Workshop de Qualidade de Software. v. 1, p. 75-82, 2008.
+
 > INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. **ISO/IEC 25010:2011**. *Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models*. Genebra: ISO, 2011.
 
 ---
@@ -110,4 +175,6 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Portab
 |  `1.1` | 14/10/2025 | Adicionando tabela base      |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)  |  [Othavio Bolzan](https://github.com/bolzanMGB)   |
 
 |  `1.2` | 14/10/2025 | Adicionando métricas     |  [Othavio Bolzan](https://github.com/bolzanMGB)  |    |
+
+|  `1.3` | 14/10/2025 | Reformulação das perguntas e métricas e adição das fontes dos valores    |  [Othavio Bolzan](https://github.com/bolzanMGB)  |    |
 
