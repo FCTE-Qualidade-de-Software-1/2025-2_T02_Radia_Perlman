@@ -16,8 +16,35 @@ A Adequação Funcional é avaliada para garantir que o Oppia cumpra suas promes
 
 <font size="3"><p style="text-align: center">Fonte: Autoria própria (2025)</p></font>
 
+## 2.2 Diagrama GQM - Adequação Funcional
 
-## 2.2 Questões e Métricas
+O diagrama abaixo ilustra a hierarquia do plano de medição para a característica de Adequação Funcional, desdobrando o objetivo principal nas questões que precisam ser respondidas e nas métricas que serão coletadas para respondê-las.
+
+<div class="figure">
+  <p class="figure-title"><p align="center"><strong>Figura 1:</strong> Diagrama GQM - Adequação Funcional</p>
+
+```mermaid
+  graph TD
+      subgraph GQM Adequação Funcional
+          G1("<b>G1:</b> Avaliar<br>Adequação Funcional<br>do Oppia") --> Q1("<b>Q1:</b> Completude<br>Funcional?");
+          G1 --> Q2("<b>Q2:</b> Correção<br>Funcional?");
+          G1 --> Q3("<b>Q3:</b> Apropriação<br>Funcional?");
+
+          Q1 --> M1_1("<b>M1.1:</b> % Completude<br>Tarefas Essenciais");
+
+          Q2 --> M2_1("<b>M2.1:</b> % Precisão<br>Feedback");
+          Q2 --> M2_2("<b>M2.2:</b> % Integridade<br>e Recuperação Dados");
+          Q2 --> M2_3("<b>M2.3:</b> % Precisão<br>Notificações");
+
+          Q3 --> M3_1("<b>M3.1:</b> % Buscas<br>Bem-sucedidas");
+          Q3 --> M3_2("<b>M3.2:</b> Média Adequação<br>Funcionalidades (Likert)");
+      end
+
+      style G1 fill:#D5F5E3,stroke:#2ECC71
+```
+<p class="figure-source"><p align="center"><strong>Fonte:</strong> Elaborado pelos autores (2025)</p> </div>
+
+## 2.3 Questões e Métricas
 
 Abaixo estão propostas questões relacionadas às subcaracterísticas de Adequação Funcional, cada uma acompanhada de métricas operacionais e fórmulas.
 
@@ -116,3 +143,4 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Adequa
 | `2.1`  | 14/10/2025 | Padronizando a documentação das métricas                                                                        | [Othavio Bolzan](https://github.com/bolzanMGB)            | [Brunno Fernandes](https://github.com/brunnoff)           |
 | `3.0`  | 20/10/2025 | Refatoração GQM: generalização de questões, adição de hipóteses e diretrizes.                                   | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff)           |
 | `3.1`  | 24/10/2025 | Adição das fontes dos números de hipótese, revisão das perguntas deixando mais generalizadas e revisão do texto | [Pedro Lucas Dourado](https://github.com/lucasdray)       |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)                                                         |
+| `3.2`  | 25/10/2025 | Adição do diagrama de representação da hierarquia GQM | [Brunno Fernandes](https://github.com/brunnoff)        |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)                                                         |
