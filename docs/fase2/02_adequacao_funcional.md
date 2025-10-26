@@ -116,20 +116,17 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Adequa
 
 > <a id="task-completion"  href="#anchor_3">3.</a>MEASURINGU. What Is A Good Task-Completion Rate?. MeasuringU. Disponível em: https://measuringu.com/task-completion/.
 
-> <a id="google"  href="#anchor_4">4.</a>MEASURINGU. What Is A Good Task-Completion Rate?. MeasuringU. Disponível em: https://measuringu.com/task-completion/.
+> <a id="dbt"  href="#anchor_4">4.</a>DBT LABS. Data SLAs: Best practices for data teams. dbt Blog. Disponível em: https://www.getdbt.com/blog/data-slas-best-practices.
 
+> <a id="sap"  href="#anchor_5">5.</a>SAP. P&T Greyhound© Add-on for SAP® ERP (PNT Software & Consulting GmbH). SAP Store. Disponível em: https://www.sap.com/brazil/products/erp/partners/piccolinet-gmbh-pntgreyhound-addon.html.
 
-> <a id="dbt"  href="#anchor_5">5.</a>DBT LABS. Data SLAs: Best practices for data teams. dbt Blog. Disponível em: https://www.getdbt.com/blog/data-slas-best-practices.
+> <a id="clevertap"  href="#anchor_6">6.</a>CLEVERTAP. Push Notification Metrics That Matter: CTR, Open Rate, and More. CleverTap Blog. Disponível em: https://clevertap.com/blog/push-notification-metrics-ctr-open-rate/.
 
-> <a id="sap"  href="#anchor_6">6.</a>SAP. P&T Greyhound© Add-on for SAP® ERP (PNT Software & Consulting GmbH). SAP Store. Disponível em: https://www.sap.com/brazil/products/erp/partners/piccolinet-gmbh-pntgreyhound-addon.html.
+> <a id="elastic"  href="#anchor_7">7.</a>ELASTIC. What is search relevance?. Elastic. Disponível em: https://www.elastic.co/what-is/search-relevance.
 
-> <a id="clevertap"  href="#anchor_7">7.</a>CLEVERTAP. Push Notification Metrics That Matter: CTR, Open Rate, and More. CleverTap Blog. Disponível em: https://clevertap.com/blog/push-notification-metrics-ctr-open-rate/.
+> <a id="helpcrunch"  href="#anchor_8">8.</a>HELPCRUNCH. Top 9 Customer Satisfaction Metrics to Measure (CSAT, NPS, CES). HelpCrunch Blog. Disponível em: https://helpcrunch.com/blog/customer-satisfaction-metrics/.
 
-> <a id="elastic"  href="#anchor_8">8.</a>ELASTIC. What is search relevance?. Elastic. Disponível em: https://www.elastic.co/what-is/search-relevance.
-
-> <a id="helpcrunch"  href="#anchor_9">9.</a>HELPCRUNCH. Top 9 Customer Satisfaction Metrics to Measure (CSAT, NPS, CES). HelpCrunch Blog. Disponível em: https://helpcrunch.com/blog/customer-satisfaction-metrics/.
-
-> <a id="user_pilot"  href="#anchor_10">10.</a>USERPILOT. Customer Satisfaction Benchmarking: What Is a Good CSAT Score?. Userpilot Blog. Disponível em: https://userpilot.com/blog/customer-satisfaction-benchmarking/.
+> <a id="user_pilot"  href="#anchor_9">9.</a>USERPILOT. Customer Satisfaction Benchmarking: What Is a Good CSAT Score?. Userpilot Blog. Disponível em: https://userpilot.com/blog/customer-satisfaction-benchmarking/.
 
 -----
 
