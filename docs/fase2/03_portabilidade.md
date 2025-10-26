@@ -16,9 +16,40 @@ A Portabilidade é avaliada para verificar se o Oppia pode, de fato, chegar aond
 
 <font size="3"><p style="text-align: center">Fonte: Autoria própria (2025)</p></font>
 
+## 3.2 Diagrama GQM - Portabilidade
+
+O diagrama abaixo representa a estrutura GQM para a característica de Portabilidade. Ele mostra como o objetivo é decomposto nas questões, que por sua vez serão respondidas através da coleta das métricas.
+
+<div class="figure">
+  <p class="figure-title"><p align="center"><strong>Figura 1:</strong> Diagrama GQM - Portabilidade</p>
+
+```mermaid
+  graph TD
+      subgraph GQM Portabilidade
+          G2("<b>G2:</b> Avaliar<br>Portabilidade<br>do Oppia") --> Q1_P("<b>Q1:</b> Adaptabilidade?");
+          G2 --> Q2_P("<b>Q2:</b> Instalabilidade?");
+          G2 --> Q3_P("<b>Q3:</b> Coexistência?");
+          G2 --> Q4_P("<b>Q4:</b> Substituibilidade?");
+
+          Q1_P --> M1_1_P("<b>M1.1:</b> Adaptabilidade<br>Hardware");
+          Q1_P --> M1_2_P("<b>M1.2:</b> Adaptabilidade<br>Software");
+
+          Q2_P --> M2_1_P("<b>M2.1:</b> Esforço para<br>Instalar");
+          Q2_P --> M2_2_P("<b>M2.2:</b> Flexibilidade de<br>Instalação");
+
+          Q3_P --> M3_1_P("<b>M3.1:</b> Disponibilidade de<br>Coexistência");
+          Q3_P --> M3_2_P("<b>M3.2:</b> Coexistência<br>Apresentada");
+
+          Q4_P --> M4_1_P("<b>M4.1:</b> Consistência de<br>Funcionalidades");
+          Q4_P --> M4_2_P("<b>M4.2:</b> Facilidade de<br>Migração");
+      end
+
+      style G2 fill:#EBF5FB,stroke:#3498DB
+```
+<p class="figure-source"><p align="center"><strong>Fonte:</strong> Elaborado pelos autores (2025)</p> </div>
 
 
-## 3.2 Questões e Métricas
+## 3.3 Questões e Métricas
 
 Abaixo estão propostas questões relacionadas às subcaracterísticas de Portabilidade, cada uma acompanhada de métricas operacionais e fórmulas.
 
@@ -175,4 +206,5 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Portab
 |  `1.1` | 14/10/2025 | Adicionando tabela base      |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)  |  [Othavio Bolzan](https://github.com/bolzanMGB)   |
 |  `1.2` | 14/10/2025 | Adicionando métricas     |  [Othavio Bolzan](https://github.com/bolzanMGB)  |  [Douglas Marinho](https://github.com/M4RINH0)  |
 |  `1.3` | 14/10/2025 | Reformulação das perguntas e métricas e adição das fontes dos valores    |  [Othavio Bolzan](https://github.com/bolzanMGB)  | [Brunno Fernandes](https://github.com/brunnoff)   |
+| `1.4`  | 25/10/2025 | Adição do diagrama de representação da hierarquia GQM | [Brunno Fernandes](https://github.com/brunnoff)        |  [Othavio Bolzan](https://github.com/bolzanMGB)  |        
 
