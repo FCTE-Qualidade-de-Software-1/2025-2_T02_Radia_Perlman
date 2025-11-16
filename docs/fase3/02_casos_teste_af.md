@@ -1,4 +1,4 @@
-# 2. Casos de Teste (Adequação Funcional)
+# 2. Casos de Teste - Adequação Funcional
 
 Esta seção detalha os Casos de Teste (CTs) projetados para coletar os dados das métricas de Adequação Funcional (AF) definidas na Fase 2.
 

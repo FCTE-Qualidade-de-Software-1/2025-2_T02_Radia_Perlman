@@ -1,4 +1,4 @@
-# 1. Planejamento da Avaliação (Fase 3)
+# 1. Planejamento da Avaliação
 
 ## 1.1. Objetivo da Fase
 
@@ -42,10 +42,10 @@ A tabela abaixo garante que todas as métricas definidas na Fase 2 sejam coberta
 | Membro | Responsabilidade Principal |
 | :--- | :--- |
 | Bianca Patrocínio | Preencher |
-| Pedro Lucas | Preencher |
-| Brunno Fernandes |  Preencher  |
+| Brunno Fernandes | Preencher |
 | Douglas Marinho |  Preencher  |
 | Othavio Bolzan |  Preencher  |
+| Pedro Lucas |  Preencher  |
 
 ---
 

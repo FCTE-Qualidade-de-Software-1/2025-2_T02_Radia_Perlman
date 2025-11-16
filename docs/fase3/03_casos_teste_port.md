@@ -1,4 +1,4 @@
-# 3. Casos de Teste (Portabilidade)
+# 3. Casos de Teste - Portabilidade
 
 Esta seção detalha os Casos de Teste (CTs) projetados para coletar os dados das métricas de Portabilidade (P) definidas na Fase 2.
 
