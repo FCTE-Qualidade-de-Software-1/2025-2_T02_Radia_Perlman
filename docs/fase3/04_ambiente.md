@@ -31,4 +31,4 @@ Para garantir o requisito de "Dados Auditáveis", as seguintes ferramentas serã
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :--- | :--- | :--- |
-| `1.0` | [dd/mm/aaaa] | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | |
+| `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | |

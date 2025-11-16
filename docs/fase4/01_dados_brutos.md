@@ -1,4 +1,4 @@
-# 1. Evidências (Dados Brutos)
+# 1. Evidências - Dados Brutos
 
 Conforme o requisito de "Dados Auditáveis" do projeto, esta página centraliza os links para todos os dados brutos e evidências coletadas durante a Fase 4 de execução.
 
@@ -20,4 +20,4 @@ A pasta abaixo armazena as evidências visuais (gravações de tela e capturas) 
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :--- | :--- | :--- |
-| `1.0` | [dd/mm/aaaa] | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | |
+| `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | |

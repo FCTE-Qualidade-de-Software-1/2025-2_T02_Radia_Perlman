@@ -1,4 +1,4 @@
-# 3. Casos de Teste (Portabilidade)
+# 3. Casos de Teste - Portabilidade
 
 Esta seção detalha os Casos de Teste (CTs) projetados para coletar os dados das métricas de Portabilidade (P) definidas na Fase 2.
 
@@ -64,4 +64,4 @@ Esta seção detalha os Casos de Teste (CTs) projetados para coletar os dados da
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :--- | :--- | :--- |
-| `1.0` | [dd/mm/aaaa] | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | |
+| `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | |
