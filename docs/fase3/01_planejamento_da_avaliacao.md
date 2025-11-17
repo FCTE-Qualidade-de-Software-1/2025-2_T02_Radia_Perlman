@@ -79,4 +79,4 @@ Os seguintes documentos, artefatos e ferramentas do Oppia serão utilizados para
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | [Othavio Bolzan](https://github.com/bolzanMGB)|
-| `2.0` | 17/11/2025 | Elaboração das tabelas Método de Avaliação e Cronograma de Execução  |[Othavio Bolzan](https://github.com/bolzanMGB)| |
+| `2.0` | 17/11/2025 | Elaboração das tabelas Método de Avaliação e Cronograma de Execução  |[Othavio Bolzan](https://github.com/bolzanMGB)|  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)   |
