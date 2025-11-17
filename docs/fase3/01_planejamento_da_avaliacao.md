@@ -1,6 +1,6 @@
 # 1. Planejamento da Avaliação
 
-## 1.1. Objetivo da 
+## 1.1. Objetivo da Avaliação
 
 Esta fase detalha o plano de execução para a coleta de dados da Fase 4. O objetivo é traduzir as métricas definidas no GQM (Fase 2) em um conjunto de Casos de Teste (CTs) auditáveis, garantindo que a avaliação seja sistemática e repetível.
 
