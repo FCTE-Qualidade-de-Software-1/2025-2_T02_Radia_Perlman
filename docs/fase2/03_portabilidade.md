@@ -3,51 +3,83 @@ A Portabilidade é avaliada para verificar se o Oppia pode, de fato, chegar aond
 
 ## 3.1 Objetivo de Medição de Portabilidade
 
-<p align="center"> Tabela 1: Formalização do Objetivo de Medição (GQM) para Portabilidade </a> </p>
+<p align="center"><b>Tabela 1: Formalização do Objetivo de Medição (GQM) para Portabilidade</b></p>
 
+<div align="center">
 
-|        Dimensão           |                   Descrição                     |
-| ------------------------- | ----------------------------------------------- |
-| Analisar a      | Plataforma Oppia (Interface Web e App Mobile).                       |
-| Com o propósito de                 |     Avaliar. |
-| Com respeito a | Portabilidade                              | 
-| Perspectiva de Avaliação  | Educadores (criadores de conteúdo) e Estudantes (usuários finais).                             |
-| Contexto                  | Projeto acadêmico da disciplina de Qualidade de Software.       |
+<table>
+<tr>
+    <th>Dimensão</th>
+    <th>Descrição</th>
+</tr>
+<tr>
+    <td>Analisar a</td>
+    <td>Plataforma Oppia (Interface Web e App Mobile).</td>
+</tr>
+<tr>
+    <td>Com o propósito de</td>
+    <td>Avaliar.</td>
+</tr>
+<tr>
+    <td>Com respeito a</td>
+    <td>Portabilidade</td>
+</tr>
+<tr>
+    <td>Perspectiva de Avaliação</td>
+    <td>Educadores (criadores de conteúdo) e Estudantes (usuários finais).</td>
+</tr>
+<tr>
+    <td>Contexto</td>
+    <td>Projeto acadêmico da disciplina de Qualidade de Software.</td>
+</tr>
+</table>
 
-<font size="3"><p style="text-align: center">Fonte: Autoria própria (2025)</p></font>
+</div>
+
+<p align="center"><b>Fonte: </b> Autoria de <a href="https://github.com/brunnoff">Bruno Fernandes</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
 
 ## 3.2 Diagrama GQM - Portabilidade
 
 O diagrama abaixo representa a estrutura GQM para a característica de Portabilidade. Ele mostra como o objetivo é decomposto nas questões, que por sua vez serão respondidas através da coleta das métricas.
 
 <div class="figure">
-  <p class="figure-title"><p align="center"><strong>Figura 1:</strong> Diagrama GQM - Portabilidade</p>
+  <p class="figure-title" align="center"><strong>Figura 1:</strong> Diagrama GQM - Portabilidade </p>
 
 ```mermaid
   graph TD
-      subgraph GQM Portabilidade
-          G2("<b>G2:</b> Avaliar<br>Portabilidade<br>do Oppia") --> Q1_P("<b>Q1:</b> Adaptabilidade?");
-          G2 --> Q2_P("<b>Q2:</b> Instalabilidade?");
-          G2 --> Q3_P("<b>Q3:</b> Coexistência?");
-          G2 --> Q4_P("<b>Q4:</b> Substituibilidade?");
+    subgraph GQM_Portabilidade
+        G2("<b>G2:</b> Avaliar<br>Portabilidade<br>do Oppia")
 
-          Q1_P --> M1_1_P("<b>M1.1:</b> Adaptabilidade<br>Hardware");
-          Q1_P --> M1_2_P("<b>M1.2:</b> Adaptabilidade<br>Software");
+        %% QUESTÕES
+        G2 --> Q2_1("<b>Q2.1:</b> Adaptabilidade<br>O sistema funciona em<br>diferentes ambientes?")
+        G2 --> Q2_2("<b>Q2.2:</b> Instalabilidade<br>O sistema pode ser instalado<br>facilmente?")
+        G2 --> Q2_3("<b>Q2.3:</b> Coexistência<br>Funciona bem com<br>outros softwares?")
+        G2 --> Q2_4("<b>Q2.4:</b> Substituibilidade<br>O sistema pode ser migrado<br>ou substituído?")
 
-          Q2_P --> M2_1_P("<b>M2.1:</b> Esforço para<br>Instalar");
-          Q2_P --> M2_2_P("<b>M2.2:</b> Flexibilidade de<br>Instalação");
+        %% MÉTRICAS DE Q2.1
+        Q2_1 --> M1_1("<b>M1.1:</b> Adaptabilidade<br>ao Hardware")
+        Q2_1 --> M1_2("<b>M1.2:</b> Adaptabilidade<br>ao Software")
 
-          Q3_P --> M3_1_P("<b>M3.1:</b> Disponibilidade de<br>Coexistência");
-          Q3_P --> M3_2_P("<b>M3.2:</b> Coexistência<br>Apresentada");
+        %% MÉTRICAS DE Q2.2
+        Q2_2 --> M2_1("<b>M2.1:</b> Esforço<br>de Instalação")
+        Q2_2 --> M2_2("<b>M2.2:</b> Flexibilidade<br>de Instalação")
 
-          Q4_P --> M4_1_P("<b>M4.1:</b> Consistência de<br>Funcionalidades");
-          Q4_P --> M4_2_P("<b>M4.2:</b> Facilidade de<br>Migração");
-      end
+        %% MÉTRICAS DE Q2.3
+        Q2_3 --> M3_1("<b>M3.1:</b> Disponibilidade<br>de Coexistência")
+        Q2_3 --> M3_2("<b>M3.2:</b> Restrição/Avaria<br>sob Coexistência")
 
-      style G2 fill:#EBF5FB,stroke:#3498DB
+        %% MÉTRICAS DE Q2.4
+        Q2_4 --> M4_1("<b>M4.1:</b> Consistência<br>de Funcionalidades")
+        Q2_4 --> M4_2("<b>M4.2:</b> Facilidade<br>de Migração")
+    end
+
 ```
-<p class="figure-source"><p align="center"><strong>Fonte:</strong> Elaborado pelos autores (2025)</p> </div>
 
+</div>
+
+
+<p align="center"><b>Fonte: </b> Autoria de <a href="https://github.com/brunnoff">Bruno Fernandes</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 ## 3.3 Questões e Métricas
 
@@ -207,4 +239,4 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Portab
 |  `1.2` | 14/10/2025 | Adicionando métricas     |  [Othavio Bolzan](https://github.com/bolzanMGB)  |  [Douglas Marinho](https://github.com/M4RINH0)  |
 |  `1.3` | 14/10/2025 | Reformulação das perguntas e métricas e adição das fontes dos valores    |  [Othavio Bolzan](https://github.com/bolzanMGB)  | [Brunno Fernandes](https://github.com/brunnoff)   |
 | `1.4`  | 25/10/2025 | Adição do diagrama de representação da hierarquia GQM | [Brunno Fernandes](https://github.com/brunnoff)        |  [Othavio Bolzan](https://github.com/bolzanMGB)  |        
-
+| `1.5`  | 17/11/2025 | Pequenos ajudes no Diagrama GQMAdição do diagrama de representação da hierarquia GQM | [Othavio Bolzan ](https://github.com/bolzanMGB) | |
