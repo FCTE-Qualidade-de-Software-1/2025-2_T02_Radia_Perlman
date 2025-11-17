@@ -7,21 +7,21 @@ Esta seção descreve o ambiente de hardware, software e as ferramentas utilizad
 Os testes serão executados em notebooks pessoais dos membros da equipe e em dispositivos móveis físicos, conforme descrito:
 
 * **Desktop / Notebook:**  
-  Notebooks com sistema operacional **Windows 11** ou **macOS Sonoma**, utilizados como ambiente principal de execução dos testes.
+  Notebooks com os sistemas operacionais **Windows 11**, **Ubuntu 22.04 LTS** (ou versão equivalente) e **macOS Sonoma**, utilizados como ambiente primário para a execução dos testes funcionais e de portabilidade.
 
 * **Mobile (iOS – Físico):**  
   Dispositivo **Apple iPhone**, executando a versão mais recente disponível do **iOS**, utilizado para testes reais de portabilidade, responsividade e comportamento no navegador Safari.
 
 * **Mobile (Android – Físico):**  
-  Dispositivo **Android** utilizado nos testes de portabilidade, instalabilidade e sincronização pelo aplicativo Oppia.
+  Dispositivo **Android**, executando a versão mais recente, utilizado nos testes de portabilidade, instalabilidade e sincronização pelo aplicativo Oppia.
 
 ## 4.2. Ambiente de Software
 
 * **Navegador 1 (Principal):**  
-  **Google Chrome** – versão estável mais recente.
+  **Google Chrome** – versão estável mais recente (Windows, Ubuntu e macOS).
 
 * **Navegador 2 (Secundário):**  
-  **Mozilla Firefox** – versão estável mais recente.
+  **Mozilla Firefox** – versão estável mais recente (Windows, Ubuntu e macOS).
 
 * **Navegador Mobile (iOS):**  
   **Safari** – versão mais recente disponível no dispositivo iOS utilizado nos testes.
@@ -43,7 +43,7 @@ Para garantir rastreabilidade e conformidade com o requisito de **"Dados Auditá
   **OBS Studio** – utilizado para gravação das execuções dos testes em desktop/notebook, servindo como evidência de falhas ou fluxos bem-sucedidos.
 
 * **Captura de Tela:**  
-  Ferramentas nativas dos sistemas operacionais **Windows**, **macOS**, **Android** e **iOS**, utilizadas para capturar evidências de problemas visuais, inconsistências ou falhas de layout.
+  Ferramentas nativas dos sistemas operacionais **Windows**, **macOS**, **Ubuntu**, **Android** e **iOS**, utilizadas para capturar evidências de problemas visuais, inconsistências ou falhas de layout.
 
 ---
 
@@ -52,4 +52,4 @@ Para garantir rastreabilidade e conformidade com o requisito de **"Dados Auditá
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | |
-| `1.1` | 17/11/2025 | Revisão do ambiente e inclusão de dispositivos físicos | [Brunno Fernandes](https://github.com/brunnoff) | |
+| `1.1` | 17/11/2025 | Revisão do ambiente, inclusão de iPhone físico e Ubuntu | [Brunno Fernandes](https://github.com/brunnoff) | |
