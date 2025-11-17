@@ -4,64 +4,125 @@ Esta seção detalha os Casos de Teste (CTs) projetados para coletar os dados da
 
 ---
 
-### CT-P-01: Verificação de Adaptabilidade (Hardware e Software)
-* **Métricas Associadas:** M1.1 (Adaptabilidade Hardware), M1.2 (Adaptabilidade Software)
-* **Objetivo:** Medir a capacidade da plataforma de se adaptar a diferentes ambientes de hardware (desktop vs. mobile) e software (navegadores).
-* **Passos de Execução:**
-    1.  Definir um conjunto de "componentes" (funcionalidades-chave) a serem testados (ex: `CT-AF-01`).
-    2.  Definir os ambientes de teste (B) (ex: Chrome, Firefox, Simulação Mobile).
-    3.  Executar o `CT-AF-01` em todos os ambientes.
-    4.  Registrar o número de componentes (A) que funcionaram sem falhas (funcionais ou de layout) em cada ambiente.
-    5.  Calcular a métrica X = A / B para cada ambiente.
-* **Resultado Esperado:** O cálculo da métrica X é concluído para todos os ambientes testados.
+## **CT-P-01: Verificação de Adaptabilidade (Hardware, Software e Resoluções)**
+
+**Métricas Associadas:**
+
+* M1.1 – Adaptabilidade ao Hardware
+* M1.2 – Adaptabilidade ao Software
+* M1.3 – Responsividade por Resolução
+
+**Objetivo:**
+Medir a capacidade da plataforma Oppia de operar corretamente em diferentes dispositivos, sistemas operacionais, navegadores e resoluções de tela.
+
+**Passos de Execução:**
+
+1. Definir uma lista de funcionalidades-chave (A) a serem avaliadas (ex.: criar conta, abrir lição, editar exploração, navegar entre páginas).
+2. Definir os ambientes de teste (B), incluindo:
+
+   * Dispositivos (desktop, notebook, tablet, smartphone)
+   * Navegadores (Chrome, Firefox, Edge, Safari)
+   * Sistemas Operacionais (Windows, Linux, Android, iOS)
+   * Resoluções (480p, 720p, 1080p, 1440p, 4K)
+3. Executar cada funcionalidade A em todos os ambientes definidos.
+4. Registrar em cada teste se houve funcionamento:
+
+   * Sem falhas funcionais
+   * Sem falhas de layout/responsividade
+5. Calcular a métrica X = A / B para cada combinação de ambiente.
+
+**Resultado Esperado:**
+A métrica X deve ser gerada para todos os ambientes testados, indicando o percentual de compatibilidade e adaptação.
 
 ---
 
-### CT-P-02: Verificação de Instalabilidade
-* **Métricas Associadas:** M2.1 (Esforço), M2.2 (Flexibilidade)
-* **Objetivo:** Medir o esforço e a flexibilidade para "instalar" o Oppia (registrar-se na web e instalar o app mobile).
-* **Passos de Execução (Web - Esforço M2.1):**
-    1.  Cronometrar o tempo e contar os passos (B) para um novo usuário se registrar na plataforma web.
-    2.  Contar quantos desses passos são automáticos (A).
-* **Passos de Execução (Web - Flexibilidade M2.2):**
-    1.  Contar o número total de operações (B) durante o registro.
-    2.  Contar quantas operações permitem customização (A) (ex: adicionar foto, definir interesses).
-* **Passos de Execução (Mobile App):**
-    1.  Repetir os passos acima para o processo de instalação do App pela Google Play Store e primeiro login.
-* **Resultado Esperado:** Os dados A e B são coletados para o cálculo das métricas M2.1 e M2.2.
+## **CT-P-02: Verificação de Instalabilidade**
+
+**Métricas Associadas:**
+
+* M2.1 – Esforço de Instalação
+* M2.2 – Flexibilidade de Instalação
+
+**Objetivo:**
+Avaliar o esforço e a flexibilidade necessários para instalar e configurar o ambiente do Oppia localmente, considerando variações de ambiente e dependências.
+
+**Passos de Execução (Esforço – M2.1):**
+
+1. Cronometrar o tempo total para concluir a instalação/execução local do Oppia.
+2. Contar o número total de passos necessários (B).
+3. Contar quantos passos são automáticos ou realizados por ferramentas (A).
+
+**Passos de Execução (Flexibilidade – M2.2):**
+
+1. Registrar quantas operações ou configurações permitem variações (A), por exemplo:
+
+   * Versões alternativas do Node
+   * Alterações no Bazel
+   * Variações de dependências Python
+2. Comparar com o total de operações envolvidas no processo (B).
+
+**Resultado Esperado:**
+Coleta dos valores A e B para cálculo das métricas M2.1 e M2.2.
 
 ---
 
-### CT-P-03: Verificação de Coexistência
-* **Métricas Associadas:** M3.1 (Disponibilidade), M3.2 (Apresentada)
-* **Objetivo:** Verificar se o Oppia funciona corretamente ao compartilhar recursos com outros aplicativos.
-* **Passos de Execução (Desktop):**
-    1.  Definir o ambiente de produção (B) (ex: B=2, Spotify e YouTube).
-    2.  Iniciar o `CT-AF-01` no Chrome.
-    3.  Simultaneamente, executar um vídeo em alta definição no YouTube e tocar música no Spotify.
-    4.  Contar o número de produtos (A) com os quais o Oppia coexistiu (M3.1).
-    5.  Executar por um tempo (T) (ex: T=1 hora) e contar o número de erros/travamentos (A) (M3.2).
-* **Passos de Execução (Mobile):**
-    1.  Repetir os passos acima no ambiente mobile.
-* **Resultado Esperado:** Os dados A, B e T são coletados.
+## **CT-P-03: Verificação de Coexistência**
+
+**Métricas Associadas:**
+
+* M3.1 – Disponibilidade de Coexistência
+* M3.2 – Restrição/Avaria sob Coexistência
+
+**Objetivo:**
+Avaliar se o Oppia mantém estabilidade e funcionamento quando executado simultaneamente com outros softwares relevantes.
+
+**Passos de Execução (Desktop):**
+
+1. Definir um conjunto de aplicações concorrentes (B), como:
+
+   * Spotify
+   * YouTube (reproduzindo vídeo em alta qualidade)
+   * Extensões de navegador comuns (AdBlock, Grammarly, etc.)
+2. Iniciar o Oppia e executar funcionalidades do CT-AF-01.
+3. Registrar quantas aplicações estão rodando simultaneamente sem impactar o Oppia (A) → **M3.1**.
+4. Durante um período T (ex.: 1 hora), contar erros, travamentos ou perda de responsividade → **M3.2**.
+
+**Passos de Execução (Mobile):**
+
+1. Repetir o teste executando o Oppia via navegador móvel com outros apps em segundo plano.
+
+**Resultado Esperado:**
+Coleta dos valores A, B e T para análise de coexistência e restrições.
 
 ---
 
-### CT-P-04: Verificação de Substituibilidade
-* **Métricas Associadas:** M4.1 (Consistência), M4.2 (Facilidade de Migração)
-* **Objetivo:** Avaliar a consistência de funcionalidades e a migração de dados entre as plataformas Web e App.
-* **Passos de Execução:**
-    1.  [Web] Fazer 50% de progresso em uma lição.
-    2.  [App Mobile] Fazer login com a mesma conta.
-    3.  Verificar se o progresso foi sincronizado (Passou/Falhou). Este resultado alimenta a M4.2.
-    4.  [App Mobile] Identificar 10 funcionalidades-chave (B=10) da versão Web.
-    5.  Verificar quantas (A) estão presentes e produzem resultados semelhantes no App (M4.1).
-* **Resultado Esperado:** Os dados para A e B (M4.1) e o resultado da sincronização (M4.2) são coletados.
+## **CT-P-04: Verificação de Substituibilidade**
+
+**Métricas Associadas:**
+
+* M4.1 – Consistência de Funcionalidades
+* M4.2 – Facilidade de Migração
+
+**Objetivo:**
+Avaliar a capacidade do Oppia de manter dados, progresso e consistência de funcionamento quando o usuário alterna entre dispositivos, navegadores ou sistemas operacionais.
+
+**Passos de Execução:**
+
+1. Em um dispositivo inicial, criar uma conta e fazer progresso parcial em uma exploração (ex.: 50%).
+2. Acessar a mesma conta em outro ambiente diferente (ex.: mudar de Windows para Android, ou de Chrome para Safari).
+3. Verificar se o progresso foi mantido e sincronizado corretamente → **M4.2 (Passou/Falhou)**.
+4. Identificar 10 funcionalidades-chave na primeira plataforma (B = 10).
+5. Verificar quantas dessas funcionalidades (A) estão disponíveis e funcionam de forma equivalente na plataforma secundária → **M4.1**.
+
+**Resultado Esperado:**
+Coleta dos valores para as métricas M4.1 (A/B) e M4.2 (Passou/Falhou).
 
 ---
 
-## Histórico de Versões
+# Histórico de Versões
 
-| Versão | Data | Descrição | Autor | Revisor |
-| :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | |
+| Versão |    Data    | Descrição                                                                                 | Autor                                           | Revisor |
+| :----: | :--------: | :---------------------------------------------------------------------------------------- | :---------------------------------------------- | :------ |
+|  `1.0` | 16/11/2025 | Criação da estrutura inicial da página                                                    | [Brunno Fernandes](https://github.com/brunnoff) |         |
+|  `2.0` | 17/11/2025 | Atualização dos CTs para alinhar com nova Tabela de Portabilidade e revisões das métricas | [Douglas Marinho](https://github.com/M4RINH0)   |         |
+
