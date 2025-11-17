@@ -1,29 +1,49 @@
 # 4. Ferramentas e Ambiente de Avaliação
 
-Esta seção detalha o ambiente de hardware, software e as ferramentas que serão utilizadas para a execução dos Casos de Teste definidos neste plano.
+Esta seção descreve o ambiente de hardware, software e as ferramentas utilizadas na execução dos Casos de Teste definidos neste plano. O objetivo é garantir que a coleta dos dados ocorra em condições controladas, reproduzíveis e alinhadas às métricas estabelecidas.
 
 ## 4.1. Ambiente de Hardware
 
-Os testes serão executados em notebooks pessoais dos membros da equipe e em dispositivos móveis (ou simulação), conforme descrito:
+Os testes serão executados em notebooks pessoais dos membros da equipe e em dispositivos móveis físicos, conforme descrito:
 
-* **Desktop:** Notebooks com sistema operacional Windows 11 ou macOS Sonoma.
-* **Mobile (Simulação):** Simulação de dispositivo móvel (Apple iPhone 12 Pro) via Ferramentas de Desenvolvedor do Google Chrome (resolução 390x844).
-* **Mobile (Físico):** Dispositivo Android (Samsung Galaxy A51 ou similar) com Android 13.
+* **Desktop / Notebook:**  
+  Notebooks com sistema operacional **Windows 11** ou **macOS Sonoma**, utilizados como ambiente principal de execução dos testes.
+
+* **Mobile (iOS – Físico):**  
+  Dispositivo **Apple iPhone**, executando a versão mais recente disponível do **iOS**, utilizado para testes reais de portabilidade, responsividade e comportamento no navegador Safari.
+
+* **Mobile (Android – Físico):**  
+  Dispositivo **Android** utilizado nos testes de portabilidade, instalabilidade e sincronização pelo aplicativo Oppia.
 
 ## 4.2. Ambiente de Software
 
-* **Navegador 1 (Principal):** Google Chrome (Versão estável mais recente).
-* **Navegador 2 (Secundário):** Mozilla Firefox (Versão estável mais recente).
-* **Aplicativo Móvel:** Oppia Android App (Versão mais recente disponível na Google Play Store).
-* **Software de Produtividade:** Google Workspace (Docs, Sheets) para documentação e registro.
+* **Navegador 1 (Principal):**  
+  **Google Chrome** – versão estável mais recente.
+
+* **Navegador 2 (Secundário):**  
+  **Mozilla Firefox** – versão estável mais recente.
+
+* **Navegador Mobile (iOS):**  
+  **Safari** – versão mais recente disponível no dispositivo iOS utilizado nos testes.
+
+* **Aplicativo Móvel:**  
+  **Oppia Android App** – versão mais recente disponibilizada na **Google Play Store**.
+
+* **Software de Produtividade:**  
+  **Google Workspace** (Docs, Sheets) – utilizado para documentação, organização dos artefatos e registro dos resultados dos testes.
 
 ## 4.3. Ferramentas de Coleta e Auditoria
 
-Para garantir o requisito de "Dados Auditáveis", as seguintes ferramentas serão utilizadas:
+Para garantir rastreabilidade e conformidade com o requisito de **"Dados Auditáveis"**, serão utilizadas as seguintes ferramentas:
 
-* **Registro de Resultados:** Google Sheets (Planilha centralizada para registro de resultados "Passou/Falhou" de cada CT).
-* **Gravação de Tela:** OBS Studio (para gravação de tela durante a execução dos testes, como evidência de bugs ou fluxos de sucesso).
-* **Captura de Tela:** Ferramentas nativas do SO (para registro de falhas de layout em Portabilidade).
+* **Registro de Resultados:**  
+  **Google Sheets** – planilha centralizada para registro do status ("Passou/Falhou") e observações de cada Caso de Teste.
+
+* **Gravação de Tela:**  
+  **OBS Studio** – utilizado para gravação das execuções dos testes em desktop/notebook, servindo como evidência de falhas ou fluxos bem-sucedidos.
+
+* **Captura de Tela:**  
+  Ferramentas nativas dos sistemas operacionais **Windows**, **macOS**, **Android** e **iOS**, utilizadas para capturar evidências de problemas visuais, inconsistências ou falhas de layout.
 
 ---
 
@@ -32,3 +52,4 @@ Para garantir o requisito de "Dados Auditáveis", as seguintes ferramentas serã
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | |
+| `1.1` | 17/11/2025 | Revisão do ambiente e inclusão de dispositivos físicos | [Brunno Fernandes](https://github.com/brunnoff) | |
