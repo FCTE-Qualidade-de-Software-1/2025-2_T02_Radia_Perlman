@@ -21,11 +21,11 @@ nav:
       - 3. Característica - Portabilidade: fase2/03_portabilidade.md
   - Fase 3 - Projeto da Avaliação:
       - 1. Planejamento da Avaliação: fase3/01_planejamento_da_avaliacao.md
-      - 2. Casos de Teste (Adequação Funcional): fase3/02_casos_teste_af.md
-      - 3. Casos de Teste (Portabilidade): fase3/03_casos_teste_port.md
+      - 2. Casos de Teste - Adequação Funcional: fase3/02_casos_teste_af.md
+      - 3. Casos de Teste - Portabilidade: fase3/03_casos_teste_port.md
       - 4. Ferramentas e Ambiente: fase3/04_ambiente.md
   - Fase 4 - Execução da Avaliação:
-      - 1. Evidências (Dados Brutos): fase4/01_dados_brutos.md
+      - 1. Evidências - Dados Brutos: fase4/01_dados_brutos.md
       - 2. Resultados - Adequação Funcional: fase4/02_resultados_af.md
       - 3. Resultados - Portabilidade: fase4/03_resultados_port.md
       - 4. Conclusão da Avaliação: fase4/04_conclusao.md
