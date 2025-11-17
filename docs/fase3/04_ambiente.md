@@ -4,7 +4,7 @@ Esta seção descreve o ambiente de hardware, software e as ferramentas utilizad
 
 ## 4.1. Ambiente de Hardware
 
-Os testes serão executados em notebooks pessoais dos membros da equipe e em dispositivos móveis físicos, conforme descrito:
+Os testes serão executados em notebooks e em dispositivos móveis físicos dos avaliadores (membros da equipe e participantes externos), conforme descrito:
 
 * **Desktop / Notebook:**  
   Notebooks com os sistemas operacionais **Windows 11**, **Ubuntu 22.04 LTS** (ou versão equivalente) e **macOS Sonoma**, utilizados como ambiente primário para a execução dos testes funcionais e de portabilidade.
