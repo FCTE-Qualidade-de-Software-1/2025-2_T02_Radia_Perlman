@@ -32,12 +32,9 @@ Esta seção tem o propósito de detalhar os Casos de Teste (CTs) projetados par
 * **Passos de Execução:**
     1.  Fazer login e navegar para o "Painel do Aprendiz".
     2.  Selecionar uma lição disponível.
-    3.  Avançar a lição e responder as questões até atingir um ponto de controle.
-    4.  Verificar no Painel do Aprendiz se a lição consta como iniciada.
-    5.  Verificar se a lição salvou o ponto de controle.
-    6.  Finalizar a lição        .
-    7.  Verificar se a lição no Painel do Aprendiz consta como concluída.
-* **Resultado Esperado:** Todas as 6 etapas são concluídas com sucesso. A lição é respondida e marcada como concluída.
+    3.  Avançar a lição e responder as questões até finalizar a lição.
+    4.  Verificar se a lição no Painel do Aprendiz consta como concluída.
+* **Resultado Esperado:** Todas as 4 etapas são concluídas com sucesso. A lição é respondida e marcada como concluída.
 
 ---
 
@@ -53,24 +50,36 @@ Esta seção tem o propósito de detalhar os Casos de Teste (CTs) projetados par
 
 ---
 
-### CT-AF-04: Verificação de Integridade e Recuperação de Dados
+### CT-AF-04: Verificação de Integridade e Recuperação de Dados - Aluno
 * **Métrica Associada:** M2.2 (% Integridade e Recuperação Dados)
-* **Objetivo:** Verificar se o progresso do aluno e os rascunhos do educador são salvos e recuperados corretamente após uma interrupção.
-* **Passos de Execução (Aluno):**
-    1.  [Aluno] Iniciar uma lição longa (múltiplas etapas).
-    2.  Completar 50% da lição.
-    3.  Fechar abruptamente o navegador/app.
-    4.  Reabrir e fazer login. Tentar resumir a lição.
-* **Passos de Execução (Educador):**
-    1.  [Educador] Criar uma nova lição e escrever 3 parágrafos de texto.
-    2.  Esperar o salvamento automático do rascunho.
-    3.  Fechar abruptamente o navegador.
-    4.  Reabrir e fazer login. Acessar o "Painel do Criador" e abrir o rascunho.
-* **Resultado Esperado:** O progresso do aluno é retomado do ponto de parada. O rascunho do educador é recuperado integralmente.
+* **Objetivo:** Verificar se o progresso do aluno é salvo e recuperado corretamente após uma interrupção.
+* **Pré-condições:** Acesso a uma conta de Aluno. Uma lição longa (múltiplas etapas) disponível na plataforma.
+* **Passos de Execução:**
+    1.  Iniciar uma lição longa (múltiplas etapas).
+    2.  Verificar no Painel do Aprendiz se a lição consta como iniciada.
+    3.  Completar 50% da lição.
+    4.  Fechar abruptamente o navegador/app.
+    5.  Reabrir e fazer login.
+    6.  Verificar se a lição salvou o ponto de controle. 
+* **Resultado Esperado:** O progresso do aluno é retomado do ponto de parada.
 
 ---
 
-### CT-AF-05: Verificação de Precisão de Notificações
+### CT-AF-05: Verificação de Integridade e Recuperação de Dados - Educador
+* **Métrica Associada:** M2.2 (% Integridade e Recuperação Dados)
+* **Objetivo:** Verificar se os rascunhos do educador são salvos e recuperados corretamente após uma interrupção.
+* **Pré-condições:** Acesso a uma conta de Educador.
+* **Passos de Execução:**
+    1.  Fazer login e navegar para o "Painel do Criador".
+    2.  Criar uma nova Exploração (lição).
+    3.  Adicionar um texto de introdução e a pergunta clicando no ícone de lápis e depois salvar clicando em "Save Content".
+    4.  Fechar abruptamente o navegador.
+    5.  Reabrir e fazer login. Acessar o "Painel do Criador" e abrir o rascunho.
+* **Resultado Esperado:** O rascunho do educador é recuperado integralmente.
+
+---
+
+### CT-AF-06: Verificação de Precisão de Notificações
 * **Métrica Associada:** M2.3 (% Precisão Notificações)
 * **Objetivo:** Avaliar a correção das notificações geradas pela plataforma.
 * **Passos de Execução:**
@@ -82,7 +91,7 @@ Esta seção tem o propósito de detalhar os Casos de Teste (CTs) projetados par
 
 ---
 
-### CT-AF-06: Verificação de Eficiência da Busca
+### CT-AF-07: Verificação de Eficiência da Busca
 * **Métrica Associada:** M3.1 (% Buscas Bem-sucedidas)
 * **Objetivo:** Avaliar a relevância dos resultados da busca na biblioteca.
 * **Passos de Execução:**
@@ -92,7 +101,7 @@ Esta seção tem o propósito de detalhar os Casos de Teste (CTs) projetados par
 
 ---
 
-### CT-AF-07: Avaliação Qualitativa (Likert)
+### CT-AF-08: Avaliação Qualitativa (Likert)
 * **Métrica Associada:** M3.2 (Média Adequação Funcionalidades)
 * **Objetivo:** Coletar a percepção de adequação dos usuários (equipe) após a execução dos testes.
 * **Passos de Execução:**
