@@ -103,7 +103,7 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Adequa
   * **Fonte (Diretriz):** [ISO/IEC 25010](#iso25010) (Correção). Medido via testes de estresse, concorrência (múltiplos editores) e interrupção (simulação de falha de rede ou fechamento do app).
   * **Fonte (Número da hipótese de aceitação):** Múltiplas fontes, como [dbt Labs](#dbt) e [SAP](#sap), citam "99.5%" como um benchmark padrão para confiabilidade (SLO - Service Level Objective) e níveis de desempenho operacional. Portanto, adotamos 99.5% como nossa
 
-**Métrica 2.3 — Taxa de Precisão de Notificação**
+**Métrica 2.3 — Taxa de Precisão de Notificações**
 
   * **Fórmula:** % de precisão de notificações = (Nº de notificações entregues corretamente e no tempo esperado / Nº total de eventos que deveriam gerar notificações) × 100.
   * **Hipótese de Aceitação:** 95% de precisão e entrega dentro do tempo limite definido (ex: 5 minutos).
@@ -165,6 +165,5 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Adequa
 | `2.1`  | 14/10/2025 | Padronizando a documentação das métricas                                                                        | [Othavio Bolzan](https://github.com/bolzanMGB)            | [Brunno Fernandes](https://github.com/brunnoff)           |
 | `3.0`  | 20/10/2025 | Refatoração GQM: generalização de questões, adição de hipóteses e diretrizes.                                   | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff)           |
 | `3.1`  | 24/10/2025 | Adição das fontes dos números de hipótese, revisão das perguntas deixando mais generalizadas e revisão do texto | [Pedro Lucas Dourado](https://github.com/lucasdray)       |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)                                                         |
-| `3.2`  | 25/10/2025 | Adição do diagrama de representação da hierarquia GQM | [Brunno Fernandes](https://github.com/brunnoff)        |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)                                                         |
-
-| `3.3`  | 17/11/2025 | Pequenos ajudes no Diagrama GQMAdição do diagrama de representação da hierarquia GQM | [Othavio Bolzan ](https://github.com/bolzanMGB) | |
+| `3.2`  | 25/10/2025 | Adição do diagrama de representação da hierarquia GQM | [Brunno Fernandes](https://github.com/brunnoff)        |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)                |
+| `3.3`  | 17/11/2025 | Pequenos ajudes no Diagrama GQMAdição do diagrama de representação da hierarquia GQM | [Othavio Bolzan ](https://github.com/bolzanMGB) | [Brunno Fernandes](https://github.com/brunnoff)|
