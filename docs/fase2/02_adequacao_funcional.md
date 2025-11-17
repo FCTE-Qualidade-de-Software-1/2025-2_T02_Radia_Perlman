@@ -3,28 +3,51 @@ A Adequação Funcional é avaliada para garantir que o Oppia cumpra suas promes
 
 ## 2.1 Objetivo de Medição de Adequação Funcional
 
-<p align="center"> Tabela 1: Formalização do Objetivo de Medição (GQM) para Adequação Funcional </a> </p>
+<p align="center"><b>Tabela 1: Formalização do Objetivo de Medição (GQM) para Adequação Funcional</b></p>
 
+<div align="center">
 
-|        Dimensão           |                   Descrição                     |
-| ------------------------- | ----------------------------------------------- |
-| Analisar a      | Plataforma Oppia (Interface Web e App Mobile).                       |
-| Com o propósito de                 | Avaliar.     |
-| Com respeito a | Adequação Funcional                               | 
-| Perspectiva de Avaliação  | Educadores (criadores de conteúdo) e Estudantes (usuários finais).                             |
-| Contexto                  | Projeto acadêmico da disciplina de Qualidade de Software.       |
+<table>
+<tr>
+    <th>Dimensão</th>
+    <th>Descrição</th>
+</tr>
+<tr>
+    <td>Analisar a</td>
+    <td>Plataforma Oppia (Interface Web e App Mobile).</td>
+</tr>
+<tr>
+    <td>Com o propósito de</td>
+    <td>Avaliar.</td>
+</tr>
+<tr>
+    <td>Com respeito a</td>
+    <td>Adequação Funcional</td>
+</tr>
+<tr>
+    <td>Perspectiva de Avaliação</td>
+    <td>Educadores (criadores de conteúdo) e Estudantes (usuários finais).</td>
+</tr>
+<tr>
+    <td>Contexto</td>
+    <td>Projeto acadêmico da disciplina de Qualidade de Software.</td>
+</tr>
+</table>
 
-<font size="3"><p style="text-align: center">Fonte: Autoria própria (2025)</p></font>
+</div>
+
+<p align="center"><b>Fonte: </b> Autoria de <a href="https://github.com/brunnoff">Bruno Fernandes</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 ## 2.2 Diagrama GQM - Adequação Funcional
 
 O diagrama abaixo ilustra a hierarquia do plano de medição para a característica de Adequação Funcional, desdobrando o objetivo principal nas questões que precisam ser respondidas e nas métricas que serão coletadas para respondê-las.
 
 <div class="figure">
-  <p class="figure-title"><p align="center"><strong>Figura 1:</strong> Diagrama GQM - Adequação Funcional</p>
+  <p class="figure-title" align="center"><strong>Figura 1:</strong> Diagrama GQM - Adequação Funcional</p>
+
 
 ```mermaid
-  graph TD
+    graph TD
       subgraph GQM Adequação Funcional
           G1("<b>G1:</b> Avaliar<br>Adequação Funcional<br>do Oppia") --> Q1("<b>Q1:</b> Completude<br>Funcional?");
           G1 --> Q2("<b>Q2:</b> Correção<br>Funcional?");
@@ -39,10 +62,10 @@ O diagrama abaixo ilustra a hierarquia do plano de medição para a característ
           Q3 --> M3_1("<b>M3.1:</b> % Buscas<br>Bem-sucedidas");
           Q3 --> M3_2("<b>M3.2:</b> Média Adequação<br>Funcionalidades (Likert)");
       end
-
-      style G1 fill:#D5F5E3,stroke:#2ECC71
 ```
-<p class="figure-source"><p align="center"><strong>Fonte:</strong> Elaborado pelos autores (2025)</p> </div>
+</div>
+
+<p align="center"><b>Fonte: </b> Autoria de <a href="https://github.com/brunnoff">Brunno Fernandes</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 ## 2.3 Questões e Métricas
 
@@ -80,7 +103,7 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Adequa
   * **Fonte (Diretriz):** [ISO/IEC 25010](#iso25010) (Correção). Medido via testes de estresse, concorrência (múltiplos editores) e interrupção (simulação de falha de rede ou fechamento do app).
   * **Fonte (Número da hipótese de aceitação):** Múltiplas fontes, como [dbt Labs](#dbt) e [SAP](#sap), citam "99.5%" como um benchmark padrão para confiabilidade (SLO - Service Level Objective) e níveis de desempenho operacional. Portanto, adotamos 99.5% como nossa
 
-**Métrica 2.3 - Precisão Notificações**
+**Métrica 2.3 — Taxa de Precisão de Notificações**
 
   * **Fórmula:** % de precisão de notificações = (Nº de notificações entregues corretamente e no tempo esperado / Nº total de eventos que deveriam gerar notificações) × 100.
   * **Hipótese de Aceitação:** 95% de precisão e entrega dentro do tempo limite definido (ex: 5 minutos).
@@ -134,12 +157,13 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Adequa
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição                                                                                                       | Autor                                                     | Revisor                                                                                                        |
-| :----: | :--------- | :-------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- |
-| `1.0`  | 14/10/2025 | Criação da estrutura inicial da página                                                                          | [Brunno Fernandes](https://github.com/brunnoff)           | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)                                                      |
-| `1.1`  | 14/10/2025 | Adicionando tabela, questões e métricas                                                                         | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Pedro Lucas Dourado](https://github.com/lucasdray)                                                            |
-| `2.0`  | 14/10/2025 | Adição de 3 novas questões (Q6-Q8)                                                                              | [Pedro Lucas Dourado](https://github.com/lucasdray)       | [Othavio Bolzan](https://github.com/bolzanMGB)                                                                 |
-| `2.1`  | 14/10/2025 | Padronizando a documentação das métricas                                                                        | [Othavio Bolzan](https://github.com/bolzanMGB)            | [Brunno Fernandes](https://github.com/brunnoff)                                                                |
-| `3.0`  | 20/10/2025 | Refatoração GQM: generalização de questões, adição de hipóteses e diretrizes.                                   | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff)                                                                |
-| `3.1`  | 24/10/2025 | Adição das fontes dos números de hipótese, revisão das perguntas deixando mais generalizadas e revisão do texto | [Pedro Lucas Dourado](https://github.com/lucasdray)       | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)                                                      |
-| `3.2`  | 25/10/2025 | Adição do diagrama de representação da hierarquia GQM                                                           | [Brunno Fernandes](https://github.com/brunnoff)           | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7), [Pedro Lucas Dourado](https://github.com/lucasdray) |
+| Versão | Data       | Descrição                                                                                                       | Autor                                                     | Revisor                                                   |
+| :----: | :--------- | :-------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------- | :-------------------------------------------------------- |
+| `1.0`  | 14/10/2025 | Criação da estrutura inicial da página                                                                          | [Brunno Fernandes](https://github.com/brunnoff)           | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
+| `1.1`  | 14/10/2025 | Adicionando tabela, questões e métricas                                                                         | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Pedro Lucas Dourado](https://github.com/lucasdray)       |
+| `2.0`  | 14/10/2025 | Adição de 3 novas questões (Q6-Q8)                                                                              | [Pedro Lucas Dourado](https://github.com/lucasdray)       | [Othavio Bolzan](https://github.com/bolzanMGB)            |
+| `2.1`  | 14/10/2025 | Padronizando a documentação das métricas                                                                        | [Othavio Bolzan](https://github.com/bolzanMGB)            | [Brunno Fernandes](https://github.com/brunnoff)           |
+| `3.0`  | 20/10/2025 | Refatoração GQM: generalização de questões, adição de hipóteses e diretrizes.                                   | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff)           |
+| `3.1`  | 24/10/2025 | Adição das fontes dos números de hipótese, revisão das perguntas deixando mais generalizadas e revisão do texto | [Pedro Lucas Dourado](https://github.com/lucasdray)       |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)                                                         |
+| `3.2`  | 25/10/2025 | Adição do diagrama de representação da hierarquia GQM | [Brunno Fernandes](https://github.com/brunnoff)        |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)                | [Othavio Bolzan ](https://github.com/bolzanMGB) 
+| `3.3`  | 17/11/2025 | Pequenos ajudes no Diagrama GQMAdição do diagrama de representação da hierarquia GQM | [Othavio Bolzan ](https://github.com/bolzanMGB) | [Brunno Fernandes](https://github.com/brunnoff)|
