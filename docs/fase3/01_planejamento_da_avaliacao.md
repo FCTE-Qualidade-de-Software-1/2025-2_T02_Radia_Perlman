@@ -12,12 +12,12 @@ A tabela abaixo garante que todas as métricas definidas na Fase 2 sejam coberta
 
 | Característica          | Métrica (Fase 2)                        | ID do Caso de Teste (Fase 3) |
 | :---------------------- | :-------------------------------------- | :--------------------------- |
-| **Adequação Funcional** | M1.1: % Completude Tarefas Essenciais   | CT-AF-01                     |
-| **Adequação Funcional** | M2.1: % Precisão Feedback               | CT-AF-02                     |
-| **Adequação Funcional** | M2.2: % Integridade e Recuperação Dados | CT-AF-03                     |
-| **Adequação Funcional** | M2.3: % Precisão Notificações           | CT-AF-04                     |
-| **Adequação Funcional** | M3.1: % Buscas Bem-sucedidas            | CT-AF-05                     |
-| **Adequação Funcional** | M3.2: Média Adequação (Likert)          | CT-AF-06                     |
+| **Adequação Funcional** | M1.1: % Completude Tarefas Essenciais   | CT-AF-01 e CT-AF-02          |
+| **Adequação Funcional** | M2.1: % Precisão Feedback               | CT-AF-03                     |
+| **Adequação Funcional** | M2.2: % Integridade e Recuperação Dados | CT-AF-04                     |
+| **Adequação Funcional** | M2.3: % Precisão Notificações           | CT-AF-05                     |
+| **Adequação Funcional** | M3.1: % Buscas Bem-sucedidas            | CT-AF-06                     |
+| **Adequação Funcional** | M3.2: Média Adequação (Likert)          | CT-AF-07                     |
 | **Portabilidade**       | M1.1: Adaptabilidade Hardware           | CT-P-01                      |
 | **Portabilidade**       | M1.2: Adaptabilidade Software           | CT-P-01                      |
 | **Portabilidade**       | M2.1: Esforço para Instalar             | CT-P-02                      |

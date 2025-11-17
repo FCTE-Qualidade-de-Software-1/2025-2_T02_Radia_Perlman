@@ -1,27 +1,47 @@
 # 2. Casos de Teste - Adequação Funcional
 
-Esta seção detalha os Casos de Teste (CTs) projetados para coletar os dados das métricas de Adequação Funcional (AF) definidas na Fase 2.
+Esta seção tem o propósito de detalhar os Casos de Teste (CTs) projetados para realizar a execução da avaliação relacionada à característica de Adequação Funcional (AF). Cada CT é associado a uma das métricas anteriormente definidas na Fase 2, na qual essas estão atreladas a uma Questão que serve como base do plano de medição.
+
 
 ---
 
-### CT-AF-01: Verificação de Completude de Tarefas Essenciais
+### CT-AF-01: Verificação de Completude de Tarefas Essenciais - Educador
 * **Métrica Associada:** M1.1 (% Completude Tarefas Essenciais)
-* **Objetivo:** Verificar se o fluxo principal do usuário (Educador e Aluno) pode ser completado sem impedimentos funcionais.
-* **Pré-condições:** Acesso a duas contas de usuário (1 Educador, 1 Aluno).
+* **Objetivo:** Verificar se o fluxo principal do Educador pode ser completado sem impedimentos funcionais.
+* **Pré-condições:** Acesso a uma conta de Educador.
 * **Passos de Execução:**
-    1.  [Educador] Fazer login e navegar para o "Painel do Criador".
-    2.  [Educador] Criar uma nova "Exploration" (lição).
-    3.  [Educador] Adicionar uma interação de "Múltipla Escolha".
-    4.  [Educador] Publicar a lição.
-    5.  [Aluno] Fazer login e navegar para o "Painel do Aprendiz".
-    6.  [Aluno] Encontrar e iniciar a lição criada no passo 4.
-    7.  [Aluno] Responder à questão e concluir a lição.
-    8.  [Aluno] Verificar se a lição aparece como concluída no painel.
-* **Resultado Esperado:** Todas as 8 etapas são concluídas com sucesso. A lição é criada, publicada, respondida e marcada como concluída.
+    1.  Fazer login e navegar para o "Painel do Criador".
+    2.  Criar uma nova Exploração (lição).
+    3.  Adicionar um texto de introdução e a pergunta clicando no ícone de lápis e depois salvar clicando em "Save Content".
+    4.  Adicionar uma interação de "Multiple Choice" (Múltipla Escolha).
+    5.  Adicionar 4 opções de resposta e clicar em "Save Interaction".
+    6.  Selecionar uma resposta correta, adicionar texto de resposta do Oppia, no campo "And afterwards, directs the learner to ..." alterar de "(try again)" para "A New Card Called...", adicionar nome do novo card, marcar a caixa "The answers in this group are correct", salvar no botão "Save".
+    7.  Alterar o componente "All other answers", adicionar texto de resposta do Oppia clicando em "Save Feedback".
+    8.  Em "Exploration Overview" selecionar o novo card criado.
+    9.  Adicionar uma interação "End Exploration".
+    10. Salvar a lição.
+    11. Publicar a lição.
+* **Resultado Esperado:** Todas as 11 etapas são concluídas com sucesso. A lição é criada e publicada.
 
 ---
 
-### CT-AF-02: Verificação de Precisão do Feedback
+### CT-AF-02: Verificação de Completude de Tarefas Essenciais - Aluno
+* **Métrica Associada:** M1.1 (% Completude Tarefas Essenciais)
+* **Objetivo:** Verificar se o fluxo principal do Aluno pode ser completado sem impedimentos funcionais.
+* **Pré-condições:** Acesso a uma conta de Aluno. Uma lição publicada disponível na plataforma.
+* **Passos de Execução:**
+    1.  Fazer login e navegar para o "Painel do Aprendiz".
+    2.  Selecionar uma lição disponível.
+    3.  Avançar a lição e responder as questões até atingir um ponto de controle.
+    4.  Verificar no Painel do Aprendiz se a lição consta como iniciada.
+    5.  Verificar se a lição salvou o ponto de controle.
+    6.  Finalizar a lição        .
+    7.  Verificar se a lição no Painel do Aprendiz consta como concluída.
+* **Resultado Esperado:** Todas as 6 etapas são concluídas com sucesso. A lição é respondida e marcada como concluída.
+
+---
+
+### CT-AF-03: Verificação de Precisão do Feedback
 * **Métrica Associada:** M2.1 (% Precisão Feedback)
 * **Objetivo:** Avaliar a precisão do feedback para diferentes tipos de interação e respostas.
 * **Pré-condições:** Uma lição de teste com 3 tipos de resposta (correta, incorreta-específica, incorreta-padrão) está disponível.
@@ -34,7 +54,7 @@ Esta seção detalha os Casos de Teste (CTs) projetados para coletar os dados da
 
 ---
 
-### CT-AF-03: Verificação de Integridade e Recuperação de Dados
+### CT-AF-04: Verificação de Integridade e Recuperação de Dados
 * **Métrica Associada:** M2.2 (% Integridade e Recuperação Dados)
 * **Objetivo:** Verificar se o progresso do aluno e os rascunhos do educador são salvos e recuperados corretamente após uma interrupção.
 * **Passos de Execução (Aluno):**
@@ -51,7 +71,7 @@ Esta seção detalha os Casos de Teste (CTs) projetados para coletar os dados da
 
 ---
 
-### CT-AF-04: Verificação de Precisão de Notificações
+### CT-AF-05: Verificação de Precisão de Notificações
 * **Métrica Associada:** M2.3 (% Precisão Notificações)
 * **Objetivo:** Avaliar a correção das notificações geradas pela plataforma.
 * **Passos de Execução:**
@@ -63,7 +83,7 @@ Esta seção detalha os Casos de Teste (CTs) projetados para coletar os dados da
 
 ---
 
-### CT-AF-05: Verificação de Eficiência da Busca
+### CT-AF-06: Verificação de Eficiência da Busca
 * **Métrica Associada:** M3.1 (% Buscas Bem-sucedidas)
 * **Objetivo:** Avaliar a relevância dos resultados da busca na biblioteca.
 * **Passos de Execução:**
@@ -73,7 +93,7 @@ Esta seção detalha os Casos de Teste (CTs) projetados para coletar os dados da
 
 ---
 
-### CT-AF-06: Avaliação Qualitativa (Likert)
+### CT-AF-07: Avaliação Qualitativa (Likert)
 * **Métrica Associada:** M3.2 (Média Adequação Funcionalidades)
 * **Objetivo:** Coletar a percepção de adequação dos usuários (equipe) após a execução dos testes.
 * **Passos de Execução:**
@@ -85,6 +105,7 @@ Esta seção detalha os Casos de Teste (CTs) projetados para coletar os dados da
 
 ## Histórico de Versões
 
-| Versão | Data | Descrição | Autor | Revisor |
-| :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | |
+| Versão |    Data    | Descrição                              | Autor                                                       | Revisor                                                     |
+| :----: | :--------: | :------------------------------------- | :---------------------------------------------------------- | :---------------------------------------------------------- |
+| `1.0`  | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff)             | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
+| `1.1`  | 17/11/2025 | Criação do CT-AF-01 e CT-AF-02         | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |                                                             |
