@@ -46,11 +46,10 @@ Esta seção tem o propósito de detalhar os Casos de Teste (CTs) projetados par
 * **Objetivo:** Avaliar a precisão do feedback para diferentes tipos de interação e respostas.
 * **Pré-condições:** Uma lição de teste com 3 tipos de resposta (correta, incorreta-específica, incorreta-padrão) está disponível.
 * **Passos de Execução:**
-    1.  [Aluno] Acessar a lição de teste de feedback.
-    2.  Submeter a resposta "Correta".
-    3.  Submeter a resposta "Incorreta Específica".
-    4.  Submeter uma resposta "Incorreta Padrão".
-* **Resultado Esperado:** O feedback exibido em cada passo corresponde 100% ao feedback esperado para o tipo de resposta fornecida.
+    1.  [Aluno] Acessar a lição de teste de feedback disponibilizada.
+    2.  Responder com todas as respostas "Incorreta" disponíveis.
+    3.  Responder com a resposta "Correta".
+* **Resultado Esperado:** Independente da resposta escolhida o usuário deve receber um feedback detalhando se a resposta estava incorreta e correta.
 
 ---
 
