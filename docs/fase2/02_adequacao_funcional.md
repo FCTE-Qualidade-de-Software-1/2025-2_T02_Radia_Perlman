@@ -47,7 +47,7 @@ O diagrama abaixo ilustra a hierarquia do plano de medição para a característ
 
 
 ```mermaid
-  graph TD
+    graph TD
       subgraph GQM Adequação Funcional
           G1("<b>G1:</b> Avaliar<br>Adequação Funcional<br>do Oppia") --> Q1("<b>Q1:</b> Completude<br>Funcional?");
           G1 --> Q2("<b>Q2:</b> Correção<br>Funcional?");
@@ -57,6 +57,7 @@ O diagrama abaixo ilustra a hierarquia do plano de medição para a característ
 
           Q2 --> M2_1("<b>M2.1:</b> % Precisão<br>Feedback");
           Q2 --> M2_2("<b>M2.2:</b> % Integridade<br>e Recuperação Dados");
+          Q2 --> M2_3("<b>M2.3:</b> % Precisão<br>Notificações");
 
           Q3 --> M3_1("<b>M3.1:</b> % Buscas<br>Bem-sucedidas");
           Q3 --> M3_2("<b>M3.2:</b> Média Adequação<br>Funcionalidades (Likert)");
@@ -101,6 +102,8 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Adequa
   * **Hipótese de Aceitação:** 99.5% de sucesso na preservação dos dados do usuário (progresso do aluno, rascunho do criador).
   * **Fonte (Diretriz):** [ISO/IEC 25010](#iso25010) (Correção). Medido via testes de estresse, concorrência (múltiplos editores) e interrupção (simulação de falha de rede ou fechamento do app).
   * **Fonte (Número da hipótese de aceitação):** Múltiplas fontes, como [dbt Labs](#dbt) e [SAP](#sap), citam "99.5%" como um benchmark padrão para confiabilidade (SLO - Service Level Objective) e níveis de desempenho operacional. Portanto, adotamos 99.5% como nossa
+
+**Métrica 2.3 — Taxa de Precisão de Notificação**
 
   * **Fórmula:** % de precisão de notificações = (Nº de notificações entregues corretamente e no tempo esperado / Nº total de eventos que deveriam gerar notificações) × 100.
   * **Hipótese de Aceitação:** 95% de precisão e entrega dentro do tempo limite definido (ex: 5 minutos).
