@@ -103,13 +103,6 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Adequa
   * **Fonte (Diretriz):** [ISO/IEC 25010](#iso25010) (Correção). Medido via testes de estresse, concorrência (múltiplos editores) e interrupção (simulação de falha de rede ou fechamento do app).
   * **Fonte (Número da hipótese de aceitação):** Múltiplas fontes, como [dbt Labs](#dbt) e [SAP](#sap), citam "99.5%" como um benchmark padrão para confiabilidade (SLO - Service Level Objective) e níveis de desempenho operacional. Portanto, adotamos 99.5% como nossa
 
-**Métrica 2.3 — Taxa de Precisão de Notificações**
-
-  * **Fórmula:** % de precisão de notificações = (Nº de notificações entregues corretamente e no tempo esperado / Nº total de eventos que deveriam gerar notificações) × 100.
-  * **Hipótese de Aceitação:** 95% de precisão e entrega dentro do tempo limite definido (ex: 5 minutos).
-  * **Fonte (Diretriz):** [ISO/IEC 25010](#iso25010) (Correção). Medido por testes de integração de ponta a ponta (end-to-end) em cenários de submissão e atualização.
-  * **Fonte (Número da hipótese de aceitação):** O [CleverTap](#clevertap), ao discutir métricas de notificação, utiliza 95% como exemplo de cálculo para uma taxa de entrega (delivery rate) bem-sucedida. Baseado nisso, definimos nossa hipótese em 95%.
-
 
 -----
 
@@ -145,25 +138,24 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Adequa
 
 > <a id="sap"  href="#anchor_5">5.</a>SAP. P&T Greyhound© Add-on for SAP® ERP (PNT Software & Consulting GmbH). SAP Store. Disponível em: https://www.sap.com/brazil/products/erp/partners/piccolinet-gmbh-pntgreyhound-addon.html.
 
-> <a id="clevertap"  href="#anchor_6">6.</a>CLEVERTAP. Push Notification Metrics That Matter: CTR, Open Rate, and More. CleverTap Blog. Disponível em: https://clevertap.com/blog/push-notification-metrics-ctr-open-rate/.
+> <a id="elastic"  href="#anchor_6">6.</a>ELASTIC. What is search relevance?. Elastic. Disponível em: https://www.elastic.co/what-is/search-relevance.
 
-> <a id="elastic"  href="#anchor_7">7.</a>ELASTIC. What is search relevance?. Elastic. Disponível em: https://www.elastic.co/what-is/search-relevance.
+> <a id="helpcrunch"  href="#anchor_7">7.</a>HELPCRUNCH. Top 9 Customer Satisfaction Metrics to Measure (CSAT, NPS, CES). HelpCrunch Blog. Disponível em: https://helpcrunch.com/blog/customer-satisfaction-metrics/.
 
-> <a id="helpcrunch"  href="#anchor_8">8.</a>HELPCRUNCH. Top 9 Customer Satisfaction Metrics to Measure (CSAT, NPS, CES). HelpCrunch Blog. Disponível em: https://helpcrunch.com/blog/customer-satisfaction-metrics/.
-
-> <a id="user_pilot"  href="#anchor_9">9.</a>USERPILOT. Customer Satisfaction Benchmarking: What Is a Good CSAT Score?. Userpilot Blog. Disponível em: https://userpilot.com/blog/customer-satisfaction-benchmarking/.
+> <a id="user_pilot"  href="#anchor_8">8.</a>USERPILOT. Customer Satisfaction Benchmarking: What Is a Good CSAT Score?. Userpilot Blog. Disponível em: https://userpilot.com/blog/customer-satisfaction-benchmarking/.
 
 -----
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição                                                                                                       | Autor                                                     | Revisor                                                   |
-| :----: | :--------- | :-------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------- | :-------------------------------------------------------- |
-| `1.0`  | 14/10/2025 | Criação da estrutura inicial da página                                                                          | [Brunno Fernandes](https://github.com/brunnoff)           | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
-| `1.1`  | 14/10/2025 | Adicionando tabela, questões e métricas                                                                         | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Pedro Lucas Dourado](https://github.com/lucasdray)       |
-| `2.0`  | 14/10/2025 | Adição de 3 novas questões (Q6-Q8)                                                                              | [Pedro Lucas Dourado](https://github.com/lucasdray)       | [Othavio Bolzan](https://github.com/bolzanMGB)            |
-| `2.1`  | 14/10/2025 | Padronizando a documentação das métricas                                                                        | [Othavio Bolzan](https://github.com/bolzanMGB)            | [Brunno Fernandes](https://github.com/brunnoff)           |
-| `3.0`  | 20/10/2025 | Refatoração GQM: generalização de questões, adição de hipóteses e diretrizes.                                   | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff)           |
-| `3.1`  | 24/10/2025 | Adição das fontes dos números de hipótese, revisão das perguntas deixando mais generalizadas e revisão do texto | [Pedro Lucas Dourado](https://github.com/lucasdray)       |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)                                                         |
-| `3.2`  | 25/10/2025 | Adição do diagrama de representação da hierarquia GQM | [Brunno Fernandes](https://github.com/brunnoff)        |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)                | [Othavio Bolzan ](https://github.com/bolzanMGB) 
-| `3.3`  | 17/11/2025 | Pequenos ajudes no Diagrama GQMAdição do diagrama de representação da hierarquia GQM | [Othavio Bolzan ](https://github.com/bolzanMGB) | [Brunno Fernandes](https://github.com/brunnoff)|
+| Versão | Data       | Descrição                                                                                                       | Autor                                                       | Revisor                                                   |
+| :----: | :--------- | :-------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------- | :-------------------------------------------------------- |
+| `1.0`  | 14/10/2025 | Criação da estrutura inicial da página                                                                          | [Brunno Fernandes](https://github.com/brunnoff)             | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
+| `1.1`  | 14/10/2025 | Adicionando tabela, questões e métricas                                                                         | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)   | [Pedro Lucas Dourado](https://github.com/lucasdray)       |
+| `2.0`  | 14/10/2025 | Adição de 3 novas questões (Q6-Q8)                                                                              | [Pedro Lucas Dourado](https://github.com/lucasdray)         | [Othavio Bolzan](https://github.com/bolzanMGB)            |
+| `2.1`  | 14/10/2025 | Padronizando a documentação das métricas                                                                        | [Othavio Bolzan](https://github.com/bolzanMGB)              | [Brunno Fernandes](https://github.com/brunnoff)           |
+| `3.0`  | 20/10/2025 | Refatoração GQM: generalização de questões, adição de hipóteses e diretrizes.                                   | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)   | [Brunno Fernandes](https://github.com/brunnoff)           |
+| `3.1`  | 24/10/2025 | Adição das fontes dos números de hipótese, revisão das perguntas deixando mais generalizadas e revisão do texto | [Pedro Lucas Dourado](https://github.com/lucasdray)         | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
+| `3.2`  | 25/10/2025 | Adição do diagrama de representação da hierarquia GQM                                                           | [Brunno Fernandes](https://github.com/brunnoff)             | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Othavio Bolzan ](https://github.com/bolzanMGB)
+| `3.3`  | 17/11/2025 | Pequenos ajudes no Diagrama GQMAdição do diagrama de representação da hierarquia GQM                            | [Othavio Bolzan ](https://github.com/bolzanMGB)             | [Brunno Fernandes](https://github.com/brunnoff)           |
+| `4.0`  | 20/11/2025 | Remoção da métrica 2.3 e da referência CleverTap                                                                | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |                                                           |
