@@ -57,7 +57,6 @@ O diagrama abaixo ilustra a hierarquia do plano de medição para a característ
 
           Q2 --> M2_1("<b>M2.1:</b> % Precisão<br>Feedback");
           Q2 --> M2_2("<b>M2.2:</b> % Integridade<br>e Recuperação Dados");
-          Q2 --> M2_3("<b>M2.3:</b> % Precisão<br>Notificações");
 
           Q3 --> M3_1("<b>M3.1:</b> % Buscas<br>Bem-sucedidas");
           Q3 --> M3_2("<b>M3.2:</b> Média Adequação<br>Funcionalidades (Likert)");
