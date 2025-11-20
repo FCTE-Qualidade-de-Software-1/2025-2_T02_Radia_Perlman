@@ -1,0 +1,1942 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Projeto da disciplina FGA315 - Qualidade de Software 1: Avaliação da Qualidade da plataforma Oppia.">
+      
+      
+      
+        <link rel="canonical" href="https://fcte-qualidade-de-software-1.github.io/2025-2_T02_Radia_Perlman/fase1/03_descricao_produto/">
+      
+      
+        <link rel="prev" href="../02_requisitante/">
+      
+      
+        <link rel="next" href="../04_modelo_qualidade/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/logo-unb.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>3. Descrição do Produto de Software - Radia Perlman - Turma 2 - 2025.2</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#3-descricao-do-produto-de-software" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Radia Perlman - Turma 2 - 2025.2" class="md-header__button md-logo" aria-label="Radia Perlman - Turma 2 - 2025.2" data-md-component="logo">
+      
+  <img src="../../assets/images/logo-unb.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Radia Perlman - Turma 2 - 2025.2
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              3. Descrição do Produto de Software
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Mudar para modo claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange"  aria-label="Mudar para modo escuro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo escuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_Radia_Perlman" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025-2_T02_Radia_Perlman
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Introdução
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../01_proposito/" class="md-tabs__link">
+          
+  
+  
+  Fase 1 - Requisitos da Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fase2/01_plano_de_medicao_gqm/" class="md-tabs__link">
+          
+  
+  
+  Fase 2 - Especificação da Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fase3/01_planejamento_da_avaliacao/" class="md-tabs__link">
+          
+  
+  
+  Fase 3 - Projeto da Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fase4/01_dados_brutos/" class="md-tabs__link">
+          
+  
+  
+  Fase 4 - Execução da Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../declaracao_ia/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Declaração de Uso de IA
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Radia Perlman - Turma 2 - 2025.2" class="md-nav__button md-logo" aria-label="Radia Perlman - Turma 2 - 2025.2" data-md-component="logo">
+      
+  <img src="../../assets/images/logo-unb.png" alt="logo">
+
+    </a>
+    Radia Perlman - Turma 2 - 2025.2
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_Radia_Perlman" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025-2_T02_Radia_Perlman
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introdução
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 1 - Requisitos da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 1 - Requisitos da Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_proposito/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Propósito e Uso dos Resultados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_requisitante/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Requisitante e Partes Interessadas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Descrição do Produto de Software
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Descrição do Produto de Software
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#31-classificacao-do-tipo-de-produto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Classificação do Tipo de Produto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32-estrutura-do-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Estrutura do Software
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 Estrutura do Software">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modulos-principais-do-oppia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Módulos Principais do Oppia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-desktop-e-mobile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interfaces (Desktop e Mobile)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plataforma-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Plataforma Web
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fluxo-de-requisicao-do-perfil-servidor-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Requisição do Perfil (Servidor Web)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backend
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#frontend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frontend
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aplicativo-android" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aplicativo Android
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versão
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Referências
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04_modelo_qualidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Modelo de Qualidade (SQuaRE)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05_selecao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. Seleção e Priorização de Características
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_escopo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6. Escopo e Profundidade da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07_ods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7. Vínculo com ODS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 2 - Especificação da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 2 - Especificação da Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase2/01_plano_de_medicao_gqm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Plano de Medição (GQM)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase2/02_adequacao_funcional/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Característica - Adequação Funcional
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase2/03_portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Característica - Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 3 - Projeto da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 3 - Projeto da Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/01_planejamento_da_avaliacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Planejamento da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/02_casos_teste_af/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Casos de Teste - Adequação Funcional
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/03_casos_teste_port/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Casos de Teste - Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/04_ambiente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Ferramentas e Ambiente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 4 - Execução da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 4 - Execução da Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/01_dados_brutos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Evidências - Dados Brutos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/02_resultados_af/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Resultados - Adequação Funcional
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/03_resultados_port/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Resultados - Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/04_conclusao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Conclusão da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../declaracao_ia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Declaração de Uso de IA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#31-classificacao-do-tipo-de-produto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Classificação do Tipo de Produto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32-estrutura-do-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Estrutura do Software
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 Estrutura do Software">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modulos-principais-do-oppia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Módulos Principais do Oppia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-desktop-e-mobile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interfaces (Desktop e Mobile)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plataforma-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Plataforma Web
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fluxo-de-requisicao-do-perfil-servidor-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluxo de Requisição do Perfil (Servidor Web)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backend
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#frontend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frontend
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aplicativo-android" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aplicativo Android
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versão
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Referências
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="3-descricao-do-produto-de-software">3. Descrição do Produto de Software<a class="headerlink" href="#3-descricao-do-produto-de-software" title="Permanent link">&para;</a></h1>
+<p>O Oppia é uma plataforma educacional interativa de código aberto, voltada para estudantes, professores e criadores de conteúdo. Seu objetivo principal é facilitar o aprendizado ativo e personalizado por meio de lições interativas chamadas “explorações”, que se adaptam às respostas e ao ritmo de cada usuário.</p>
+<p>O sistema permite também que usuários criem conteúdo educacional, adicionando perguntas, explicações e multimídia, tornando-o uma ferramenta tanto de consumo quanto de produção de conhecimento. O Oppia funciona em navegadores web e em aplicativo Android, permitindo acesso online e offline.</p>
+<p>A seguir, apresenta-se uma descrição detalhada do produto, organizada em tabela, abrangendo tipo, funcionalidades, usuários, ambiente de uso e outros aspectos relevantes para a avaliação de qualidade do software:</p>
+<p align="center"> Tabela 1 - Descrição Detalhada do Produto Oppia </a> </p>
+
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome</td>
+<td>Oppia</td>
+</tr>
+<tr>
+<td>Tipo</td>
+<td>Plataforma educacional interativa (Web e Mobile), código aberto, disponível para múltiplos usuários e sem fins lucrativos</td>
+</tr>
+<tr>
+<td>Repositório</td>
+<td><a href="https://github.com/oppia/oppia">https://github.com/oppia/oppia</a></td>
+</tr>
+<tr>
+<td>Backend</td>
+<td>Python (Django)</td>
+</tr>
+<tr>
+<td>Banco de Dados</td>
+<td>MariaDB / MySQL</td>
+</tr>
+<tr>
+<td>Plataforma</td>
+<td>Navegadores web (desktop e mobile), App Android</td>
+</tr>
+<tr>
+<td>Público-alvo</td>
+<td>Estudantes, professores/educadores e voluntários criadores de conteúdo educacional</td>
+</tr>
+<tr>
+<td>Principais funções</td>
+<td>1. Navegar e acessar explorações<br>2. Responder perguntas interativas e receber feedback<br>3. Criar e editar explorações<br>4. Gerenciar conta, objetivos e progresso do usuário<br>5. Visualizar estatísticas de desempenho</td>
+</tr>
+<tr>
+<td>Principais tarefas</td>
+<td>Aprendizado interativo e personalizado; <br> Criação e publicação de conteúdo educativo; <br> Monitoramento do progresso do aluno</td>
+</tr>
+<tr>
+<td>Janelas de interação</td>
+<td>Login/cadastro; <br> Dashboard do usuário; Tela de exploração; <br> Editor de explorações; <br> Visualização de estatísticas</td>
+</tr>
+<tr>
+<td>Ambiente de uso</td>
+<td>Escolas, cursos online e ambientes de aprendizagem individuais; <br> Acesso via internet (web) ou app móvel (Android)</td>
+</tr>
+<tr>
+<td>Nível de conhecimento em informática</td>
+<td>Básico a intermediário (navegação e uso do app)</td>
+</tr>
+<tr>
+<td>Nível de conhecimento no domínio</td>
+<td>Não é necessário conhecimento técnico;</td>
+</tr>
+<tr>
+<td>Componentes para avaliação</td>
+<td>Interface de exploração; editor de autoria; gestão de usuários e progresso</td>
+</tr>
+<tr>
+<td>Massa de dados disponível</td>
+<td>Explorações dpúblicas e conteúdo educacional já existentes na plataforma</td>
+</tr>
+<tr>
+<td>Requisitos de hardware/software</td>
+<td>Navegador moderno ou Android 7.0+; <br> Conexão com internet (uso offline via app disponível)</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte: </b>Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+<h2 id="31-classificacao-do-tipo-de-produto">3.1 Classificação do Tipo de Produto<a class="headerlink" href="#31-classificacao-do-tipo-de-produto" title="Permanent link">&para;</a></h2>
+<p>A classificação de produtos de software é importante para entender seu escopo, forma de distribuição e complexidade, além de auxiliar na definição dos critérios de avaliação de qualidade.
+Existem diversas formas de classificar software, considerando domínio de aplicação, modelo de negócio, características construtivas e disponibilidade de dados.</p>
+<p>Entre as classificações mais conhecidas estão:</p>
+<ul>
+<li>
+<p><strong>Pressman (2002):</strong> define categorias como software básico, comercial, científico/engenharia, embarcado, de computador pessoal e inteligência artificial.</p>
+</li>
+<li>
+<p><strong>IEEE 1062 (1998):</strong> classifica produtos em COTS (Commercial Off-The-Shelf), MOTS (Modified Off-The-Shelf) e CUSTOMIZADO/FD (Fully Developed), considerando o nível de customização, manutenção, prazo de entrega e adequação ao uso do software.</p>
+</li>
+<li>
+<p><strong>Categorias práticas:</strong> utilizadas em premiações ou avaliações, como educação, saúde, varejo, indústria, entre outras, destacando o domínio de aplicação do software.</p>
+</li>
+</ul>
+<p>A seguir, apresentamos a classificação do Oppia segundo essas abordagens:</p>
+<p align="center"> Tabela 2 - Classificação do Produto Oppia </a> </p>
+
+<table>
+<thead>
+<tr>
+<th>Critério</th>
+<th>Classificação</th>
+<th>Justificativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Segundo Pressman (2002)</td>
+<td><strong>Software Comercial</strong></td>
+<td>Produto padronizado e completo, disponível para um público amplo, com funcionalidades definidas; mesmo sendo de organização sem fins lucrativos, sua natureza funcional se enquadra nesta categoria.</td>
+</tr>
+<tr>
+<td>Segundo IEEE 1062 (1998)</td>
+<td><strong>COTS (Commercial Off-The-Shelf Software)</strong></td>
+<td>Produto pronto, utilizado por diversos usuários, sem desenvolvimento específico para Clientee; avaliação pode ser feita com critérios gerais de qualidade.</td>
+</tr>
+<tr>
+<td>Categoria prática</td>
+<td><strong>Educação e entretenimento</strong></td>
+<td>Plataforma voltada à disseminação de conhecimento e criação de conteúdo educativo interativo; público-alvo: estudantes, professores e criadores de conteúdo.</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte: </b>Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+<h2 id="32-estrutura-do-software">3.2 Estrutura do Software<a class="headerlink" href="#32-estrutura-do-software" title="Permanent link">&para;</a></h2>
+<p>A arquitetura de um software define seus componentes fundamentais e como eles interagem, sendo o projeto crucial para a longevidade e manutenibilidade de um sistema. O objetivo principal de uma boa arquitetura é gerenciar a complexidade e minimizar o custo de vida do sistema, facilitando modificações e adições futuras através da separação de interesses <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>. Geralmente, isso é alcançado separando as responsabilidades em camadas distintas, como a interface com o usuário (frontend), a lógica de negócios (backend) e o armazenamento de dados.</p>
+<p>A plataforma educacional Oppia é um excelente exemplo dessa engenharia estruturada. Ela foi projetada para ser uma ferramenta poderosa e acessível, o que exigiu a criação de duas arquiteturas distintas, mas complementares: uma plataforma web completa e um aplicativo Android nativo, cada uma com tecnologias e padrões específicos para atender às suas finalidades <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</p>
+<h3 id="modulos-principais-do-oppia">Módulos Principais do Oppia<a class="headerlink" href="#modulos-principais-do-oppia" title="Permanent link">&para;</a></h3>
+<p>O ecossistema Oppia é organizado em torno do conceito de "Explorações" equivalentes à lições interativas que guiam os alunos por um caminho de aprendizado. A plataforma web, que é o coração do sistema, é composta por vários módulos principais, como o núcleo que gerencia a lógica das lições, um módulo de extensões para interações ricas, o backend que processa a lógica de negócios e um conjunto de scripts para gerenciamento de dados e tarefas em segundo plano <sup id="fnref2:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</p>
+<h3 id="interfaces-desktop-e-mobile">Interfaces (Desktop e Mobile)<a class="headerlink" href="#interfaces-desktop-e-mobile" title="Permanent link">&para;</a></h3>
+<p>A Oppia atinge seus usuários por meio de duas interfaces principais, cada uma projetada para um contexto de uso diferente:</p>
+<ul>
+<li><strong>Interface Web (Desktop):</strong> É a plataforma principal, acessada por um navegador, que oferece a experiência completa do Oppia, incluindo a criação de conteúdo por educadores. É a interface ideal para usuários com acesso estável à internet <sup id="fnref4:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</li>
+<li><strong>Interface Mobile (Android):</strong> É um aplicativo nativo projetado com uma abordagem "offline-first", visando tornar o aprendizado acessível em áreas com conectividade limitada. O aplicativo permite baixar lições e sincronizar o progresso posteriormente, com uma arquitetura otimizada para o desempenho em dispositivos móveis <sup id="fnref2:4"><a class="footnote-ref" href="#fn:4">4</a></sup>.</li>
+</ul>
+<h3 id="plataforma-web">Plataforma Web<a class="headerlink" href="#plataforma-web" title="Permanent link">&para;</a></h3>
+<p>A plataforma web utiliza <strong>Python</strong> sobre o <strong>Google App Engine (GAE)</strong> para o backend, <strong>AngularJS</strong> e <strong>TypeScript</strong> para o frontend, e <strong>Google Cloud Datastore</strong> como banco de dados NoSQL. A arquitetura se baseia em <strong>MVC (Model-View-Controller)</strong> Para a funcionalidade de busca, o sistema emprega <strong>Elasticsearch</strong>, enquanto tarefas assíncronas são gerenciadas pelo <strong>Google Cloud Tasks</strong> <sup id="fnref3:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</p>
+<h3 id="fluxo-de-requisicao-do-perfil-servidor-web">Fluxo de Requisição do Perfil (Servidor Web)<a class="headerlink" href="#fluxo-de-requisicao-do-perfil-servidor-web" title="Permanent link">&para;</a></h3>
+<p>O processo de carregamento da página ocorre em duas etapas principais:</p>
+<p>Primeiramente, o cliente (seu navegador) faz uma requisição inicial ao Servidor Web para carregar a estrutura da página. O servidor aciona o Backend, que devolve a página web contendo o código Frontend.
+Assim que esse código começa a rodar no navegador, o Frontend faz uma segunda requisição ao Servidor Web, mas desta vez para buscar dados específicos (como informações de um perfil). O Backend responde a essa nova chamada enviando apenas os dados brutos, em formato JSON.</p>
+<p>Finalmente, o Frontend utiliza esses dados JSON para montar a página final e exibi-la de forma completa para o cliente. Abaixo é possivel visualizar o diagrama 01 que mostra o fluxo de dados desde o Cliente passando pelo servidor web, o backend e o frontend.</p>
+<p align="center"> Diagrama 01 - Anatomia do Servidor Web</a> </p>
+
+<pre class="mermaid"><code>sequenceDiagram
+    Cliente-&gt;&gt;Servidor Web: Requisição inicial (GET /profile/oppialearner)
+    Servidor Web-&gt;&gt;Backend: ProfilePage.get()
+    Backend-&gt;&gt;Servidor Web: página web com Frontend
+    Servidor Web-&gt;&gt;Frontend: página web com Frontend
+    Note over Frontend: start no Frontend
+    Frontend-&gt;&gt;Servidor Web: Requisição de dados extras (Ex: GET /profilehandler/data/oppialearner)
+    Servidor Web-&gt;&gt; Backend: ProfileHandler:get("oppialearner")
+    Backend-&gt;&gt;Servidor Web: dados do perfil em formato JSON
+    Servidor Web-&gt;&gt;Frontend: dados do perfil em formato JSON
+    Frontend-&gt;&gt;Cliente: Página Web final</code></pre>
+<p align="center"><b>Fonte:  </b> <a href="https://github.com/oppia/oppia/wiki/Overview-of-the-Oppia-codebase">OPPIA</a></p>
+
+<h3 id="backend">Backend<a class="headerlink" href="#backend" title="Permanent link">&para;</a></h3>
+<p align="center"> Diagrama 02 - Backend Web</a> </p>
+
+<pre class="mermaid"><code>sequenceDiagram
+    Cliente-&gt;&gt;Servidor Web: Requisição HTTP
+    Servidor Web-&gt;&gt;Controlador: handler()
+    Controlador-&gt;&gt;Serviço: service_func()
+    Serviço-&gt;&gt;Armazenamento: buscar_por_id(id)
+    Armazenamento-&gt;&gt;Repositório de Dados: obter_todos().filtrar(id)
+    Repositório de Dados-&gt;&gt;Armazenamento: modelo_do_datastore
+    Armazenamento-&gt;&gt;Serviço: modelo_do_datastore
+    Serviço-&gt;&gt;Domínio: obter_objeto_de_dominio(modelo_do_datastore)
+    Note over Domínio: objeto_de_dominio = Modelo(modelo_do_datastore)
+    Domínio-&gt;&gt;Serviço: objeto_de_dominio
+    Note over Serviço: Executa a lógica de negócio aqui
+    Serviço-&gt;&gt;Controlador: objeto_de_dominio
+    Controlador-&gt;&gt;Servidor Web: Resposta JSON
+    Servidor Web-&gt;&gt;Cliente: Resposta HTTP</code></pre>
+<p align="center"><b>Fonte:  </b> <a href="https://github.com/oppia/oppia/wiki/Overview-of-the-Oppia-codebase">OPPIA</a></p>
+
+<p>O diagrama 02 acima ilustra as camadas que compõem a arquitetura do backend do Oppia. Neste fluxo, o "Cliente" pode ser o código frontend rodando no navegador do usuário ou qualquer outro sistema que consuma a API. O processo começa quando o Cliente envia uma Requisição HTTP ao Servidor Web.</p>
+<p>O servidor, por sua vez, encaminha essa requisição para a camada de Controlador, que atua como o ponto de entrada. O controlador invoca um Serviço para executar a lógica de negócio. O serviço, então, interage com a camada de Armazenamento para buscar os dados necessários. A camada de armazenamento consulta o Repositório de Dados (como o Google Cloud Datastore), que retorna um modelo de dados bruto.</p>
+<p>Esse modelo é repassado de volta ao Serviço, que o utiliza para criar um Objeto de Domínio — uma representação mais rica e estruturada dos dados, contendo a lógica de negócio. Com o objeto de domínio em mãos, o serviço executa as operações necessárias e retorna o resultado ao Controlador.</p>
+<p>Finalmente, o controlador formata a resposta (geralmente em JSON) e a envia ao Servidor Web, que a entrega como uma Resposta HTTP ao cliente original, completando o ciclo.</p>
+<h3 id="frontend">Frontend<a class="headerlink" href="#frontend" title="Permanent link">&para;</a></h3>
+<p align="center"> Diagrama 03 - Frontend Web</a> </p>
+
+<pre class="mermaid"><code>sequenceDiagram
+    Usuário-&gt;&gt;Componente: Clica no botão Salvar
+    Componente-&gt;&gt;Serviço: save()
+    Componente-&gt;&gt;Usuário: Mostra indicador de carregamento
+    Serviço-&gt;&gt;Serviço de API do Backend: updateProfile(profile)
+    Serviço de API do Backend-&gt;&gt; Backend: PUT /preferenceshandler/data
+    Serviço de API do Backend-&gt;&gt;Serviço: Retorna uma Promise
+    Serviço-&gt;&gt;Componente: Retorna uma Promise
+    Backend-&gt;&gt; Serviço de API do Backend: 200 OK
+    Serviço de API do Backend-&gt;&gt;Componente: Resolve a Promise
+    Componente-&gt;&gt;Usuário: Mensagem de sucesso</code></pre>
+<p align="center"><b>Fonte:  </b> <a href="https://github.com/oppia/oppia/wiki/Overview-of-the-Oppia-codebase">OPPIA</a></p>
+
+<p>O diagrama descreve um fluxo comum na arquitetura frontend, como salvar as preferências de um usuário. O Usuário interage com um Componente (a interface visual), que, ao receber uma ação, exibe um feedback visual (indicador de carregamento) e aciona um Serviço para lidar com a lógica.</p>
+<p>O serviço, por sua vez, utiliza um Serviço de API do Backend para se comunicar com o servidor. Este serviço especializado envia uma requisição HTTP (neste caso, PUT) para o Backend. A comunicação é assíncrona, utilizando Promises para gerenciar a resposta. Quando o backend confirma o sucesso da operação, a Promise é resolvida, o Componente é notificado e, finalmente, exibe uma mensagem de sucesso para o Usuário.</p>
+<h3 id="aplicativo-android">Aplicativo Android<a class="headerlink" href="#aplicativo-android" title="Permanent link">&para;</a></h3>
+<p>O aplicativo Android é desenvolvido em <strong>Kotlin</strong>, combinando elementos das arquiteturas <strong>MVP (Model-View-Presenter), MVC (Model-View-Controller) e MVVM (Model-View-ViewModel)</strong> e princípios de <strong>Clean Architecture</strong>. Ele utiliza <strong>Room</strong> como banco de dados local para a funcionalidade offline, <strong>Dagger</strong> e <strong>Hilt</strong> para injeção de dependência e <strong>Kotlin Coroutines</strong> para programação assíncrona. O conjunto de testes é baseado em <strong>JUnit</strong>, <strong>Espresso</strong> e <strong>Robolectric</strong> <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>.</p>
+<p>Abaixo na Figura 01 é mostrado como a estrutura de diretorio funciona na versão mobile do aplicativo, e logo abaixo uma explicação de cada módulo exemplificado.</p>
+<p align="center"> Figura 01 - Estrutura de Diretórios. </a> </p>
+
+<p><img alt="Estrutura de Diretórios" src="../../assets/images/android_diagram.png" /></p>
+<p align="center"><b>Fonte:  </b> <a href="https://github.com/oppia/oppia-android/blob/develop/wiki/Overview-of-the-Oppia-Android-codebase-and-architecture.md">OPPIA</a></p>
+
+<h4 id="1-modulo-app">1. Módulo <code>app</code><a class="headerlink" href="#1-modulo-app" title="Permanent link">&para;</a></h4>
+<p>Este é o <strong>módulo principal da aplicação</strong>, contendo todos os componentes de <strong>interface com o usuário (UI)</strong>. Ele abriga as <code>Activities</code>, <code>Fragments</code>, <code>ViewModels</code> e <code>Presenters</code> que compõem as telas do aplicativo. É aqui também que se encontram os testes de interface e integração.
+* <strong>Exemplos:</strong> A pasta <code>app/player</code> contém toda a lógica do player de lições, enquanto <code>app/topic</code> e <code>app/story</code> gerenciam as telas de Tópicos e Histórias, respectivamente.</p>
+<h4 id="2-modulo-data">2. Módulo <code>data</code><a class="headerlink" href="#2-modulo-data" title="Permanent link">&para;</a></h4>
+<p>Responsável por <strong>fornecer dados para a aplicação</strong>. Ele faz a ponte entre o aplicativo e as fontes de dados, seja buscando informações do backend do Oppia ou gerenciando o armazenamento para uso offline.
+* <strong>Exemplos:</strong> A subpasta <code>data/backends</code> contém as APIs para requisitar dados do servidor, e <code>data/persistence</code> oferece suporte ao cache para persistência de dados offline.</p>
+<h4 id="3-modulo-domain">3. Módulo <code>domain</code><a class="headerlink" href="#3-modulo-domain" title="Permanent link">&para;</a></h4>
+<p>Contém a <strong>lógica de negócio</strong> ("business logic") da aplicação. Este módulo é uma biblioteca pura em Java/Kotlin, sem dependências de componentes Android, o que significa que ele lida com regras e controladores centrais de forma independente da interface.
+* <strong>Exemplos:</strong> <code>domain/classify</code> é responsável por classificar as respostas dos usuários, <code>domain/profile</code> gerencia a criação e atualização de perfis, e <code>domain/exploration</code> controla a lógica de como uma lição é carregada e reproduzida.</p>
+<h4 id="4-modulo-model">4. Módulo <code>model</code><a class="headerlink" href="#4-modulo-model" title="Permanent link">&para;</a></h4>
+<p>Esta biblioteca contém exclusivamente as <strong>estruturas de dados</strong> (<code>protos</code>) usadas em todo o aplicativo. Sua única função é definir os modelos de dados, sem conter qualquer lógica de programação.</p>
+<h4 id="5-modulo-utility">5. Módulo <code>utility</code><a class="headerlink" href="#5-modulo-utility" title="Permanent link">&para;</a></h4>
+<p>Como o nome sugere, este módulo fornece <strong>utilitários e ferramentas reutilizáveis</strong> que podem ser usados por qualquer outro módulo. Também é uma biblioteca Java/Kotlin sem dependências diretas do Android.
+* <strong>Exemplos:</strong> Inclui ferramentas para verificar o status da conexão (<code>utility/networking</code>), analisar textos com formatação especial (<code>utility/parser</code>) e um sistema de <code>Logger</code> customizado para o projeto (<code>utility/logging</code>).</p>
+<h4 id="6-modulo-testing">6. Módulo <code>testing</code><a class="headerlink" href="#6-modulo-testing" title="Permanent link">&para;</a></h4>
+<p>Este módulo não faz parte da aplicação final, mas contém <strong>classes e utilitários auxiliares</strong> que facilitam a escrita de testes para os outros módulos, garantindo a qualidade e o bom funcionamento do código.</p>
+<hr />
+<p>Esta é uma visão geral da estrutura. Para uma lista completa e detalhada de todas as funcionalidades e subpastas de cada módulo, <strong>é recomendado consultar a documentação oficial do projeto</strong>.</p>
+<h3 id="historico-de-versao">Histórico de Versão<a class="headerlink" href="#historico-de-versao" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>1.0</code></td>
+<td>28/09/2025</td>
+<td>Criação da estrutura do Documento</td>
+<td><a href="https://github.com/brunnoff">Brunno Fernandes</a></td>
+<td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.1</code></td>
+<td>29/09/2025</td>
+<td>Elaboração da Descrição  e Classificação do Tipo de Produto</td>
+<td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+<td><a href="https://github.com/brunnoff">Brunno Fernandes</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.2</code></td>
+<td>29/09/2025</td>
+<td>Padronização de tópicos e Referências</td>
+<td><a href="https://github.com/M4RINH0">Douglas Marinho</a></td>
+<td><a href="https://github.com/brunnoff">Brunno Fernandes</a> &amp;&amp;   <a href="https://github.com/BiancaPatrocinio7">Bianca Patrocínio</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.3</code></td>
+<td>01/10/2025</td>
+<td>Criação do tópico 3.2 e adição das referências 3,4,5</td>
+<td><a href="https://github.com/lucasdray">Pedro Lucas Dourado</a></td>
+<td><a href="https://github.com/brunnoff">Brunno Fernandes</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="referencias">Referências<a class="headerlink" href="#referencias" title="Permanent link">&para;</a></h3>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>RAMOS, Cristiane Soares. Processo de Avaliação de
+Produto de Software. 2025. Disponível em: https://aprender3.unb.br/pluginfile.php/3230274/mod_resource/content/1/2025-2%20PROC%20AVAL%20PRODUTO.pdf.Acesso em: 29 set. 2025.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Guerra, Ana Cervigni; Colombo, Regina Maria Thienne. Qualidade de produto de software. Disponível em: https://www.academia.edu/8349754/Qualidade_de_Produto_de_Software.Acesso em: 29 set. 2025.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>OPPIA. Overview of the Oppia codebase. [S. l.]: GitHub, 2023. Disponível em: https://github.com/oppia/oppia/wiki/Overview-of-the-Oppia-codebase em: 01 out. 2025.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>OPPIA. Overview of the Oppia Android codebase and architecture. [S. l.]: GitHub, 2024. Disponível em: https://github.com/oppia/oppia-android/blob/develop/wiki/Overview-of-the-Oppia-Android-codebase-and-architecture.md. Acesso em: 1 out. 2025.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>MARTIN, Robert C. Arquitetura Limpa: O Guia do Artesão para Estrutura e Design de Software. Rio de Janeiro: Alta Books, 2019.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../02_requisitante/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: 2. Requisitante e Partes Interessadas">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                2. Requisitante e Partes Interessadas
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../04_modelo_qualidade/" class="md-footer__link md-footer__link--next" aria-label="Próximo: 4. Modelo de Qualidade (SQuaRE)">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                4. Modelo de Qualidade (SQuaRE)
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_Radia_Perlman" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.footer", "navigation.tabs", "navigation.expand", "navigation.sections", "content.code.copy"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
