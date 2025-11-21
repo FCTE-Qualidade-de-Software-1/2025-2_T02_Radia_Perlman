@@ -169,8 +169,8 @@ Esta seção tem o propósito de detalhar os Casos de Teste (CTs) projetados par
 
 ## Histórico de Versões
 
-| Versão |    Data    | Descrição                              | Autor                                                       | Revisor                                                     |
-| :----: | :--------: | :------------------------------------- | :---------------------------------------------------------- | :---------------------------------------------------------- |
-| `1.0`  | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff)             | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
-| `1.1`  | 17/11/2025 | Criação do CT-AF-01 e CT-AF-02         | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |[Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
-| `1.2`  | 17/11/2025 | Criação dos CTs 06, 07, 08 e adição de perfis nos títulos | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) ||
+| Versão |    Data    | Descrição                                                 | Autor                                                       | Revisor                                                     |
+| :----: | :--------: | :-------------------------------------------------------- | :---------------------------------------------------------- | :---------------------------------------------------------- |
+| `1.0`  | 16/11/2025 | Criação da estrutura inicial da página                    | [Brunno Fernandes](https://github.com/brunnoff)             | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
+| `1.1`  | 17/11/2025 | Criação do CT-AF-01 - 05                                  | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)   |
+| `1.2`  | 17/11/2025 | Criação dos CTs 06, 07, 08 e adição de perfis nos títulos | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)   | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
