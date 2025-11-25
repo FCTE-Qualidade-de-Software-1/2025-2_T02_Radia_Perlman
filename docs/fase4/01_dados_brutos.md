@@ -1,6 +1,6 @@
 # 1. Evidências - Dados Brutos
 
-Conforme o requisito de "Dados Auditáveis" do projeto, esta página centraliza os links para todos os dados brutos e evidências coletadas durante a Fase 4 de execução.
+Conforme o requisito de "Dados Auditáveis" do projeto, esta página centraliza os links para todos os dados brutos e a transcrição das respostas coletadas durante a Fase 4 de execução.
 
 ## 1.1. Planilha de Execução de Testes
 
@@ -8,16 +8,61 @@ A planilha abaixo contém o registro detalhado (Passou/Falhou) da execução de 
 
 * **Link:** `[INSERIR LINK PARA A PLANILHA GOOGLE SHEETS COM OS RESULTADOS]`
 
+[Pesquisa de Adequação Funcional](https://docs.google.com/spreadsheets/d/1oNSoMQMd6BHyyR3iGPCXwdvuum_agL9JjE7vBs2HurE/edit?usp=sharing)
+
 ## 1.2. Evidências de Execução (Gravações e Screenshots)
 
 A pasta abaixo armazena as evidências visuais (gravações de tela e capturas) coletadas durante os testes, utilizadas para documentar bugs e falhas de layout.
 
 * **Link:** `[INSERIR LINK PARA A PASTA DO GOOGLE DRIVE / REPOSITÓRIO COM AS EVIDÊNCIAS]`
+* **Link das Entrevistas:**
+    * [Entrevista 1 (Professor)](https://unbbr-my.sharepoint.com/:v:/g/personal/221008801_aluno_unb_br/IQBWL1MQQFvSTpvOcdxXG_ZFAVr4Aj8KsKEyS-jFOumTsDo?e=W5uT1b)
+    * [Entrevista 2 (Aluno)](https://unbbr-my.sharepoint.com/:v:/g/personal/221008801_aluno_unb_br/IQCf6K6KZbA8Tavnm3D0gJtnAepyjLU18tZZKNtQOxzCgZc?e=iqT3xn)
+    * [Entrevista 3 (Aluno)](https://unbbr-my.sharepoint.com/:v:/g/personal/221008801_aluno_unb_br/IQCzymiZhuZdSIdwapB683NJASb2K4i5Q5Q1EBF_7kzliEg?e=dDArh5)
 
+## 1.3. Transcrição dos Dados do Formulário
+
+Abaixo estão os dados brutos extraídos do formulário de avaliação aplicado aos participantes.
+
+
+### 1.3.1. Dados Brutos - Perfil Educador (Professor)
+
+Perguntas focadas na experiência de criação e edição de lições.
+
+* **Q1:** Criação (Modal Interaction)
+* **Q2:** Fluxo (Add Response)
+* **Q3:** Pré-visualização (Preview)
+* **Q4:** Salvamento (Save Draft)
+* **Q5:** Interface Híbrida (PT/EN)
+
+| Data/Hora | Q1 | Q2 | Q3 | Q4 | Q5 | Principais Comentários Qualitativos |
+| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| 23/11 11:27 | 5 | 4 | 5 | 5 | 2 | *"O fluxo é interativo, mas por estar em inglês não fica tao intuitivo"*; *"Na minha visão foi o unico ponto [Interface] que dificultou a usabilidade"*. |
+| 23/11 21:03 | 4 | 1 | 5 | 5 | 1 | *"Me senti perdida... esperava que fosse adequado com a língua selecionada, uma vez que não sei bem o inglês"*. |
+
+---
+
+### 1.3.2. Dados Brutos - Perfil Aprendiz (Aluno)
+
+Perguntas focadas na experiência de busca, realização de lições e histórico.
+
+* **Q6:** Busca (Aulas da Comunidade)
+* **Q7:** Retomada (Continuar de onde parou)
+* **Q8:** Feedback (Visual/Textual)
+* **Q9:** Navegação (Abas Painel)
+* **Q10:** Histórico (Conquistas)
+
+| Data/Hora | Q6 | Q7 | Q8 | Q9 | Q10 | Principais Comentários Qualitativos |
+| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| 23/11 11:58 | 4 | 5 | 5 | 2 | - | *"Não entendi muito bem o propósito da aba de metas e ela não pareceu funcionar corretamente"*. |
+| 23/11 21:10 | 2 | 4 | 4 | 3 | 4 | *"Não apareceram lições com o tema e o título esperado"*; *"Retornou com uma língua diferente da selecionada"*. |
+| 23/11 21:34 | 5 | 5 | 5 | 5 | 3 | *"Eu achei que não seria recuperado, mas o sistema recuperou sim"*; *"Achei essa parte [Histórico] um pouco confusa"*. |
+| 24/11 01:51 | 5 | 5 | 3 | 4 | 5 | *"A facilidade de encontrar o que se quer é crucial"*; *"Poderia investir em cores/animações para transformar o erro em uma parte positiva"*. |
 ---
 
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | |
+| `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) |[Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
+| `1.1` | 24/11/2025 | Adição das transcrições dos dados brutos e links das evidências | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | |
