@@ -47,13 +47,6 @@ Formada com Ph.D. pelo MIT, suas inovações não pararam no STP. Ela também fo
 <div class="team-grid">
 
   <div class="team-member">
-    <a href="https://github.com/mandicrz" target="_blank" rel="noopener">
-      <img src="https://github.com/mandicrz.png" alt="Foto de Amanda Cruz Lima">
-      <p>Amanda<br>Cruz Lima</p>
-    </a>
-  </div>
-
-  <div class="team-member">
     <a href="https://github.com/BiancaPatrocinio7" target="_blank" rel="noopener">
       <img src="https://github.com/BiancaPatrocinio7.png" alt="Foto de Bianca Patrocínio Castro">
       <p>Bianca<br>Patrocínio Castro</p>
@@ -98,6 +91,8 @@ Formada com Ph.D. pelo MIT, suas inovações não pararam no STP. Ela também fo
 | :----: | ---------- | --------------------------------------------------- | ----------------------------------------------- | ------- |
 |  `1.0` | 28/09/2025 | Criação da estrutura inicial da página e inclusão de informações gerais            | [Brunno Fernandes](https://github.com/brunnoff) |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)        |
 |  `1.1` | 29/09/2025 | Inclusão das informações sobre a plataforma e as referências            | [Brunno Fernandes](https://github.com/brunnoff) |     [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)     |
+|  `2.0` | 24/11/2025 | Atualização da equipe            | [Brunno Fernandes](https://github.com/brunnoff) |     [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)     |
+
 
 ---
 

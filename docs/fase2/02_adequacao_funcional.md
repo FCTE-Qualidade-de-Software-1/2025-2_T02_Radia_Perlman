@@ -36,7 +36,7 @@ A Adequação Funcional é avaliada para garantir que o Oppia cumpra suas promes
 
 </div>
 
-<p align="center"><b>Fonte: </b> Autoria de <a href="https://github.com/brunnoff">Bruno Fernandes</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+<p align="center"><b>Fonte: </b> Autoria de <a href="https://github.com/brunnoff">Brunno Fernandes</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 ## 2.2 Diagrama GQM - Adequação Funcional
 
@@ -157,4 +157,4 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Adequa
 | `3.1`  | 24/10/2025 | Adição das fontes dos números de hipótese, revisão das perguntas deixando mais generalizadas e revisão do texto | [Pedro Lucas Dourado](https://github.com/lucasdray)         | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
 | `3.2`  | 25/10/2025 | Adição do diagrama de representação da hierarquia GQM                                                           | [Brunno Fernandes](https://github.com/brunnoff)             | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Othavio Bolzan ](https://github.com/bolzanMGB)
 | `3.3`  | 17/11/2025 | Pequenos ajudes no Diagrama GQMAdição do diagrama de representação da hierarquia GQM                            | [Othavio Bolzan ](https://github.com/bolzanMGB)             | [Brunno Fernandes](https://github.com/brunnoff)           |
-| `4.0`  | 20/11/2025 | Remoção da métrica 2.3 e da referência CleverTap                                                                | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |                                                           |
+| `4.0`  | 20/11/2025 | Remoção da métrica 2.3 e da referência CleverTap                                                                | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |    [Brunno Fernandes](https://github.com/brunnoff)                                                       |

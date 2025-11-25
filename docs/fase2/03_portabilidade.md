@@ -36,7 +36,7 @@ A Portabilidade é avaliada para verificar se o Oppia pode, de fato, chegar aond
 
 </div>
 
-<p align="center"><b>Fonte: </b> Autoria de <a href="https://github.com/brunnoff">Bruno Fernandes</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+<p align="center"><b>Fonte: </b> Autoria de <a href="https://github.com/brunnoff">Brunno Fernandes</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 
 ## 3.2 Diagrama GQM - Portabilidade
@@ -239,4 +239,4 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Portab
 |  `1.2` | 14/10/2025 | Adicionando métricas     |  [Othavio Bolzan](https://github.com/bolzanMGB)  |  [Douglas Marinho](https://github.com/M4RINH0)  |
 |  `1.3` | 14/10/2025 | Reformulação das perguntas e métricas e adição das fontes dos valores    |  [Othavio Bolzan](https://github.com/bolzanMGB)  | [Brunno Fernandes](https://github.com/brunnoff)   |
 | `1.4`  | 25/10/2025 | Adição do diagrama de representação da hierarquia GQM | [Brunno Fernandes](https://github.com/brunnoff)        |  [Othavio Bolzan](https://github.com/bolzanMGB)  |        
-| `1.5`  | 17/11/2025 | Pequenos ajudes no Diagrama GQMAdição do diagrama de representação da hierarquia GQM | [Othavio Bolzan ](https://github.com/bolzanMGB) | |
+| `1.5`  | 17/11/2025 | Pequenos ajudes no Diagrama GQMAdição do diagrama de representação da hierarquia GQM | [Othavio Bolzan ](https://github.com/bolzanMGB) | [Brunno Fernandes](https://github.com/brunnoff) |
