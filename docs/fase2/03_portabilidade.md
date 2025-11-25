@@ -79,7 +79,7 @@ O diagrama abaixo representa a estrutura GQM para a característica de Portabili
 </div>
 
 
-<p align="center"><b>Fonte: </b> Autoria de <a href="https://github.com/brunnoff">Bruno Fernandes</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+<p align="center"><b>Fonte: </b> Autoria de <a href="https://github.com/brunnoff">Brunno Fernandes</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 ## 3.3 Questões e Métricas
 
