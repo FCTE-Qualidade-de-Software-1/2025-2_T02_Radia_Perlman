@@ -4,12 +4,12 @@ Esta seção apresenta os resultados consolidados da execução dos Casos de Tes
 
 ## 3.1. Tabela de Execução (Resumo)
 
-| ID do Teste | Título do Teste | Status | Link da Evidência |
+| ID do Teste | Título do Teste | Status | Observação |
 | :--- | :--- | :---: | :--- |
-| CT-P-01 | Verificação de Adaptabilidade | [Passou/Falhou] | [Link]() |
-| CT-P-02 | Verificação de Instalabilidade | [Passou/Falhou] | [Link]() |
-| CT-P-03 | Verificação de Coexistência | [Passou/Falhou] | [Link]() |
-| CT-P-04 | Verificação de Substituibilidade | [Passou/Falhou] | [Link]() |
+| CT-P-01 | Verificação de Adaptabilidade | [Passou/Falhou] | Observação|
+| CT-P-02 | Verificação de Instalabilidade | [Passou/Falhou] | Observação|
+| CT-P-03 | Verificação de Coexistência | [Passou/Falhou] |Observação |
+| CT-P-04 | Verificação de Substituibilidade | [Passou/Falhou] |Observação |
 
 ## 3.2. Análise Detalhada das Métricas
 

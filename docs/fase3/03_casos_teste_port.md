@@ -20,15 +20,17 @@ Medir a capacidade da plataforma Oppia de operar corretamente em diferentes disp
 1. Definir uma lista de funcionalidades-chave (A) a serem avaliadas (ex.: criar conta, abrir lição, editar exploração, navegar entre páginas).
 2. Definir os ambientes de teste (B), incluindo:
 
-   * Dispositivos (desktop, notebook, tablet, smartphone)
-   * Navegadores (Chrome, Firefox, Edge, Safari)
-   * Sistemas Operacionais (Windows, Linux, Android, iOS)
-   * Resoluções (480p, 720p, 1080p, 1440p, 4K)
+    * Dispositivos (desktop, notebook, tablet, smartphone)
+    * Navegadores (Chrome, Firefox, Edge, Safari)
+    * Sistemas Operacionais (Windows, Linux, Android, iOS)
+    * Resoluções (480p, 720p, 1080p, 1440p, 4K)
+
 3. Executar cada funcionalidade A em todos os ambientes definidos.
 4. Registrar em cada teste se houve funcionamento:
 
-   * Sem falhas funcionais
-   * Sem falhas de layout/responsividade
+    * Sem falhas funcionais
+    * Sem falhas de layout/responsividade
+
 5. Calcular a métrica X = A / B para cada combinação de ambiente.
 
 **Resultado Esperado:**
@@ -80,9 +82,12 @@ Avaliar se o Oppia mantém estabilidade e funcionamento quando executado simulta
 
 1. Definir um conjunto de aplicações concorrentes (B), como:
 
-   * Spotify
-   * YouTube (reproduzindo vídeo em alta qualidade)
-   * Extensões de navegador comuns (AdBlock, Grammarly, etc.)
+   * Aplicativos de streaming de áudio
+   * Aplicativos de streaming de vídeo (HD/4K)
+   * Extensões de navegador comuns 
+   * Ferramentas de comunicação (chat, videoconferência)
+   * Editores/IDE ou ferramentas de produtividade
+
 2. Iniciar o Oppia e executar funcionalidades do CT-AF-01.
 3. Registrar quantas aplicações estão rodando simultaneamente sem impactar o Oppia (A) → **M3.1**.
 4. Durante um período T (ex.: 1 hora), contar erros, travamentos ou perda de responsividade → **M3.2**.
@@ -123,6 +128,8 @@ Coleta dos valores para as métricas M4.1 (A/B) e M4.2 (Passou/Falhou).
 
 | Versão |    Data    | Descrição                                                                                 | Autor                                           | Revisor |
 | :----: | :--------: | :---------------------------------------------------------------------------------------- | :---------------------------------------------- | :------ |
-|  `1.0` | 16/11/2025 | Criação da estrutura inicial da página                                                    | [Brunno Fernandes](https://github.com/brunnoff) |         |
-|  `2.0` | 17/11/2025 | Atualização dos CTs para alinhar com nova Tabela de Portabilidade e revisões das métricas | [Douglas Marinho](https://github.com/M4RINH0)   |         |
+|  `1.0` | 16/11/2025 | Criação da estrutura inicial da página                                                    | [Brunno Fernandes](https://github.com/brunnoff) |[Othavio Bolzan](https://github.com/bolzanMGB)|
+|  `2.0` | 17/11/2025 | Atualização dos CTs para alinhar com nova Tabela de Portabilidade e revisões das métricas | [Douglas Marinho](https://github.com/M4RINH0)   | [Othavio Bolzan](https://github.com/bolzanMGB)    |
+|  `2.1` | 24/11/2025 | Concertando pequenos  na formatação  | [Douglas Marinho](https://github.com/M4RINH0)   | [Othavio Bolzan](https://github.com/bolzanMGB)    |
+
 

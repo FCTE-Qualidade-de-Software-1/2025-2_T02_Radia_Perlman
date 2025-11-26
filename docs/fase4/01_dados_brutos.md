@@ -6,7 +6,7 @@ Conforme o requisito de "Dados Auditáveis" do projeto, esta página centraliza 
 
 A planilha abaixo contém o registro detalhado (Passou/Falhou) da execução de cada Caso de Teste definido na Fase 3, incluindo os diferentes ambientes de Portabilidade.
 
-* **Link:** `[INSERIR LINK PARA A PLANILHA GOOGLE SHEETS COM OS RESULTADOS]`
+[Execucação Portabilidade](https://docs.google.com/spreadsheets/d/1miVE8ZLjBJ3Hz2Dc7lSG__37v82aBJ3x0twRZh6izQM/edit?usp=sharing)
 
 [Pesquisa de Adequação Funcional](https://docs.google.com/spreadsheets/d/1oNSoMQMd6BHyyR3iGPCXwdvuum_agL9JjE7vBs2HurE/edit?usp=sharing)
 
@@ -65,4 +65,6 @@ Perguntas focadas na experiência de busca, realização de lições e históric
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) |[Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
-| `1.1` | 24/11/2025 | Adição das transcrições dos dados brutos e links das evidências | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | |
+| `1.1` | 24/11/2025 | Adição das transcrições dos dados brutos e links das evidências | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |[Othavio Bolzan](https://github.com/bolzanMGB) |
+
+| `1.2` | 25/11/2025 | Estruturação da planilha de testes de portabilidade e adiação do sue respectivo link| [Othavio Bolzan](https://github.com/bolzanMGB) | |
