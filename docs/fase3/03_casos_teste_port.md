@@ -4,77 +4,35 @@ Esta seção detalha os Casos de Teste (CTs) projetados para coletar os dados da
 
 ---
 
-# **CT-P-01: Verificação de Adaptabilidade (Hardware, Software e Resoluções)**
+## **CT-P-01: Verificação de Adaptabilidade (Hardware, Software e Resoluções)**
 
 **Métricas Associadas:**
 
-* **M1.1 – Adaptabilidade ao Hardware**
-* **M1.2 – Adaptabilidade ao Software**
-* **M1.3 – Responsividade por Resolução**
+* M1.1 – Adaptabilidade ao Hardware
+* M1.2 – Adaptabilidade ao Software
+* M1.3 – Responsividade por Resolução
 
+**Objetivo:**
+Medir a capacidade da plataforma Oppia de operar corretamente em diferentes dispositivos, sistemas operacionais, navegadores e resoluções de tela.
 
-**Objetivo**
+**Passos de Execução:**
 
-Avaliar a capacidade da plataforma **Oppia** de funcionar corretamente em diferentes **dispositivos**, **softwares** (navegadores e sistemas operacionais) e **resoluções** de tela.
+1. Definir uma lista de funcionalidades-chave (A) a serem avaliadas (ex.: criar conta, abrir lição, editar exploração, navegar entre páginas).
+2. Definir os ambientes de teste (B), incluindo:
 
-O teste é dividido em **três subgrupos independentes**, permitindo isolar cada dimensão da adaptabilidade:
+   * Dispositivos (desktop, notebook, tablet, smartphone)
+   * Navegadores (Chrome, Firefox, Edge, Safari)
+   * Sistemas Operacionais (Windows, Linux, Android, iOS)
+   * Resoluções (480p, 720p, 1080p, 1440p, 4K)
+3. Executar cada funcionalidade A em todos os ambientes definidos.
+4. Registrar em cada teste se houve funcionamento:
 
-1. **Adaptabilidade ao Software (M1.2):** navegador/SO variando, dispositivo fixo.
-2. **Adaptabilidade ao Hardware (M1.1):** dispositivo variando, navegador/SO fixos.
-3. **Responsividade por Resolução (M1.3):** resolução variando, dispositivo e navegador fixos.
+   * Sem falhas funcionais
+   * Sem falhas de layout/responsividade
+5. Calcular a métrica X = A / B para cada combinação de ambiente.
 
-
-**Passos de Execução**
-
-- **a. Seleção das funcionalidades-chave (A):** As mesmas funcionalidades serão executadas em todos os ambientes para manter consistência.
-Exemplos: Criar conta, Abrir lição, Editar exploração, Navegar entre páginas, Visualizar histórico, Visualizar aba de perfil
-
-- **b. Definição dos Ambientes de Teste (B):** Os ambientes são organizados em três grupos independentes:
-
-    
-    * **1. Adaptabilidade ao Hardware (M1.1):** Navegador e Sistema Operacional fixos; os dispositivos variam.
-  **Exemplos de dispositivos:** Desktop Windows, Laptop Linux, Smartphone Android, iPhone (iOS), Tablet Android, iPad.
-
-    * **2. Adaptabilidade ao Software (M1.2):** Dispositivo fixo; navegadores e/ou sistemas operacionais variam.
-  **Exemplos de software:** Chrome, Firefox, Edge, Safari, Windows (Chrome), Linux (Chrome), macOS (Safari/Chrome).
-
-    * **3. Responsividade por Resolução (M1.3):** Dispositivo e navegador fixos; resoluções variam via DevTools.
-  **Exemplos de resoluções:** 480p, 720p, 1080p, 1440p, 4K.
-
-
-
-**Execução dos Testes**
-
-Para cada combinação de ambiente (software, hardware ou resolução):
-
-- a. Executar todas as funcionalidades-chave (A).
-
-- b. Registrar separadamente:
-
-    - **Funcionamento funcional:** a funcionalidade completou a tarefa sem erros?
-    - **Funcionamento visual/layout:** houve quebra de layout? textos sobrepostos? botões escondidos?
-
-- c. Marcar o resultado em tabela: Passou/Falhou ou 1/0.
-
-
-**Cálculo das Métricas**
-
-Para cada conjunto de testes: **X = A / B**, onde:
-
-* **A** = número de ambientes onde todas as funcionalidades funcionaram adequadamente
-* **B** = número total de ambientes testados naquele grupo
-
-Isso gera:
-
-* **M1.1 (Hardware):** compatibilidade por dispositivos
-* **M1.2 (Software):** compatibilidade por navegadores/SO
-* **M1.3 (Resolução):** responsividade por tamanhos de tela
-
-
-**Resultado Esperado**
-
-O resultado deste caso de teste é a geração das três métricas (M1.1, M1.2, M1.3) representando o percentual de compatibilidade e adaptabilidade do Oppia em cada dimensão testada.
-
+**Resultado Esperado:**
+A métrica X deve ser gerada para todos os ambientes testados, indicando o percentual de compatibilidade e adaptação.
 
 ---
 

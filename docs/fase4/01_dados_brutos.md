@@ -14,7 +14,8 @@ A planilha abaixo contém o registro detalhado (Passou/Falhou) da execução de 
 
 A pasta abaixo armazena as evidências visuais (gravações de tela e capturas) coletadas durante os testes, utilizadas para documentar bugs e falhas de layout.
 
-* **Link:** `[INSERIR LINK PARA A PASTA DO GOOGLE DRIVE / REPOSITÓRIO COM AS EVIDÊNCIAS]`
+* **Link pasta Evidências:** 
+[Pasta OneDrive Evidências de Portabilidade](https://unbbr-my.sharepoint.com/:f:/g/personal/231039150_aluno_unb_br/IgDlQ3YRPEVxTLxlzWkn0dzUAWGK3eFcp6eUemFDsH_qYN8?e=Qwxr2Q)
 * **Link das Entrevistas:**
     * [Entrevista 1 (Professor)](https://unbbr-my.sharepoint.com/:v:/g/personal/221008801_aluno_unb_br/IQBWL1MQQFvSTpvOcdxXG_ZFAVr4Aj8KsKEyS-jFOumTsDo?e=W5uT1b)
     * [Entrevista 2 (Aluno)](https://unbbr-my.sharepoint.com/:v:/g/personal/221008801_aluno_unb_br/IQCf6K6KZbA8Tavnm3D0gJtnAepyjLU18tZZKNtQOxzCgZc?e=iqT3xn)
