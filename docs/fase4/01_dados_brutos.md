@@ -7,11 +7,18 @@ Conforme o requisito de "Dados Auditáveis" do projeto, esta página centraliza 
 A planilha abaixo contém o registro detalhado (Passou/Falhou) da execução de cada Caso de Teste definido na Fase 3, incluindo os diferentes ambientes de Portabilidade.
 
 
+[Execucação Portabilidade](https://docs.google.com/spreadsheets/d/1miVE8ZLjBJ3Hz2Dc7lSG__37v82aBJ3x0twRZh6izQM/edit?usp=sharing)
+
 [Pesquisa de Adequação Funcional](https://docs.google.com/spreadsheets/d/1oNSoMQMd6BHyyR3iGPCXwdvuum_agL9JjE7vBs2HurE/edit?usp=sharing)
 
 ## 1.2. Evidências de Execução (Gravações e Screenshots)
 
 A pasta abaixo armazena as evidências visuais (gravações de tela e capturas) coletadas durante os testes, utilizadas para documentar bugs e falhas de layout.
+
+* **Potabilidade: pasta Evidências:** 
+
+    * [Pasta OneDrive Evidências](https://unbbr-my.sharepoint.com/:f:/g/personal/231039150_aluno_unb_br/IgDlQ3YRPEVxTLxlzWkn0dzUAWGK3eFcp6eUemFDsH_qYN8?e=Qwxr2Q)
+
 
 * **Adequação Funcional:**
     * **Link das Entrevistas:**
@@ -21,6 +28,7 @@ A pasta abaixo armazena as evidências visuais (gravações de tela e capturas) 
         * [Entrevista 4 (Professor)](https://www.youtube.com/watch?v=56zzPi93ZdU)
         * [Entrevista 5 (Aluno)](https://www.youtube.com/watch?v=ewq6tR4oBos)
         * [Entrevista 6 (Aluno)](https://www.youtube.com/watch?v=5sVkO4PlK8k)
+
 
 ## 1.3. Transcrição dos Dados do Formulário
 
@@ -64,7 +72,10 @@ Perguntas focadas na experiência de busca, realização de lições e históric
 
 ## Histórico de Versões
 
-| Versão |    Data    | Descrição                                                       | Autor                                                     | Revisor                                                   |
-| :----: | :--------: | :-------------------------------------------------------------- | :-------------------------------------------------------- | :-------------------------------------------------------- |
-| `1.0`  | 16/11/2025 | Criação da estrutura inicial da página                          | [Brunno Fernandes](https://github.com/brunnoff)           | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
+| Versão | Data | Descrição | Autor | Revisor |
+| :---: | :---: | :--- | :--- | :--- |
+| `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) |[Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
+| `1.1` | 24/11/2025 | Adição das transcrições dos dados brutos e links das evidências | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |[Othavio Bolzan](https://github.com/bolzanMGB) |
 | `1.1`  | 24/11/2025 | Adição das transcrições dos dados brutos e links das evidências | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
+| `1.2` | 25/11/2025 | Estruturação da planilha de testes de portabilidade e adição do seu respectivo link| [Othavio Bolzan](https://github.com/bolzanMGB) | |
+

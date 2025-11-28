@@ -80,9 +80,12 @@ Avaliar se o Oppia mantém estabilidade e funcionamento quando executado simulta
 
 1. Definir um conjunto de aplicações concorrentes (B), como:
 
-   * Spotify
-   * YouTube (reproduzindo vídeo em alta qualidade)
-   * Extensões de navegador comuns (AdBlock, Grammarly, etc.)
+   * Aplicativos de streaming de áudio
+   * Aplicativos de streaming de vídeo (HD/4K)
+   * Extensões de navegador comuns 
+   * Ferramentas de comunicação (chat, videoconferência)
+   * Editores/IDE ou ferramentas de produtividade
+
 2. Iniciar o Oppia e executar funcionalidades do CT-AF-01.
 3. Registrar quantas aplicações estão rodando simultaneamente sem impactar o Oppia (A) → **M3.1**.
 4. Durante um período T (ex.: 1 hora), contar erros, travamentos ou perda de responsividade → **M3.2**.
@@ -123,6 +126,8 @@ Coleta dos valores para as métricas M4.1 (A/B) e M4.2 (Passou/Falhou).
 
 | Versão |    Data    | Descrição                                                                                 | Autor                                           | Revisor |
 | :----: | :--------: | :---------------------------------------------------------------------------------------- | :---------------------------------------------- | :------ |
-|  `1.0` | 16/11/2025 | Criação da estrutura inicial da página                                                    | [Brunno Fernandes](https://github.com/brunnoff) |         |
-|  `2.0` | 17/11/2025 | Atualização dos CTs para alinhar com nova Tabela de Portabilidade e revisões das métricas | [Douglas Marinho](https://github.com/M4RINH0)   |         |
+|  `1.0` | 16/11/2025 | Criação da estrutura inicial da página                                                    | [Brunno Fernandes](https://github.com/brunnoff) |[Othavio Bolzan](https://github.com/bolzanMGB)|
+|  `2.0` | 17/11/2025 | Atualização dos CTs para alinhar com nova Tabela de Portabilidade e revisões das métricas | [Douglas Marinho](https://github.com/M4RINH0)   | [Othavio Bolzan](https://github.com/bolzanMGB)    |
+|  `2.1` | 24/11/2025 | Concertando pequenos  na formatação  | [Douglas Marinho](https://github.com/M4RINH0)   | [Othavio Bolzan](https://github.com/bolzanMGB)    |
+
 

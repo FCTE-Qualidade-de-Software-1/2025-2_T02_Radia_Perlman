@@ -101,8 +101,7 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Portab
     - ≥ 0,7 → Satisfatório
     - < 0,7 → Insatisfatório
 
-- **Fonte:** GOMES FILHO, Marcílio José Albuquerque. **Um processo de avaliação da portabilidade de unidades de software.** Recife: Universidade Federal de Pernambuco, Centro de Informática, 2005. Disponível em: https://www.cin.ufpe.br/~tg/2004-2/mjagf.pdf
-. Acesso em: 24 out. 2025.
+- **Fonte:** GOMES FILHO, Marcílio José Albuquerque. *Um processo de avaliação da portabilidade de unidades de software.* Recife: Universidade Federal de Pernambuco, Centro de Informática, 2005. Disponível em: [https://www.cin.ufpe.br/~tg/2004-2/mjagf.pdf](https://www.cin.ufpe.br/~tg/2004-2/mjagf.pdf). Acesso em: 24 out. 2025.
 
 **Métrica 1.2 — Adaptabilidade ao ambiente de software**
 
@@ -114,8 +113,24 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Portab
     - ≥ 0,7 → Satisfatório
     - < 0,7 → Insatisfatório
 
-- **Fonte:**  GOMES FILHO, Marcílio José Albuquerque. **Um processo de avaliação da portabilidade de unidades de software.** Recife: Universidade Federal de Pernambuco, Centro de Informática, 2005. Disponível em: https://www.cin.ufpe.br/~tg/2004-2/mjagf.pdf
-. Acesso em: 24 out. 2025.
+- **Fonte:**  GOMES FILHO, Marcílio José Albuquerque. *Um processo de avaliação da portabilidade de unidades de software.* Recife: Universidade Federal de Pernambuco, Centro de Informática, 2005. Disponível em: [https://www.cin.ufpe.br/~tg/2004-2/mjagf.pdf](https://www.cin.ufpe.br/~tg/2004-2/mjagf.pdf). Acesso em: 24 out. 2025.
+
+
+**Métrica 1.3 — Responsividade por resolução**
+
+* **Fórmula:**
+  **X = A / B**, onde
+
+    * **A** = número de resoluções em que o layout funcionou corretamente (sem falhas de responsividade)
+    * **B** = número total de resoluções avaliadas
+
+* **Nível de Aceitação:**
+
+    * **≥ 0,7 → Satisfatório**
+    * **< 0,7 → Insatisfatório**
+
+* **Fonte:**
+  GOMES FILHO, Marcílio José Albuquerque. *Um processo de avaliação da portabilidade de unidades de software.* Recife: Universidade Federal de Pernambuco, Centro de Informática, 2005. Disponível em: [https://www.cin.ufpe.br/~tg/2004-2/mjagf.pdf](https://www.cin.ufpe.br/~tg/2004-2/mjagf.pdf). Acesso em: 24 out. 2025.
 
 ---
 
