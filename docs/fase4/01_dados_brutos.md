@@ -6,6 +6,7 @@ Conforme o requisito de "Dados Auditáveis" do projeto, esta página centraliza 
 
 A planilha abaixo contém o registro detalhado (Passou/Falhou) da execução de cada Caso de Teste definido na Fase 3, incluindo os diferentes ambientes de Portabilidade.
 
+
 [Execucação Portabilidade](https://docs.google.com/spreadsheets/d/1miVE8ZLjBJ3Hz2Dc7lSG__37v82aBJ3x0twRZh6izQM/edit?usp=sharing)
 
 [Pesquisa de Adequação Funcional](https://docs.google.com/spreadsheets/d/1oNSoMQMd6BHyyR3iGPCXwdvuum_agL9JjE7vBs2HurE/edit?usp=sharing)
@@ -14,15 +15,20 @@ A planilha abaixo contém o registro detalhado (Passou/Falhou) da execução de 
 
 A pasta abaixo armazena as evidências visuais (gravações de tela e capturas) coletadas durante os testes, utilizadas para documentar bugs e falhas de layout.
 
-* **Link pasta Evidências:** 
+* **Potabilidade: pasta Evidências:** 
 
-    * [Evidências de Portabilidade](https://unbbr-my.sharepoint.com/:f:/g/personal/231039150_aluno_unb_br/IgDlQ3YRPEVxTLxlzWkn0dzUAWGK3eFcp6eUemFDsH_qYN8?e=Qwxr2Q)
+    * [Pasta OneDrive Evidências](https://unbbr-my.sharepoint.com/:f:/g/personal/231039150_aluno_unb_br/IgDlQ3YRPEVxTLxlzWkn0dzUAWGK3eFcp6eUemFDsH_qYN8?e=Qwxr2Q)
 
 
-* **Link das Entrevistas:**
-    * [Entrevista 1 (Professor)](https://unbbr-my.sharepoint.com/:v:/g/personal/221008801_aluno_unb_br/IQBWL1MQQFvSTpvOcdxXG_ZFAVr4Aj8KsKEyS-jFOumTsDo?e=W5uT1b)
-    * [Entrevista 2 (Aluno)](https://unbbr-my.sharepoint.com/:v:/g/personal/221008801_aluno_unb_br/IQCf6K6KZbA8Tavnm3D0gJtnAepyjLU18tZZKNtQOxzCgZc?e=iqT3xn)
-    * [Entrevista 3 (Aluno)](https://unbbr-my.sharepoint.com/:v:/g/personal/221008801_aluno_unb_br/IQCzymiZhuZdSIdwapB683NJASb2K4i5Q5Q1EBF_7kzliEg?e=dDArh5)
+* **Adequação Funcional:**
+    * **Link das Entrevistas:**
+        * [Entrevista 1 (Professor)](https://unbbr-my.sharepoint.com/:v:/g/personal/221008801_aluno_unb_br/IQBWL1MQQFvSTpvOcdxXG_ZFAVr4Aj8KsKEyS-jFOumTsDo?e=W5uT1b)
+        * [Entrevista 2 (Aluno)](https://unbbr-my.sharepoint.com/:v:/g/personal/221008801_aluno_unb_br/IQCf6K6KZbA8Tavnm3D0gJtnAepyjLU18tZZKNtQOxzCgZc?e=iqT3xn)
+        * [Entrevista 3 (Aluno)](https://unbbr-my.sharepoint.com/:v:/g/personal/221008801_aluno_unb_br/IQCzymiZhuZdSIdwapB683NJASb2K4i5Q5Q1EBF_7kzliEg?e=dDArh5)
+        * [Entrevista 4 (Professor)](https://www.youtube.com/watch?v=56zzPi93ZdU)
+        * [Entrevista 5 (Aluno)](https://www.youtube.com/watch?v=ewq6tR4oBos)
+        * [Entrevista 6 (Aluno)](https://www.youtube.com/watch?v=5sVkO4PlK8k)
+
 
 ## 1.3. Transcrição dos Dados do Formulário
 
@@ -39,10 +45,10 @@ Perguntas focadas na experiência de criação e edição de lições.
 * **Q4:** Salvamento (Save Draft)
 * **Q5:** Interface Híbrida (PT/EN)
 
-| Data/Hora | Q1 | Q2 | Q3 | Q4 | Q5 | Principais Comentários Qualitativos |
-| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| 23/11 11:27 | 5 | 4 | 5 | 5 | 2 | *"O fluxo é interativo, mas por estar em inglês não fica tao intuitivo"*; *"Na minha visão foi o unico ponto [Interface] que dificultou a usabilidade"*. |
-| 23/11 21:03 | 4 | 1 | 5 | 5 | 1 | *"Me senti perdida... esperava que fosse adequado com a língua selecionada, uma vez que não sei bem o inglês"*. |
+| Data/Hora   | Q1  | Q2  | Q3  | Q4  | Q5  | Principais Comentários Qualitativos                                                                                                                      |
+| :---------- | :-: | :-: | :-: | :-: | :-: | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 23/11 11:27 |  5  |  4  |  5  |  5  |  2  | *"O fluxo é interativo, mas por estar em inglês não fica tao intuitivo"*; *"Na minha visão foi o unico ponto [Interface] que dificultou a usabilidade"*. |
+| 23/11 21:03 |  4  |  1  |  5  |  5  |  1  | *"Me senti perdida... esperava que fosse adequado com a língua selecionada, uma vez que não sei bem o inglês"*.                                          |
 
 ---
 
@@ -56,12 +62,12 @@ Perguntas focadas na experiência de busca, realização de lições e históric
 * **Q9:** Navegação (Abas Painel)
 * **Q10:** Histórico (Conquistas)
 
-| Data/Hora | Q6 | Q7 | Q8 | Q9 | Q10 | Principais Comentários Qualitativos |
-| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| 23/11 11:58 | 4 | 5 | 5 | 2 | - | *"Não entendi muito bem o propósito da aba de metas e ela não pareceu funcionar corretamente"*. |
-| 23/11 21:10 | 2 | 4 | 4 | 3 | 4 | *"Não apareceram lições com o tema e o título esperado"*; *"Retornou com uma língua diferente da selecionada"*. |
-| 23/11 21:34 | 5 | 5 | 5 | 5 | 3 | *"Eu achei que não seria recuperado, mas o sistema recuperou sim"*; *"Achei essa parte [Histórico] um pouco confusa"*. |
-| 24/11 01:51 | 5 | 5 | 3 | 4 | 5 | *"A facilidade de encontrar o que se quer é crucial"*; *"Poderia investir em cores/animações para transformar o erro em uma parte positiva"*. |
+| Data/Hora   | Q6  | Q7  | Q8  | Q9  | Q10 | Principais Comentários Qualitativos                                                                                                           |
+| :---------- | :-: | :-: | :-: | :-: | :-: | :-------------------------------------------------------------------------------------------------------------------------------------------- |
+| 23/11 11:58 |  4  |  5  |  5  |  2  |  -  | *"Não entendi muito bem o propósito da aba de metas e ela não pareceu funcionar corretamente"*.                                               |
+| 23/11 21:10 |  2  |  4  |  4  |  3  |  4  | *"Não apareceram lições com o tema e o título esperado"*; *"Retornou com uma língua diferente da selecionada"*.                               |
+| 23/11 21:34 |  5  |  5  |  5  |  5  |  3  | *"Eu achei que não seria recuperado, mas o sistema recuperou sim"*; *"Achei essa parte [Histórico] um pouco confusa"*.                        |
+| 24/11 01:51 |  5  |  5  |  3  |  4  |  5  | *"A facilidade de encontrar o que se quer é crucial"*; *"Poderia investir em cores/animações para transformar o erro em uma parte positiva"*. |
 ---
 
 ## Histórico de Versões
@@ -70,4 +76,6 @@ Perguntas focadas na experiência de busca, realização de lições e históric
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) |[Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
 | `1.1` | 24/11/2025 | Adição das transcrições dos dados brutos e links das evidências | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |[Othavio Bolzan](https://github.com/bolzanMGB) |
+| `1.1`  | 24/11/2025 | Adição das transcrições dos dados brutos e links das evidências | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
 | `1.2` | 25/11/2025 | Estruturação da planilha de testes de portabilidade e adição do seu respectivo link| [Othavio Bolzan](https://github.com/bolzanMGB) | |
+

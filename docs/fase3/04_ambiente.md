@@ -40,7 +40,7 @@ Para garantir rastreabilidade e conformidade com o requisito de **"Dados Auditá
   **Google Sheets** – planilha centralizada para registro do status ("Passou/Falhou") e observações de cada Caso de Teste.
 
 * **Gravação de Tela:**  
-  **OBS Studio** – utilizado para gravação das execuções dos testes em desktop/notebook, servindo como evidência de falhas ou fluxos bem-sucedidos.
+  **Microsft Teams** e **Google Meet** – utilizados para gravação das execuções dos testes em desktop/notebook, servindo como evidência de falhas ou fluxos bem-sucedidos.
 
 * **Captura de Tela:**  
   Ferramentas nativas dos sistemas operacionais **Windows**, **macOS**, **Ubuntu**, **Android** e **iOS**, utilizadas para capturar evidências de problemas visuais, inconsistências ou falhas de layout.
@@ -49,7 +49,8 @@ Para garantir rastreabilidade e conformidade com o requisito de **"Dados Auditá
 
 ## Histórico de Versões
 
-| Versão | Data | Descrição | Autor | Revisor |
-| :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | |
-| `1.1` | 17/11/2025 | Revisão do ambiente, inclusão de iPhone físico e Ubuntu | [Brunno Fernandes](https://github.com/brunnoff) | |
+| Versão |    Data    | Descrição                                               | Autor                                                       | Revisor                                                     |
+| :----: | :--------: | :------------------------------------------------------ | :---------------------------------------------------------- | :---------------------------------------------------------- |
+| `1.0`  | 16/11/2025 | Criação da estrutura inicial da página                  | [Brunno Fernandes](https://github.com/brunnoff)             | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
+| `1.1`  | 17/11/2025 | Revisão do ambiente, inclusão de iPhone físico e Ubuntu | [Brunno Fernandes](https://github.com/brunnoff)             | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
+| `2.0`  | 24/11/2025 | Inclusão de ferramentas utilizadas                      | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |                                                             |
