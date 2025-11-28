@@ -27,22 +27,20 @@ O teste é dividido em **três subgrupos independentes**, permitindo isolar cada
 **Passos de Execução**
 
 - **a. Seleção das funcionalidades-chave (A):** As mesmas funcionalidades serão executadas em todos os ambientes para manter consistência.
-Exemplos:
-
-    * Criar conta
-    * Abrir lição
-    * Editar exploração
-    * Navegar entre páginas
-    * Visualizar histórico
-    * Visualizar aba de perfil
-
+Exemplos: Criar conta, Abrir lição, Editar exploração, Navegar entre páginas, Visualizar histórico, Visualizar aba de perfil
 
 - **b. Definição dos Ambientes de Teste (B):** Os ambientes são organizados em três grupos independentes:
 
-    - **1. Adaptabilidade ao Software (M1.2):** Dispositivo fixo, navegadores/SO variam.
-Exemplos: Chrome, Firefox, Edge, Safari. 
-    - **2. Adaptabilidade ao Hardware (M1.1):** Navegador e SO fixos, dispositivos variam Exemplos: Desktop Linux, Destktop Windows, Smarphone IOS, Smartphone Android, Table e Ipad.
-    - **3. Responsividade por Resolução (M1.3):** Dispositivo e navegador fixos, resoluções variam via DevTools. Exemplo: 480p, 720p, 1080p, 1440p, 4K.
+    
+    * **1. Adaptabilidade ao Hardware (M1.1):** Navegador e Sistema Operacional fixos; os dispositivos variam.
+  **Exemplos de dispositivos:** Desktop Windows, Laptop Linux, Smartphone Android, iPhone (iOS), Tablet Android, iPad.
+
+    * **2. Adaptabilidade ao Software (M1.2):** Dispositivo fixo; navegadores e/ou sistemas operacionais variam.
+  **Exemplos de software:** Chrome, Firefox, Edge, Safari, Windows (Chrome), Linux (Chrome), macOS (Safari/Chrome).
+
+    * **3. Responsividade por Resolução (M1.3):** Dispositivo e navegador fixos; resoluções variam via DevTools.
+  **Exemplos de resoluções:** 480p, 720p, 1080p, 1440p, 4K.
+
 
 
 **Execução dos Testes**
@@ -53,10 +51,10 @@ Para cada combinação de ambiente (software, hardware ou resolução):
 
 - b. Registrar separadamente:
 
-   * **Funcionamento funcional:** a funcionalidade completou a tarefa sem erros?
-   * **Funcionamento visual/layout:** quebras de layout? textos sobrepostos? botões escondidos?
+    - **Funcionamento funcional:** a funcionalidade completou a tarefa sem erros?
+    - **Funcionamento visual/layout:** houve quebra de layout? textos sobrepostos? botões escondidos?
 
-- c. Marcar o resultado em tabela (Passou/Falhou ou 1/0).
+- c. Marcar o resultado em tabela: Passou/Falhou ou 1/0.
 
 
 **Cálculo das Métricas**
