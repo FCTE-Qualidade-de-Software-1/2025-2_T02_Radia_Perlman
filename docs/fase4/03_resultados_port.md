@@ -4,26 +4,26 @@ Esta seção apresenta os resultados consolidados da execução dos Casos de Tes
 
 ## 3.1. Tabela de Execução (Resumo)
 
-| ID do Teste | Título do Teste | Status | Observação |
-| :--- | :--- | :---: | :--- |
-| CT-P-01 | Verificação de Adaptabilidade | Passou | Todas métricas tiveram sucesso|
-| CT-P-02 | Verificação de Instalabilidade | Falhou | Métrica 2.1 não teve sucesso|
-| CT-P-03 | Verificação de Coexistência |Passou | Todas métricas tiveram sucesso |
-| CT-P-04 | Verificação de Substituibilidade | Falhou | Nenhuma métrica teve sucessoObservação |
+| ID do Teste | Título do Teste                  | Status | Observação                             |
+| :---------- | :------------------------------- | :----: | :------------------------------------- |
+| CT-P-01     | Verificação de Adaptabilidade    | Passou | Todas métricas tiveram sucesso         |
+| CT-P-02     | Verificação de Instalabilidade   | Falhou | Métrica 2.1 não teve sucesso           |
+| CT-P-03     | Verificação de Coexistência      | Passou | Todas métricas tiveram sucesso         |
+| CT-P-04     | Verificação de Substituibilidade | Falhou | Nenhuma métrica teve sucessoObservação |
 
 ## 3.2. Análise Detalhada das Métricas
 
-| Métrica | Resultado Medido | Nível de Aceitação | Aprovado? |
-| :--- | :--- | :--- | :---: |
-| **M1.1: Adaptabilidade Hardware** | X = 0,7 | ≥ 0,7 | Sim |
-| **M1.2: Adaptabilidade Software** | X = 0,8 | ≥ 0,7 | Sim |
-| **M1.3: Responsividade por Resolução** | X = 0,8 | ≥ 0,7 | Sim |
-| **M2.1: Esforço Instalar** | X = 0,473 | ≤ 0,4 | Não |
-| **M2.2: Flexibilidade Instalação**| X = 0,25| 0,2 ≤ X ≤ 0,4 | Sim |
-| **M3.1: Disponibilidade Coexist.** | X = 0,8175 | ≥ 0,7 | Sim |
-| **M3.2: Coexistência Apresentada**| X = 0,02 | ≤ 0,3 | Sim |
-| **M4.1: Consistência Funcional** | X = 0,82 | ≥ 0,9 | Não |
-| **M4.2: Facilidade Migração** | X = 0,5 | ≥ 0,9 | Não |
+| Métrica                                | Resultado Medido | Nível de Aceitação | Aprovado? |
+| :------------------------------------- | :--------------- | :----------------- | :-------: |
+| **M1.1: Adaptabilidade Hardware**      | X = 0,7          | ≥ 0,7              |    Sim    |
+| **M1.2: Adaptabilidade Software**      | X = 0,8          | ≥ 0,7              |    Sim    |
+| **M1.3: Responsividade por Resolução** | X = 0,8          | ≥ 0,7              |    Sim    |
+| **M2.1: Esforço Instalar**             | X = 0,473        | ≤ 0,4              |    Não    |
+| **M2.2: Flexibilidade Instalação**     | X = 0,25         | 0,2 ≤ X ≤ 0,4      |    Sim    |
+| **M3.1: Disponibilidade Coexist.**     | X = 0,8175       | ≥ 0,7              |    Sim    |
+| **M3.2: Coexistência Apresentada**     | X = 0,02         | ≤ 0,3              |    Sim    |
+| **M4.1: Consistência Funcional**       | X = 0,82         | ≥ 0,9              |    Não    |
+| **M4.2: Facilidade Migração**          | X = 0,5          | ≥ 0,9              |    Não    |
 
 ## 3.3. Discussão dos Resultados
 
@@ -42,8 +42,8 @@ Esta seção apresenta os resultados consolidados da execução dos Casos de Tes
 
 ## Histórico de Versões
 
-| Versão | Data | Descrição | Autor | Revisor |
-| :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | [Othavio Bolzan](https://github.com/bolzanMGB)|
-| `2.0` | 28/11/2025 | Preenchimento dos resultados | [Othavio Bolzan](https://github.com/bolzanMGB)| [Douglas Marinho](https://github.com/M4RINH0) |
-| `2.1` | 29/11/2025 | Correção do nome da métrica 1.3 na tabela de análise | [Brunno Fernandes](https://github.com/brunnoff)|  |
+| Versão |    Data    | Descrição                                            | Autor                                           | Revisor                                                     |
+| :----: | :--------: | :--------------------------------------------------- | :---------------------------------------------- | :---------------------------------------------------------- |
+| `1.0`  | 16/11/2025 | Criação da estrutura inicial da página               | [Brunno Fernandes](https://github.com/brunnoff) | [Othavio Bolzan](https://github.com/bolzanMGB)              |
+| `2.0`  | 28/11/2025 | Preenchimento dos resultados                         | [Othavio Bolzan](https://github.com/bolzanMGB)  | [Douglas Marinho](https://github.com/M4RINH0)               |
+| `2.1`  | 29/11/2025 | Correção do nome da métrica 1.3 na tabela de análise | [Brunno Fernandes](https://github.com/brunnoff) | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
