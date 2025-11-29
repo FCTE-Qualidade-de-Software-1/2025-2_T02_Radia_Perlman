@@ -8,13 +8,15 @@ A principal ferramenta de IA generativa utilizada pela equipe foi o **Gemini**.
 
 ## Propósitos do Uso
 
-O Gemini foi empregado nas seguintes tarefas de apoio:
+O Gemini foi empregado nas seguintes tarefas de apoio ao longo de todas as fases do projeto:
 
 * **Revisão e Refinamento de Texto:** Sugestão de melhorias na clareza, coesão e correção gramatical dos textos elaborados pela equipe para o relatório e para a GitPage.
-* **Geração de Trechos de Código:** Auxílio na criação de snippets de código HTML, CSS e Markdown para a estruturação e formatação da GitPage (ex: criação de tabelas, formatação de legendas, configuração do `mkdocs.yml`).
-* **Explicação de Conceitos:** Esclarecimento de dúvidas sobre conceitos de Qualidade de Software, a norma ISO/IEC 25010, o modelo GQM e o uso de ferramentas como Git, GitHub Actions e MkDocs.
-* **Brainstorming e Estruturação:** Geração de ideias iniciais e sugestões de estrutura para seções específicas do relatório (ex: proposta inicial de GQM, sugestões de Casos de Teste para as Fases 3 e 4).
-* **Depuração de Código (Debugging):** Auxílio na identificação e correção de erros de configuração no MkDocs e GitHub Actions, incluindo a depuração de caminhos de imagens e problemas de cache (`site_url`, caminhos relativos `../`, etc.).
+* **Geração de Trechos de Código:** Auxílio na criação de snippets de código HTML, CSS e Markdown para a estruturação e formatação da GitPage (ex: criação de tabelas complexas, formatação de legendas, configuração do `mkdocs.yml`).
+* **Explicação de Conceitos:** Esclarecimento de dúvidas sobre conceitos de Qualidade de Software, a norma ISO/IEC 25010, o modelo GQM e o uso de ferramentas como Git e GitHub Actions.
+* **Brainstorming e Estruturação:** Geração de ideias iniciais e sugestões de estrutura para seções específicas do relatório (ex: proposta inicial de GQM, roteiros de Casos de Teste).
+* **Análise e Síntese de Resultados (Fase 4):** Apoio na estruturação da análise dos dados coletados, auxiliando a equipe a conectar os resultados brutos com as hipóteses definidas no GQM.
+* **Elaboração de Conclusões:** Auxílio na redação do julgamento final e do plano de ação, garantindo que as recomendações fossem apresentadas de forma lógica e fundamentada nos dados.
+* **Verificação de Consistência:** Checagem cruzada entre o planejamento (Fase 3) e a execução (Fase 4) para assegurar a rastreabilidade e a coerência do relatório final.
 
 ## Processo de Revisão Humana e Integração
 
@@ -26,4 +28,4 @@ Todo o conteúdo gerado ou sugerido pela IA passou por um **processo crítico de
 * As fontes de informação e referências bibliográficas foram verificadas e citadas adequadamente, sem depender exclusivamente de sugestões da IA.
 * O uso da IA foi pautado pela ética acadêmica, visando aprimorar a qualidade do trabalho e o aprendizado da equipe.
 
-*Última atualização desta declaração: 16 de novembro de 2025.*
+*Última atualização desta declaração: 29 de novembro de 2025.*

@@ -56,4 +56,4 @@ Abaixo discute-se os desvios encontrados, justificando as métricas reprovadas c
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
-| `1.1` | 24/11/2025 | Preenchimento dos Resultados da Fase 4 com dados de 6 participantes | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | |
+| `1.1` | 24/11/2025 | Preenchimento dos Resultados da Fase 4 com dados de 6 participantes | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff)|

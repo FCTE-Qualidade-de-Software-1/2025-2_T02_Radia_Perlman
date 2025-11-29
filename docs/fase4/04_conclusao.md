@@ -25,7 +25,7 @@ As tabelas abaixo apresentam a rastreabilidade completa entre as Questões defin
 | :--- | :--- | :---: | :---: | :--- |
 | **Q1: Completude** (Cobre tarefas essenciais?) | M1.1: % Completude de Tarefas | **100%** | 98% | <span style="color:green">**Excelente**</span> |
 | **Q2: Correção** (Resultados corretos?) | M2.1: Precisão do Feedback | **100%** | 100% | <span style="color:green">**Excelente**</span> |
-| | M2.2: Integridade de Dados | **100%*** | 99.5% | <span style="color:orange">**Bom (c/ restrição)**</span> |
+| | M2.2: Integridade de Dados | **100%*** | 99.5% | <span style="color:orange">**Bom (com restrição)**</span> |
 | **Q3: Apropriação** (Facilita o aprendizado?) | M3.1: Eficiência da Busca | **50%** | 85% | <span style="color:red">**Insatisfatório**</span> |
 | | M3.2: Satisfação (Likert) | **3.9** | 4.0 | <span style="color:orange">**Regular**</span> |
 
@@ -61,7 +61,7 @@ A avaliação revelou uma "dualidade" na qualidade do Oppia: ele é tecnicamente
 
 | Característica | O que funcionou bem? | O que falhou? |
 | :--- | :--- | :--- |
-| **Adequação Funcional** | **Mecanismo de Ensino:** A criação de lições e o feedback automático funcionam perfeitamente. | **Busca e Idioma:** O motor de busca mistura idiomas e falha 50% das vezes. A interface mistura Inglês/PT. |
+| **Adequação Funcional** | **Mecanismo de Ensino:** A criação de lições e o feedback automático funcionam perfeitamente. | **Busca e Idioma:** O motor de busca mistura idiomas e falha 50% das vezes. A interface mistura Inglês/Português. |
 | **Portabilidade** | **Coexistência:** Roda leve junto com Youtube/Spotify. **Desktop:** Funciona bem em Chrome/Firefox/Linux. | **Ecossistema Mobile:** App Android nativo com bug de login; Web no iOS com layout quebrado. |
 
 ### 3.2. Relação de Dependência (Causa e Efeito)
