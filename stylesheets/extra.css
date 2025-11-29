@@ -1,0 +1,101 @@
+/* Container para o grid da equipe */
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem; /* Espaçamento entre os membros */
+  margin-top: 2em;
+  padding: 0;
+}
+
+/* Bloco de cada membro da equipe */
+.team-member {
+  text-align: center;
+  width: 140px;
+}
+
+/* Estilo da imagem de perfil */
+.team-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px; /* Cantos arredondados */
+  border: 2px solid #e0e0e0; /* Borda cinza clara */
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Efeito ao passar o mouse sobre a imagem */
+.team-member img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+/* Estilo do link (remove o sublinhado padrão) */
+.team-member a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Nome do membro da equipe */
+.team-member p {
+  margin-top: 0.75em;
+  font-weight: 500;
+  font-size: 0.9em;
+  line-height: 1.2; /* Ajusta o espaçamento entre as linhas do nome */
+}
+
+/* Bloco para figura flutuante com legenda completa */
+.figure-float-left {
+  float: left;
+  width: 200px; /* Largura do bloco todo */
+  margin: 5px 20px 10px 0; /* Espaçamento ao redor do bloco */
+}
+
+.figure-float-left img {
+  width: 100%; /* A imagem ocupa toda a largura do bloco */
+  border-radius: 8px;
+}
+
+.figure-float-left .figure-title {
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.figure-float-left .figure-source {
+  text-align: center;
+  font-size: 0.8em;
+  color: #666;
+  margin-top: 0.5em;
+}
+
+/* Bloco de container para figuras */
+.figure {
+  text-align: center; /* Centraliza tudo dentro do bloco */
+  margin-bottom: 2em; /* Espaço abaixo da figura */
+}
+
+/* Estilo para o título da figura (acima da imagem) */
+.figure-title {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+/* Estilo para a fonte da figura (abaixo da imagem) */
+.figure-source {
+  font-size: 0.8em;
+  color: #666;
+  margin-top: 0.5em;
+}
+
+/* Container para centralizar conteúdo, incluindo tabelas */
+.center {
+  text-align: center;
+}
+
+/* Regra específica para centralizar a tabela dentro do container */
+.center table {
+  margin: 0 auto;
+  display: table;
+}
