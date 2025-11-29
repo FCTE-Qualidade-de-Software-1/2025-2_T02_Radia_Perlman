@@ -37,17 +37,17 @@ As tabelas abaixo apresentam a rastreabilidade completa entre as Questões defin
 
 *Detalhes completos na página de [Resultados de Portabilidade](./03_resultados_port.md).*
 
-| Questão | Métrica | Resultado | Hipótese (Meta) | Classificação |
-| :--- | :--- | :---: | :---: | :--- |
-| **Q1: Adaptabilidade** (Funciona em diferentes ambientes?) | M1.1: Hardware (Web Mobile) | **0,7** | 0,7 | <span style="color:orange">**No Limite**</span> |
-| | M1.2: Software (Browsers) | **0,8** | 0,7 | <span style="color:green">**Satisfatório**</span> |
-| | M1.3: Responsividade | **0,8** | 0,7 | <span style="color:green">**Satisfatório**</span> |
-| **Q2: Instalabilidade** (Fácil de instalar?) | M2.1: Esforço de Instalação | **0,47** | ≤ 0,40 | <span style="color:red">**Insatisfatório**</span> |
-| | M2.2: Flexibilidade | **0,25** | 0,2-0,4 | <span style="color:green">**Satisfatório**</span> |
-| **Q3: Coexistência** (Convive com outros softwares?) | M3.1: Disponibilidade | **0,81** | 0,7 | <span style="color:green">**Satisfatório**</span> |
-| | M3.2: Restrições/Erros | **0,02** | ≤ 0,3 | <span style="color:green">**Excelente**</span> |
-| **Q4: Substituibilidade** (Migração fácil?) | M4.1: Consistência Funcional | **0,82** | 0,9 | <span style="color:red">**Insatisfatório**</span> |
-| | M4.2: Facilidade Migração | **0,5** | 0,9 | <span style="color:red">**Crítico**</span> |
+| Questão                                                    | Métrica                      | Resultado | Hipótese (Meta) | Classificação                                     |
+| :--------------------------------------------------------- | :--------------------------- | :-------: | :-------------: | :------------------------------------------------ |
+| **Q1: Adaptabilidade** (Funciona em diferentes ambientes?) | M1.1: Hardware (Web Mobile)  |  **0,7**  |       0,7       | <span style="color:orange">**No Limite**</span>   |
+|                                                            | M1.2: Software (Browsers)    |  **0,8**  |       0,7       | <span style="color:green">**Satisfatório**</span> |
+|                                                            | M1.3: Responsividade         |  **0,8**  |       0,7       | <span style="color:green">**Satisfatório**</span> |
+| **Q2: Instalabilidade** (Fácil de instalar?)               | M2.1: Esforço de Instalação  | **0,47**  |     ≤ 0,40      | <span style="color:red">**Insatisfatório**</span> |
+|                                                            | M2.2: Flexibilidade          | **0,25**  |     0,2-0,4     | <span style="color:green">**Satisfatório**</span> |
+| **Q3: Coexistência** (Convive com outros softwares?)       | M3.1: Disponibilidade        | **0,81**  |       0,7       | <span style="color:green">**Satisfatório**</span> |
+|                                                            | M3.2: Restrições/Erros       | **0,02**  |      ≤ 0,3      | <span style="color:green">**Excelente**</span>    |
+| **Q4: Substituibilidade** (Migração fácil?)                | M4.1: Consistência Funcional | **0,82**  |       0,9       | <span style="color:red">**Insatisfatório**</span> |
+|                                                            | M4.2: Facilidade Migração    |  **0,5**  |       0,9       | <span style="color:red">**Crítico**</span>        |
 
 **Veredito Parcial:** A Portabilidade é **INSTÁVEL**. Enquanto a plataforma funciona perfeitamente na convivência com outros softwares e uso em Desktop, ela falha criticamente na migração entre dispositivos (Sincronização Android quebrada) e na instalação local automatizada.
 
@@ -104,7 +104,7 @@ A recomendação da equipe é iniciar o piloto apenas nos laboratórios e aguard
 
 ## Histórico de Versões
 
-| Versão | Data | Descrição | Autor | Revisor |
-| :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | |
-| `2.0` | 29/11/2025 | Consolidação final dos resultados com tabelas de rastreabilidade e veredito | [Brunno Fernandes](https://github.com/brunnoff) | |
+| Versão |    Data    | Descrição                                                                   | Autor                                           | Revisor                                                     |
+| :----: | :--------: | :-------------------------------------------------------------------------- | :---------------------------------------------- | :---------------------------------------------------------- |
+| `1.0`  | 16/11/2025 | Criação da estrutura inicial da página                                      | [Brunno Fernandes](https://github.com/brunnoff) | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
+| `2.0`  | 29/11/2025 | Consolidação final dos resultados com tabelas de rastreabilidade e veredito | [Brunno Fernandes](https://github.com/brunnoff) | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
