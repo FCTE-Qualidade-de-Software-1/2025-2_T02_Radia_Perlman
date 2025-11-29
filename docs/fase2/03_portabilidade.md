@@ -47,31 +47,33 @@ O diagrama abaixo representa a estrutura GQM para a característica de Portabili
   <p class="figure-title" align="center"><strong>Figura 1:</strong> Diagrama GQM - Portabilidade </p>
 
 ```mermaid
-  graph TD
-    subgraph GQM_Portabilidade
+
+graph TD
+    subgraph GQM Portabilidade
         G2("<b>G2:</b> Avaliar<br>Portabilidade<br>do Oppia")
 
         %% QUESTÕES
-        G2 --> Q2_1("<b>Q2.1:</b> Adaptabilidade<br>O sistema funciona em<br>diferentes ambientes?")
-        G2 --> Q2_2("<b>Q2.2:</b> Instalabilidade<br>O sistema pode ser instalado<br>facilmente?")
-        G2 --> Q2_3("<b>Q2.3:</b> Coexistência<br>Funciona bem com<br>outros softwares?")
-        G2 --> Q2_4("<b>Q2.4:</b> Substituibilidade<br>O sistema pode ser migrado<br>ou substituído?")
+        G2 --> Q1("<b>Q1:</b> Adaptabilidade<br>O sistema funciona em<br>diferentes ambientes?")
+        G2 --> Q2("<b>Q2:</b> Instalabilidade<br>O sistema pode ser instalado<br>facilmente?")
+        G2 --> Q3("<b>Q3:</b> Coexistência<br>Funciona bem com<br>outros softwares?")
+        G2 --> Q4("<b>Q4:</b> Substituibilidade<br>O sistema pode ser migrado<br>ou substituído?")
 
-        %% MÉTRICAS DE Q2.1
-        Q2_1 --> M1_1("<b>M1.1:</b> Adaptabilidade<br>ao Hardware")
-        Q2_1 --> M1_2("<b>M1.2:</b> Adaptabilidade<br>ao Software")
+        %% MÉTRICAS DE Q1
+        Q1 --> M1_1("<b>M1.1:</b> Adaptabilidade<br>ao Hardware")
+        Q1 --> M1_2("<b>M1.2:</b> Adaptabilidade<br>ao Software")
+        Q1 --> M1_3("<b>M1.3:</b> Responsividade<br>por Resolução")
 
-        %% MÉTRICAS DE Q2.2
-        Q2_2 --> M2_1("<b>M2.1:</b> Esforço<br>de Instalação")
-        Q2_2 --> M2_2("<b>M2.2:</b> Flexibilidade<br>de Instalação")
+        %% MÉTRICAS DE Q2
+        Q2 --> M2_1("<b>M2.1:</b> Esforço<br>de Instalação")
+        Q2 --> M2_2("<b>M2.2:</b> Flexibilidade<br>de Instalação")
 
-        %% MÉTRICAS DE Q2.3
-        Q2_3 --> M3_1("<b>M3.1:</b> Disponibilidade<br>de Coexistência")
-        Q2_3 --> M3_2("<b>M3.2:</b> Restrição/Avaria<br>sob Coexistência")
+        %% MÉTRICAS DE Q3
+        Q3 --> M3_1("<b>M3.1:</b> Disponibilidade<br>de Coexistência")
+        Q3 --> M3_2("<b>M3.2:</b> Restrição/Avaria<br>sob Coexistência")
 
-        %% MÉTRICAS DE Q2.4
-        Q2_4 --> M4_1("<b>M4.1:</b> Consistência<br>de Funcionalidades")
-        Q2_4 --> M4_2("<b>M4.2:</b> Facilidade<br>de Migração")
+        %% MÉTRICAS DE Q4
+        Q4 --> M4_1("<b>M4.1:</b> Consistência<br>de Funcionalidades")
+        Q4 --> M4_2("<b>M4.2:</b> Facilidade<br>de Migração")
     end
 
 ```
@@ -254,4 +256,5 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Portab
 |  `1.2` | 14/10/2025 | Adicionando métricas     |  [Othavio Bolzan](https://github.com/bolzanMGB)  |  [Douglas Marinho](https://github.com/M4RINH0)  |
 |  `1.3` | 14/10/2025 | Reformulação das perguntas e métricas e adição das fontes dos valores    |  [Othavio Bolzan](https://github.com/bolzanMGB)  | [Brunno Fernandes](https://github.com/brunnoff)   |
 | `1.4`  | 25/10/2025 | Adição do diagrama de representação da hierarquia GQM | [Brunno Fernandes](https://github.com/brunnoff)        |  [Othavio Bolzan](https://github.com/bolzanMGB)  |        
-| `1.5`  | 17/11/2025 | Pequenos ajudes no Diagrama GQMAdição do diagrama de representação da hierarquia GQM | [Othavio Bolzan ](https://github.com/bolzanMGB) | [Brunno Fernandes](https://github.com/brunnoff) |
+| `1.5`  | 17/11/2025 | Pequenos ajudes no Diagrama GQM | [Othavio Bolzan ](https://github.com/bolzanMGB) | [Brunno Fernandes](https://github.com/brunnoff) |
+| `1.6`  | 29/11/2025 | Inclusão da métrica 1.3 e ajuste nos nomes das questões no diagrama | [Brunno Fernandes](https://github.com/brunnoff) |  |
