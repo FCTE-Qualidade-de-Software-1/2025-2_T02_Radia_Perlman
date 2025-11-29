@@ -67,6 +67,7 @@ Perguntas focadas na experiência de busca, realização de lições e históric
 | 23/11 21:10 |  2  |  4  |  4  |  3  |  4  | *"Não apareceram lições com o tema e o título esperado"*; *"Retornou com uma língua diferente da selecionada"*.                               |
 | 23/11 21:34 |  5  |  5  |  5  |  5  |  3  | *"Eu achei que não seria recuperado, mas o sistema recuperou sim"*; *"Achei essa parte [Histórico] um pouco confusa"*.                        |
 | 24/11 01:51 |  5  |  5  |  3  |  4  |  5  | *"A facilidade de encontrar o que se quer é crucial"*; *"Poderia investir em cores/animações para transformar o erro em uma parte positiva"*. |
+
 ---
 
 ## Histórico de Versões

@@ -2,7 +2,7 @@
 
 Esta seção consolida os resultados da avaliação de qualidade da plataforma [Oppia](https://www.oppia.org/), realizada através da execução do plano GQM (Goal-Question-Metric) estabelecido nas fases anteriores. A avaliação focou em duas características críticas para a viabilidade de um projeto piloto educacional: **[Adequação Funcional](../fase2/02_adequacao_funcional.md)** e **[Portabilidade](../fase2/03_portabilidade.md)**.
 
-## 1. Visão Geral da Avaliação
+## 4.1. Visão Geral da Avaliação
 
 A **Fase 4** representou a execução prática do processo de avaliação, onde foram coletadas métricas quantitativas e qualitativas (via formulários e testes de campo):
 
@@ -13,11 +13,11 @@ Cada métrica foi coletada seguindo os procedimentos auditáveis definidos na Fa
 
 ---
 
-## 2. Rastreabilidade e Resultados Consolidados
+## 4.2. Rastreabilidade e Resultados Consolidados
 
 As tabelas abaixo apresentam a rastreabilidade completa entre as Questões definidas no GQM (Fase 2), as Métricas e o Veredito final baseado nas hipóteses de aceitação.
 
-### 2.1 Adequação Funcional
+### 4.2.1. Adequação Funcional
 
 *Detalhes completos na página de [Resultados de Adequação Funcional](./02_resultados_af.md).*
 
@@ -33,7 +33,7 @@ As tabelas abaixo apresentam a rastreabilidade completa entre as Questões defin
 
 **Veredito Parcial:** A Adequação Funcional é **ACEITÁVEL COM RESSALVAS**. A parte pedagógica (criar e responder) é perfeita, mas a experiência de descoberta de conteúdo (Busca) e a satisfação do usuário (devido à interface híbrida Inglês/Português) baixaram a qualidade geral.
 
-### 2.2 Portabilidade
+### 4.2.2. Portabilidade
 
 *Detalhes completos na página de [Resultados de Portabilidade](./03_resultados_port.md).*
 
@@ -53,18 +53,18 @@ As tabelas abaixo apresentam a rastreabilidade completa entre as Questões defin
 
 ---
 
-## 3. Síntese dos Resultados e Relação entre Características
+## 4.3. Síntese dos Resultados e Relação entre Características
 
 A avaliação revelou uma "dualidade" na qualidade do Oppia: ele é tecnicamente sólido para **uso em laboratório (Desktop)**, mas frágil para **uso pessoal (Mobile)**.
 
-### 3.1. Panorama Geral (Pontos Fortes x Fracos)
+### 4.3.1. Panorama Geral (Pontos Fortes x Fracos)
 
 | Característica | O que funcionou bem? | O que falhou? |
 | :--- | :--- | :--- |
 | **Adequação Funcional** | **Mecanismo de Ensino:** A criação de lições e o feedback automático funcionam perfeitamente. | **Busca e Idioma:** O motor de busca mistura idiomas e falha 50% das vezes. A interface mistura Inglês/Português. |
 | **Portabilidade** | **Coexistência:** Roda leve junto com Youtube/Spotify. **Desktop:** Funciona bem em Chrome/Firefox/Linux. | **Ecossistema Mobile:** App Android nativo com bug de login; Web no iOS com layout quebrado. |
 
-### 3.2. Relação de Dependência (Causa e Efeito)
+### 4.3.2. Relação de Dependência (Causa e Efeito)
 
 A aplicação do GQM permitiu identificar como a falha em uma característica afeta diretamente a outra:
 
@@ -73,7 +73,7 @@ A aplicação do GQM permitiu identificar como a falha em uma característica af
 
 ---
 
-## 4. Recomendações e Plano de Ação
+## 4.4. Recomendações e Plano de Ação
 
 Com base nos dados, a equipe recomenda as seguintes correções para viabilizar o projeto piloto na rede municipal.
 
@@ -90,7 +90,7 @@ Com base nos dados, a equipe recomenda as seguintes correções para viabilizar 
 
 ---
 
-## 5. Conclusão Final
+## 4.5. Conclusão Final
 
 O software **Oppia** apresenta uma base tecnológica promissora e uma proposta pedagógica sólida. Entretanto, no estado atual, o sistema possui barreiras de entrada que conflitam com a realidade heterogênea de uma rede pública de ensino.
 
