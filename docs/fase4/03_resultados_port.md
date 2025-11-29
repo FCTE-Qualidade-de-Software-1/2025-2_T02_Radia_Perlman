@@ -17,7 +17,7 @@ Esta seção apresenta os resultados consolidados da execução dos Casos de Tes
 | :--- | :--- | :--- | :---: |
 | **M1.1: Adaptabilidade Hardware** | X = 0,7 | ≥ 0,7 | Sim |
 | **M1.2: Adaptabilidade Software** | X = 0,8 | ≥ 0,7 | Sim |
-| **M1.3: Adaptabilidade Software** | X = 0,8 | ≥ 0,7 | Sim |
+| **M1.3: Responsividade por Resolução** | X = 0,8 | ≥ 0,7 | Sim |
 | **M2.1: Esforço Instalar** | X = 0,473 | ≤ 0,4 | Não |
 | **M2.2: Flexibilidade Instalação**| X = 0,25| 0,2 ≤ X ≤ 0,4 | Sim |
 | **M3.1: Disponibilidade Coexist.** | X = 0,8175 | ≥ 0,7 | Sim |
@@ -46,3 +46,4 @@ Esta seção apresenta os resultados consolidados da execução dos Casos de Tes
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | [Othavio Bolzan](https://github.com/bolzanMGB)|
 | `2.0` | 28/11/2025 | Preenchimento dos resultados | [Othavio Bolzan](https://github.com/bolzanMGB)| [Douglas Marinho](https://github.com/M4RINH0) |
+| `2.1` | 29/11/2025 | Correção do nome da métrica 1.3 na tabela de análise | [Brunno Fernandes](https://github.com/brunnoff)|  |

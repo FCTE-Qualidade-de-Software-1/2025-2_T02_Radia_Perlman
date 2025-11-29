@@ -53,4 +53,4 @@ Para garantir rastreabilidade e conformidade com o requisito de **"Dados Auditá
 | :----: | :--------: | :------------------------------------------------------ | :---------------------------------------------------------- | :---------------------------------------------------------- |
 | `1.0`  | 16/11/2025 | Criação da estrutura inicial da página                  | [Brunno Fernandes](https://github.com/brunnoff)             | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
 | `1.1`  | 17/11/2025 | Revisão do ambiente, inclusão de iPhone físico e Ubuntu | [Brunno Fernandes](https://github.com/brunnoff)             | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
-| `2.0`  | 24/11/2025 | Inclusão de ferramentas utilizadas                      | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |                                                             |
+| `2.0`  | 24/11/2025 | Inclusão de ferramentas utilizadas                      | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |   [Brunno Fernandes](https://github.com/brunnoff) |
