@@ -11,7 +11,7 @@ Esta página centraliza o planejamento do projeto, incluindo a rastreabilidade e
 Será adotada uma abordagem orientada pelo método GQM (Goal-Question-Metric).
 A coleta de dados será realizada por meio de múltiplas fontes, incluindo: formulários, videochamadas com usuários para avaliar a navegação no Oppia, gravações de tela em diferentes dispositivos, ferramentas de análise estática, análise do histórico do repositório e inspeções manuais de código.
 
-A tabela apresentada a seguir assegura que todas as métricas definidas na Fase 2 estão associadas a um ou mais Casos de Teste (CTs) documentados nesta etapa, garantindo assim a rastreabilidade completa entre os objetivos do GQM e os testes planejados.
+A tabela apresentada a seguir assegura que todas as métricas definidas na Fase 2 estão associadas a um ou mais Casos de Teste (CTs) documentados na Fase 3, garantindo assim a rastreabilidade completa entre os objetivos do GQM e os testes planejados.
 
 <p align="center"> <b>Tabela 1 - Tabela Geral de Métricas</b> </p>
 
@@ -38,7 +38,7 @@ A tabela apresentada a seguir assegura que todas as métricas definidas na Fase 
 
 ## 1.3. Cronograma de Execução e Divisão de Tarefas
 
-A seguir apresenta-se o cronograma detalhado das atividades previstas para as Fases 3 e 4, contemplando a configuração do ambiente, a coleta das métricas de Adequação Funcional e Portabilidade, a consolidação dos dados obtidos e a elaboração do relatório final. As datas foram distribuídas entre 19 e 30 de novembro de 2025, garantindo uma execução organizada, sequencial e alinhada aos objetivos definidos pelo método GQM.
+A seguir apresenta-se o cronograma detalhado das atividades previstas para as Fases 3 e 4, contemplando a configuração do ambiente, a coleta das métricas de Adequação Funcional e Portabilidade, a consolidação dos dados obtidos e a elaboração do relatório final. As datas foram distribuídas entre 19 e 28 de novembro de 2025, garantindo uma execução organizada, sequencial e alinhada aos objetivos definidos pelo método GQM.
 
 
 <p align="center"> <b>Tabela 2 - Cronograma de Coleta e Avaliação</b> </p>
@@ -49,7 +49,7 @@ A seguir apresenta-se o cronograma detalhado das atividades previstas para as Fa
 | **Fase 3**    | Coleta Adequação Funcional              | **M1.1** Completude de Tarefas <br> **M2.1** Precisão do Feedback <br> **M2.2** Integridade de Dados <br>  **M3.1** Recuperação de Informação <br> **M3.2** Adequação Funcional (Likert)                                             | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) <br> [Pedro Dourado](https://github.com/pedrolucasdourado)                                               | **21/11/25**        | **23/11/25**     |
 | **Fase 3**    | Coleta Portabilidade                    | **M1.1** Adaptabilidade ao Hardware <br> **M1.2** Adaptabilidade ao Software <br> **M1.3:** Responsividade por Resolução <br> **M2.1** Esforço de Instalação <br> **M2.2** Flexibilidade de Instalação <br> **M3.1** Coexistência <br> **M3.2** Restrição sob Coexistência <br> **M4.1** Consistência em Migração <br> **M4.2** Facilidade de Migração | [Brunno Fernandes](https://github.com/brunnoff) <br> [Othavio Bolzan](https://github.com/bolzanMGB) <br> [Douglas Marinho](https://github.com/M4RINH0)     | **24/11/25**        | **26/11/25**     |
 | **Fase 4**    | Consolidação dos Dados                  | Agrupamento e organização de gravações, formulários, análise estática, inspeções e dados do repositório.                                                                                                                                                                                                                               | Todos                                                                                                                                                          | **27/11/25**        | **28/11/25**     |
-| **Fase 4**    | Análise e Relatório Final               | Aplicação do GQM, interpretação dos resultados das métricas e elaboração do relatório final.                                                                                                                                                                                                                                           | Todos                                                                                                                                                          | **28/11/25**        | **29/11/25**     |
+| **Fase 4**    | Análise e Relatório Final               | Aplicação do GQM, interpretação dos resultados das métricas e elaboração do relatório final.                                                                                                                                                                                                                                           | Todos                                                                                                                                                          | **28/11/25**        | **28/11/25**     |
 
 
 <p align="center"><b>Fonte: </b>Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>

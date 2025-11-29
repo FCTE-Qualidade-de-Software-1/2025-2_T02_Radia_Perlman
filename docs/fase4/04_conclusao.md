@@ -1,4 +1,4 @@
-# 4. Conclusão da Avaliação de Qualidade do Oppia
+# 4. Conclusão da Avaliação de Qualidade da Plataforma Oppia
 
 Esta seção consolida os resultados da avaliação de qualidade da plataforma [Oppia](https://www.oppia.org/), realizada através da execução do plano GQM (Goal-Question-Metric) estabelecido nas fases anteriores. A avaliação focou em duas características críticas para a viabilidade de um projeto piloto educacional: **[Adequação Funcional](../fase2/02_adequacao_funcional.md)** e **[Portabilidade](../fase2/03_portabilidade.md)**.
 
@@ -49,7 +49,7 @@ As tabelas abaixo apresentam a rastreabilidade completa entre as Questões defin
 | **Q4: Substituibilidade** (Migração fácil?) | M4.1: Consistência Funcional | **0,82** | 0,9 | <span style="color:red">**Insatisfatório**</span> |
 | | M4.2: Facilidade Migração | **0,5** | 0,9 | <span style="color:red">**Crítico**</span> |
 
-**Veredito Parcial:** A Portabilidade é **INSTÁVEL**. Enquanto a plataforma brilha na convivência com outros softwares e uso em Desktop, ela falha criticamente na migração entre dispositivos (Sincronização Android quebrada) e na instalação local automatizada.
+**Veredito Parcial:** A Portabilidade é **INSTÁVEL**. Enquanto a plataforma funciona perfeitamente na convivência com outros softwares e uso em Desktop, ela falha criticamente na migração entre dispositivos (Sincronização Android quebrada) e na instalação local automatizada.
 
 ---
 
