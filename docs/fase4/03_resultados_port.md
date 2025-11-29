@@ -9,7 +9,7 @@ Esta seção apresenta os resultados consolidados da execução dos Casos de Tes
 | CT-P-01     | Verificação de Adaptabilidade    | Passou | Todas métricas tiveram sucesso         |
 | CT-P-02     | Verificação de Instalabilidade   | Falhou | Métrica 2.1 não teve sucesso           |
 | CT-P-03     | Verificação de Coexistência      | Passou | Todas métricas tiveram sucesso         |
-| CT-P-04     | Verificação de Substituibilidade | Falhou | Nenhuma métrica teve sucessoObservação |
+| CT-P-04     | Verificação de Substituibilidade | Falhou | Nenhuma métrica teve sucesso           |
 
 ## 3.2. Análise Detalhada das Métricas
 
