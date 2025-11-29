@@ -24,7 +24,7 @@ O sucesso desta avaliação depende da capacidade de responder às necessidades 
 | :----: | ---------- | --------------------------------------------------- | ----------------------------------------------- | ------- |
 |  `1.0` | 14/10/2025 | Criação da estrutura inicial da página              | [Brunno Fernandes](https://github.com/brunnoff) |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)   |
 |  `1.1` | 14/10/2025 | Inclusão das informações e as referências           | [Brunno Fernandes](https://github.com/brunnoff) |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)   |
-|  `2.0` | 21/10/2025 | Adicão de um parágrafo na introdução com as orientações | [Brunno Fernandes](https://github.com/brunnoff) ||
+|  `2.0` | 21/10/2025 | Adicão de um parágrafo na introdução com as orientações | [Brunno Fernandes](https://github.com/brunnoff) |   [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)  |
 
 ---
 

@@ -146,4 +146,4 @@ Esta seção tem o propósito de detalhar os Casos de Teste (CTs) projetados par
 | `1.1`  | 17/11/2025 | Criação do CT-AF-01 e CT-AF-02         | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |[Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
 | `1.2`  | 17/11/2025 | Criação dos CTs 06, 07, 08             | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |[Brunno Fernandes](https://github.com/brunnoff) |
 | `1.3`  | 20/11/2025 | Ajuste dos CTs de Aluno.  Atualização dos CTs de Educador conforme terminologia em Inglês do Editor.Substituição do CT-AF-06 (Notificações) por Teste de Pré-visualização                | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |[Brunno Fernandes](https://github.com/brunnoff) |
-| `1.4`  | 29/11/2025 | Correção nos passos de exceução da métrica 3.1 do CT-AF-07 | [Brunno Fernandes](https://github.com/brunnoff)  ||
+| `1.4`  | 29/11/2025 | Correção nos passos de exceução da métrica 3.1 do CT-AF-07 | [Brunno Fernandes](https://github.com/brunnoff)  |   [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)  |

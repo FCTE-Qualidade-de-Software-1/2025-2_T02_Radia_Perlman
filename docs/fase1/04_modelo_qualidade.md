@@ -93,15 +93,15 @@ Para permitir uma análise mais granular, cada característica de qualidade do m
 
 <p align="center"><b>Fonte: </b> <a href="https://github.com/pedrolucasdourado">Pedro Lucas Dourado</a></p>
 
+## 4.6 Referências
+
+[^1]: INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. ISO/IEC 25010:2011. *Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models*. Genebra: ISO, 2011.
 
 
-## 4.6 Histórico de Versão
+## 4.7 Histórico de Versão
 
 
 | Versão | Data       | Descrição                              | Autor                                                       | Revisor |
 | :----: | ---------- | -------------------------------------- | ----------------------------------------------------------- | ------- |
 | `1.0`  | 28/09/2025 | Criação da estrutura inicial da página | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) | [Brunno Fernandes](https://github.com/brunnoff) |
 
-## 4.7 Referências
-
-[^1]: INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. ISO/IEC 25010:2011. *Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models*. Genebra: ISO, 2011.

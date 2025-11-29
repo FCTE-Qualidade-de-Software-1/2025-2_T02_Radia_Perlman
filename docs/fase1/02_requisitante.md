@@ -54,6 +54,12 @@ O objetivo é aplicar metodologias de verificação da qualidade de software e g
 
 ---
 
+## Referências  
+[^1]: ISO/IEC 25010:2011 — Systems and Software Engineering — Systems and Software Quality Requirements and Evaluation (SQuaRE).  
+[^2]: Oppia Foundation. (2025). Disponível em: [https://www.oppia.org](https://www.oppia.org)  
+[^3]: Material de apoio da disciplina de Qualidade de Software — FCTE.  
+
+---
 
 ## Histórico de Versões
 
@@ -62,7 +68,3 @@ O objetivo é aplicar metodologias de verificação da qualidade de software e g
 |  `1.0` | 29/09/2025 | Criação da estrutura e preenchendo tópicos necessários         | [Douglas Marinho](https://github.com/M4RINH0) |     [Brunno Fernandes](https://github.com/brunnoff)      |
 |  `1.1` | 29/09/2025 | Padronização de tópicos e Referências          | [Douglas Marinho](https://github.com/M4RINH0) | [Brunno Fernandes](https://github.com/brunnoff) |
 
-## Referências  
-[^1]: ISO/IEC 25010:2011 — Systems and Software Engineering — Systems and Software Quality Requirements and Evaluation (SQuaRE).  
-[^2]: Oppia Foundation. (2025). Disponível em: [https://www.oppia.org](https://www.oppia.org)  
-[^3]: Material de apoio da disciplina de Qualidade de Software — FCTE.  

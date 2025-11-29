@@ -17,6 +17,15 @@ Os resultados desta avaliação apoiarão as seguintes decisões específicas:
 3.  **Alocação de Recursos de TI:** Orientar, a partir dos resultados de Portabilidade, a definição de requisitos técnicos mínimos (hardware, navegadores e sistemas operacionais compatíveis), apoiando decisões sobre a infraestrutura necessária [^1].
 
 4.  **Contribuição à Comunidade Open-Source:** Relatar, de forma estruturada, falhas ou limitações identificadas no software, colaborando com a melhoria contínua do Oppia [^2].
+---
+
+## Referências
+
+[^1]: PRESSMAN, Roger S.; MAXIM, Bruce R. *Engenharia de software: uma abordagem profissional*. 9. ed. Porto Alegre: AMGH Editora, 2021.
+
+[^2]: OPPIA FOUNDATION. *Oppia GitHub repository*. Disponível em: <https://github.com/oppia/oppia>. Acesso em: 29 set. 2025.
+
+[^3]: INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. ISO/IEC 25010:2011. *Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models*. Genebra: ISO, 2011.
 
 ---
 
@@ -29,11 +38,3 @@ Os resultados desta avaliação apoiarão as seguintes decisões específicas:
 |  `1.2` | 29/09/2025 | Padronização de tópicos e Referências          | [Douglas Marinho](https://github.com/M4RINH0) | [Brunno Fernandes](https://github.com/brunnoff) |
 
 ---
-
-## Referências
-
-[^1]: PRESSMAN, Roger S.; MAXIM, Bruce R. *Engenharia de software: uma abordagem profissional*. 9. ed. Porto Alegre: AMGH Editora, 2021.
-
-[^2]: OPPIA FOUNDATION. *Oppia GitHub repository*. Disponível em: <https://github.com/oppia/oppia>. Acesso em: 29 set. 2025.
-
-[^3]: INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. ISO/IEC 25010:2011. *Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models*. Genebra: ISO, 2011.

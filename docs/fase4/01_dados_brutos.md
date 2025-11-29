@@ -78,5 +78,5 @@ Perguntas focadas na experiência de busca, realização de lições e históric
 | `1.1` | 24/11/2025 | Adição das transcrições dos dados brutos e links das evidências | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |[Othavio Bolzan](https://github.com/bolzanMGB) |
 | `1.1`  | 24/11/2025 | Adição das transcrições dos dados brutos e links das evidências | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
 | `1.2` | 25/11/2025 | Estruturação da planilha de testes de portabilidade e adição do seu respectivo link| [Othavio Bolzan](https://github.com/bolzanMGB) | [Brunno Fernandes](https://github.com/brunnoff) |
-| `1.3` | 29/11/2025 | Correções nos textos de referência para as evidências coletadas | [Brunno Fernandes](https://github.com/brunnoff)  | |
+| `1.3` | 29/11/2025 | Correções nos textos de referência para as evidências coletadas | [Brunno Fernandes](https://github.com/brunnoff)  |  [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)  |
 

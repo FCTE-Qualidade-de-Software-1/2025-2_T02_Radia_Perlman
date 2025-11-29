@@ -46,4 +46,4 @@ Esta seção apresenta os resultados consolidados da execução dos Casos de Tes
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | [Othavio Bolzan](https://github.com/bolzanMGB)|
 | `2.0` | 28/11/2025 | Preenchimento dos resultados | [Othavio Bolzan](https://github.com/bolzanMGB)| [Douglas Marinho](https://github.com/M4RINH0) |
-| `2.1` | 29/11/2025 | Correção do nome da métrica 1.3 na tabela de análise | [Brunno Fernandes](https://github.com/brunnoff)|  |
+| `2.1` | 29/11/2025 | Correção do nome da métrica 1.3 na tabela de análise | [Brunno Fernandes](https://github.com/brunnoff)|   [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)  |

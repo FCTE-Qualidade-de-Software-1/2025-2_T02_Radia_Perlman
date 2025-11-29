@@ -107,4 +107,4 @@ A recomendação da equipe é iniciar o piloto apenas nos laboratórios e aguard
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff) | |
-| `2.0` | 29/11/2025 | Consolidação final dos resultados com tabelas de rastreabilidade e veredito | [Brunno Fernandes](https://github.com/brunnoff) | |
+| `2.0` | 29/11/2025 | Consolidação final dos resultados com tabelas de rastreabilidade e veredito | [Brunno Fernandes](https://github.com/brunnoff) |   [Bianca Patrocínio](https://github.com/BiancaPatrocinio7)  |

@@ -197,16 +197,9 @@ Este módulo não faz parte da aplicação final, mas contém **classes e utilit
 
 ***
 
-Esta é uma visão geral da estrutura. Para uma lista completa e detalhada de todas as funcionalidades e subpastas de cada módulo, **é recomendado consultar a documentação oficial do projeto**.
+Esta é uma visão geral da estrutura. Para uma lista completa e detalhada de todas as funcionalidades e subpastas de cada módulo, **é recomendado consultar a documentação oficial do projeto**.                                                                                                          |
 
-### Histórico de Versão
-
-| Versão | Data       | Descrição                                                   | Autor                                               | Revisor                                                                                                        |
-| :----: | ---------- | ----------------------------------------------------------- | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| `1.0`  | 28/09/2025 | Criação da estrutura do Documento                           | [Brunno Fernandes](https://github.com/brunnoff)     | [Othavio Bolzan](https://github.com/bolzanMGB)                                                                 |
-| `1.1`  | 29/09/2025 | Elaboração da Descrição  e Classificação do Tipo de Produto | [Othavio Bolzan](https://github.com/bolzanMGB)      | [Brunno Fernandes](https://github.com/brunnoff)                                                                |
-| `1.2`  | 29/09/2025 | Padronização de tópicos e Referências                       | [Douglas Marinho](https://github.com/M4RINH0)       | [Brunno Fernandes](https://github.com/brunnoff) &&   [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
-| `1.3`  | 01/10/2025 | Criação do tópico 3.2 e adição das referências 3,4,5        | [Pedro Lucas Dourado](https://github.com/lucasdray) | [Brunno Fernandes](https://github.com/brunnoff)                                                                                                             |
+---
 
 ### Referências
 [^1]: RAMOS, Cristiane Soares. Processo de Avaliação de
@@ -219,3 +212,14 @@ Produto de Software. 2025. Disponível em: https://aprender3.unb.br/pluginfile.p
 [^4]: OPPIA. Overview of the Oppia Android codebase and architecture. [S. l.]: GitHub, 2024. Disponível em: https://github.com/oppia/oppia-android/blob/develop/wiki/Overview-of-the-Oppia-Android-codebase-and-architecture.md. Acesso em: 1 out. 2025.
 
 [^5]: MARTIN, Robert C. Arquitetura Limpa: O Guia do Artesão para Estrutura e Design de Software. Rio de Janeiro: Alta Books, 2019.
+
+---
+
+### Histórico de Versão
+
+| Versão | Data       | Descrição                                                   | Autor                                               | Revisor                                                                                                        |
+| :----: | ---------- | ----------------------------------------------------------- | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `1.0`  | 28/09/2025 | Criação da estrutura do Documento                           | [Brunno Fernandes](https://github.com/brunnoff)     | [Othavio Bolzan](https://github.com/bolzanMGB)                                                                 |
+| `1.1`  | 29/09/2025 | Elaboração da Descrição  e Classificação do Tipo de Produto | [Othavio Bolzan](https://github.com/bolzanMGB)      | [Brunno Fernandes](https://github.com/brunnoff)                                                                |
+| `1.2`  | 29/09/2025 | Padronização de tópicos e Referências                       | [Douglas Marinho](https://github.com/M4RINH0)       | [Brunno Fernandes](https://github.com/brunnoff) &&   [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
+| `1.3`  | 01/10/2025 | Criação do tópico 3.2 e adição das referências 3,4,5        | [Pedro Lucas Dourado](https://github.com/lucasdray) | [Brunno Fernandes](https://github.com/brunnoff)   

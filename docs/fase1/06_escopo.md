@@ -41,6 +41,15 @@ Os resultados desta avaliação são válidos apenas para a versão específica 
 ### 6.6. Avaliações Futuras (Plano de Cobertura Progressiva)
 Este projeto é a primeira etapa de uma análise mais ampla. Os resultados servirão como base para avaliações futuras que poderão incluir testes de manutenibilidade, desempenho e uma auditoria de segurança completa, aprofundando a análise de qualidade de forma estruturada.
 
+---
+
+## Referências
+
+[^1]: INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. **ISO/IEC 25010:2011**. *Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models*. Genebra: ISO, 2011.
+[^2]: OPPIA FOUNDATION. **About Oppia**. Disponível em: <https://www.oppia.org/about>. Acesso em: 28 set. 2025.
+
+---
+
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor | Revisor |
@@ -52,8 +61,3 @@ Este projeto é a primeira etapa de uma análise mais ampla. Os resultados servi
 | `2.2` | 30/09/2025 | Removendo métricas e ajustando justificativa|[Bianca Patrocínio](https://github.com/BiancaPatrocinio7) | [Brunno Fernandes](https://github.com/brunnoff) |
 
 ---
-
-## Referências
-
-[^1]: INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. **ISO/IEC 25010:2011**. *Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models*. Genebra: ISO, 2011.
-[^2]: OPPIA FOUNDATION. **About Oppia**. Disponível em: <https://www.oppia.org/about>. Acesso em: 28 set. 2025.
