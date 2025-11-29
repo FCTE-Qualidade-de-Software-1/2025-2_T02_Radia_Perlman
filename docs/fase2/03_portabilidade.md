@@ -1,4 +1,4 @@
-A Portabilidade é avaliada para verificar se o Oppia pode, de fato, chegar aonde mais se precisa dele, funcionando em diferentes ambientes.
+A Portabilidade é avaliada para verificar se o Oppia pode, de fato, chegar onde mais se precisa dele, funcionando em diferentes ambientes.
 
 
 ## 3.1 Objetivo de Medição de Portabilidade

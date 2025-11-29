@@ -79,7 +79,7 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Adequa
   * **Fórmula:** % de completude = (Nº de tarefas essenciais concluídas com sucesso / Nº total de tarefas essenciais definidas nos requisitos) × 100.
   * **Hipótese de Aceitação:** 98% das tarefas essenciais (ex: criar lição, publicar, responder questão, ver progresso) devem ser concluídas sem impedimentos funcionais.
   * **Fonte (Diretriz):** Baseado em [Souza et al., 2008](#souza2008) para medição de completude de tarefas. A medição será feita por testes de cenário de uso executados pelos avaliadores.
-  * **Fonte (Número da hipótese de aceitação):** Segundo uma pesquisa relatada no artigo [What Is A Good Task-Completion Rate?](#task-completion), qualquer valor aicma de 78% estaria acima da média, entretanto, para alcaçnar o quaritl superior seria preciso uma taxa acimad e 92%. Logo, decidimos adotar 98% como nossa hipótese de aceitação.
+  * **Fonte (Número da hipótese de aceitação):** Segundo uma pesquisa relatada no artigo [What Is A Good Task-Completion Rate?](#task-completion), qualquer valor aicma de 78% estaria acima da média, entretanto, para alcançar o quartil superior seria preciso uma taxa acima de 92%. Logo, decidimos adotar 98% como nossa hipótese de aceitação.
 
 -----
 
@@ -100,7 +100,7 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Adequa
   * **Fórmula:** % de integridade = (Nº de testes de salvamento, recuperação e concorrência bem-sucedidos / Nº total de testes executados) × 100.
   * **Hipótese de Aceitação:** 99.5% de sucesso na preservação dos dados do usuário (progresso do aluno, rascunho do criador).
   * **Fonte (Diretriz):** [ISO/IEC 25010](#iso25010) (Correção). Medido via testes de estresse, concorrência (múltiplos editores) e interrupção (simulação de falha de rede ou fechamento do app).
-  * **Fonte (Número da hipótese de aceitação):** Múltiplas fontes, como [dbt Labs](#dbt) e [SAP](#sap), citam "99.5%" como um benchmark padrão para confiabilidade (SLO - Service Level Objective) e níveis de desempenho operacional. Portanto, adotamos 99.5% como nossa
+  * **Fonte (Número da hipótese de aceitação):** Múltiplas fontes, como [dbt Labs](#dbt) e [SAP](#sap), citam "99.5%" como um benchmark padrão para confiabilidade (SLO - Service Level Objective) e níveis de desempenho operacional. Portanto, adotamos 99.5% como nossa hipótese de aceitação.
 
 
 -----
@@ -121,7 +121,7 @@ Abaixo estão propostas questões relacionadas às subcaracterísticas de Adequa
   * **Fórmula (Qualitativa):** Média da avaliação em escala Likert (1-5) da adequação das funcionalidades percebida pelos usuários.
   * **Hipótese de Aceitação:** Média de satisfação 4.0/5.0 nas funcionalidades de aprendizado (navegar, responder) e criação (editar, publicar).
   * **Fonte (Diretriz):** [Souza et al., 2008](#souza2008) (avaliação de adequação). Medido por questionários pós-uso aplicados aos perfis de estudante e educador.
-  * **Fonte (Número da hipótese de aceitação):** Os benchmarks da indústria para satisfação do cliente, conforme [HelpCrunch](#helpcrunch), definem um bom desempenho como "mais de 4 de 5". Similarmente, [Userpilot](#userpilot) coloca a faixa "boa" de CSAT (Customer Satisfaction Score) em 65-80%. Sendo 4.0/5.0 equivalente a 80%, adotamos esta média como nossa hipótese.
+  * **Fonte (Número da hipótese de aceitação):** Os benchmarks da indústria para satisfação do cliente, conforme [HelpCrunch](#helpcrunch), definem um bom desempenho como "4 de 5". Similarmente, [Userpilot](#userpilot) coloca a faixa "boa" de CSAT (Customer Satisfaction Score) em 65-80%. Sendo 4.0/5.0 equivalente a 80%, adotamos esta média como nossa hipótese.
 
 -----
 
