@@ -104,7 +104,11 @@ Esta seção tem o propósito de detalhar os Casos de Teste (CTs) projetados par
 * **Passos de Execução:**
     1.  Usar a barra de busca "Sobre o que você está curioso?".
     2.  Testar termos exatos ("Math"), termos com erro ("Fisica") e termos inválidos.
-* **Resultado Esperado:** Resultados coerentes com a categoria pesquisada (ex: cards de Matemática para a busca "Math").
+    3.  Para cada busca, verificar os **5 primeiros resultados**.
+    4.  Registrar na planilha:
+        * **SUCESSO:** Se pelo menos 1 dos 5 resultados for relevante.
+        * **FALHA:** Se nenhum dos 5 for relevante.
+* **Resultado Esperado:** Registro da quantidade de buscas realizadas e quantos sucessos foram obtidos. Espera-se resultados coerentes com a categoria pesquisada (ex: cards de Matemática para a busca "Math").
 
 ---
 
@@ -140,5 +144,6 @@ Esta seção tem o propósito de detalhar os Casos de Teste (CTs) projetados par
 | :----: | :--------: | :------------------------------------- | :---------------------------------------------------------- | :---------------------------------------------------------- |
 | `1.0`  | 16/11/2025 | Criação da estrutura inicial da página | [Brunno Fernandes](https://github.com/brunnoff)             | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |
 | `1.1`  | 17/11/2025 | Criação do CT-AF-01 e CT-AF-02         | [Pedro Lucas Dourado](https://github.com/pedrolucasdourado) |[Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |
-| `1.2`  | 17/11/2025 | Criação dos CTs 06, 07, 08             | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) ||
-| `1.3`  | 20/11/2025 | Ajuste dos CTs de Aluno.  Atualização dos CTs de Educador conforme terminologia em Inglês do Editor.Substituição do CT-AF-06 (Notificações) por Teste de Pré-visualização                | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) ||
+| `1.2`  | 17/11/2025 | Criação dos CTs 06, 07, 08             | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |[Brunno Fernandes](https://github.com/brunnoff) |
+| `1.3`  | 20/11/2025 | Ajuste dos CTs de Aluno.  Atualização dos CTs de Educador conforme terminologia em Inglês do Editor.Substituição do CT-AF-06 (Notificações) por Teste de Pré-visualização                | [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) |[Brunno Fernandes](https://github.com/brunnoff) |
+| `1.4`  | 29/11/2025 | Correção nos passos de exceução da métrica 3.1 do CT-AF-07 | [Brunno Fernandes](https://github.com/brunnoff)  ||

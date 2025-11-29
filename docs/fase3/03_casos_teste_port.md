@@ -128,6 +128,6 @@ Coleta dos valores para as métricas M4.1 (A/B) e M4.2 (Passou/Falhou).
 | :----: | :--------: | :---------------------------------------------------------------------------------------- | :---------------------------------------------- | :------ |
 |  `1.0` | 16/11/2025 | Criação da estrutura inicial da página                                                    | [Brunno Fernandes](https://github.com/brunnoff) |[Othavio Bolzan](https://github.com/bolzanMGB)|
 |  `2.0` | 17/11/2025 | Atualização dos CTs para alinhar com nova Tabela de Portabilidade e revisões das métricas | [Douglas Marinho](https://github.com/M4RINH0)   | [Othavio Bolzan](https://github.com/bolzanMGB)    |
-|  `2.1` | 24/11/2025 | Concertando pequenos  na formatação  | [Douglas Marinho](https://github.com/M4RINH0)   | [Othavio Bolzan](https://github.com/bolzanMGB)    |
+|  `2.1` | 24/11/2025 | Consertando pequenos  na formatação  | [Douglas Marinho](https://github.com/M4RINH0)   | [Othavio Bolzan](https://github.com/bolzanMGB)    |
 
 
